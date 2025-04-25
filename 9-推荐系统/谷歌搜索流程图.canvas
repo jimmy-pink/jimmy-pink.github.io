@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"1","x":0,"y":0,"width":200,"height":60,"type":"text","text":"### 用户查询\n用户在搜索框中输入查询关键词","color":"3"},
+		{"id":"2","x":0,"y":100,"width":200,"height":80,"type":"text","text":"### 查询理解\n- 拼写纠正\n- 同义词扩展\n- 意图识别\n- 实体识别","color":"4"},
+		{"id":"3","x":0,"y":220,"width":200,"height":100,"type":"text","text":"### 检索相关文档\n从索引中检索与查询相关的候选文档","color":"5"},
+		{"id":"4","x":-250,"y":220,"width":200,"height":100,"type":"text","text":"### 索引数据库\n包含网页内容、元数据和结构化信息","color":"6"},
+		{"id":"5","x":-250,"y":350,"width":200,"height":120,"type":"text","text":"### 网络爬虫(Googlebot)\n- 发现网页\n- 抓取内容\n- 更新索引","color":"6"},
+		{"id":"6","x":-500,"y":350,"width":200,"height":80,"type":"text","text":"### 互联网\n网站、网页和各类在线内容","color":"1"},
+		{"id":"7","x":0,"y":360,"width":200,"height":140,"type":"text","text":"### 排序算法\n应用多种因素对检索结果排序：\n- PageRank\n- 内容相关性\n- 网站质量\n- 用户上下文\n- E-A-T因素","color":"5"},
+		{"id":"8","x":250,"y":220,"width":200,"height":120,"type":"text","text":"### AI和机器学习\n- BERT/MUM模型\n- RankBrain\n- 深度学习\n- 知识图谱","color":"2"},
+		{"id":"9","x":0,"y":540,"width":200,"height":100,"type":"text","text":"### 个性化\n基于用户历史、位置、语言等调整结果","color":"4"},
+		{"id":"10","x":0,"y":680,"width":200,"height":120,"type":"text","text":"### 结果呈现\n- 有机搜索结果\n- 知识面板\n- 特色摘要\n- 本地搜索\n- 多媒体结果","color":"3"},
+		{"id":"11","x":0,"y":840,"width":200,"height":60,"type":"text","text":"### 用户交互\n用户点击、浏览或提交新查询","color":"3"},
+		{"id":"12","x":250,"y":680,"width":200,"height":100,"type":"text","text":"### 用户反馈收集\n分析点击率、停留时间等指标","color":"1"},
+		{"id":"13","x":250,"y":540,"width":200,"height":100,"type":"text","text":"### 算法更新\n持续优化排名算法和搜索质量","color":"2"}
+	],
+	"edges":[
+		{"id":"e1-2","fromNode":"1","fromSide":"bottom","toNode":"2","toSide":"top"},
+		{"id":"e2-3","fromNode":"2","fromSide":"bottom","toNode":"3","toSide":"top"},
+		{"id":"e3-7","fromNode":"3","fromSide":"bottom","toNode":"7","toSide":"top"},
+		{"id":"e4-3","fromNode":"4","fromSide":"right","toNode":"3","toSide":"left"},
+		{"id":"e5-4","fromNode":"5","fromSide":"top","toNode":"4","toSide":"bottom"},
+		{"id":"e6-5","fromNode":"6","fromSide":"right","toNode":"5","toSide":"left"},
+		{"id":"e8-7","fromNode":"8","fromSide":"left","toNode":"7","toSide":"right"},
+		{"id":"e7-9","fromNode":"7","fromSide":"bottom","toNode":"9","toSide":"top"},
+		{"id":"e9-10","fromNode":"9","fromSide":"bottom","toNode":"10","toSide":"top"},
+		{"id":"e10-11","fromNode":"10","fromSide":"bottom","toNode":"11","toSide":"top"},
+		{"id":"e11-12","fromNode":"11","fromSide":"right","toNode":"12","toSide":"bottom"},
+		{"id":"e12-13","fromNode":"12","fromSide":"top","toNode":"13","toSide":"bottom"},
+		{"id":"e13-8","fromNode":"13","fromSide":"top","toNode":"8","toSide":"bottom"},
+		{"id":"e11-1","fromNode":"11","fromSide":"left","toNode":"1","toSide":"left","label":"新查询","type":"curved"}
+	],
+	"canvas":{
+		"viewport":{"x":0,"y":0,"zoom":1}
+	}
+}

@@ -1,0 +1,7 @@
+.idea
+.idea/**
+
+/test/**
+/jupyter-notes/data/**
+
+/**/jupyter-demo/data/**
