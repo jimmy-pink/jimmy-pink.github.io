@@ -17,6 +17,7 @@ class SidebarGenerator:
         self.root_dir = root_dir
         self.sidebar_file = os.path.join(root_dir, sidebar_file)
         self.exclude_paths = exclude_paths or ['jupyter-notes', 'test', 'images', "IBM-AI-Engineer-Course/jupyter-demo"]
+        self.exclude_file = ["README.md", "_sidebar.md", "_navbar.md"]
         self.base_url = base_url
 
     def should_exclude(self, path):
@@ -49,7 +50,7 @@ class SidebarGenerator:
         entries = os.listdir(directory)
 
         # Process files first (we want files to appear before subdirectories)
-        markdown_files = [f for f in entries if f.endswith(".md") and f != "README.md"
+        markdown_files = [f for f in entries if f.endswith(".md") and f not in self.exclude_file
                           and os.path.isfile(os.path.join(directory, f))]
 
         for file in sorted(markdown_files, key=self.natural_sort_key):

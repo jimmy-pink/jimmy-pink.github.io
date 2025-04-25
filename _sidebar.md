@@ -1,8 +1,7 @@
 * [首页](README.md)
-* [_sidebar](_sidebar.md)
 * 0-Preface
+  * [序1 - 学习路线图](0-Preface/%E5%BA%8F1%20-%20%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE.md)
   * [序2 - 为什么要学AI？](0-Preface/%E5%BA%8F2%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6AI%EF%BC%9F.md)
-  * [序 - 学习路线图](0-Preface/%E5%BA%8F%20-%20%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE.md)
 * 1-EssentialBasics
   * [1.0 基础数学](1-EssentialBasics/1.0%20%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6.md)
   * [1.1 高等数学](1-EssentialBasics/1.1%20%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6.md)
@@ -22,11 +21,8 @@
   * [模型评估、调优与实践](2-MachineLearning/%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E3%80%81%E8%B0%83%E4%BC%98%E4%B8%8E%E5%AE%9E%E8%B7%B5.md)
 * 3-DeepLearning
   * [3.1 神经网络与多层感知机](3-DeepLearning/3.1%20%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E5%A4%9A%E5%B1%82%E6%84%9F%E7%9F%A5%E6%9C%BA.md)
-* 5-ComputerVison
-* 6-NLP
 * 7-RAG
   * [现代搜索技术](7-RAG/%E7%8E%B0%E4%BB%A3%E6%90%9C%E7%B4%A2%E6%8A%80%E6%9C%AF.md)
-* 8-AI-Agent
 * 9-推荐系统
   * [推荐系统](9-%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.md)
 * 10-AI-Full-Stack

@@ -1,0 +1,15 @@
+* [Home](./README.md)
+* Learning Stages
+  * [0 - Preface](./0-Preface/序1%20-%20学习路线图.md)
+  * [1 - Essential Basics](./1-EssentialBasics/1.0%20基础数学.md)
+  * [2 - Machine Learning](./2-MachineLearning/2.1%20机器学习概述.md)
+  * [3 - Deep Learning](./3-DeepLearning/3.1%20神经网络与多层感知机.md)
+  * [5 - Computer Vision](./5-ComputerVison/)
+  * [6 - NLP](./6-NLP/)
+  * [7 - RAG](./7-RAG/)
+  * [8 - AI Agent](./8-Al-Agent/)
+  * [9 - 推荐系统](./9-推荐系统/)
+  * [10 - AI Full Stack](./10-Al-Full-Stack/)
+  * [11 - 瞄准就业](./11-瞄准就业/)
+
+* [GitHub Repo](https://github.com/jimmy-pink/jimmy-pink.github.io)
