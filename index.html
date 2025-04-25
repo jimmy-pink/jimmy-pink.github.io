@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Jimmy's AI Learning Handbook</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="description" content="Description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -11,6 +11,20 @@
 <body>
 <div id="app"></div>
 <script>
+    function getPathLevel(hash) {
+        // 去掉前导的 # 符号，得到实际路径
+        let path = hash.substring(1);
+
+        // 使用正则表达式将路径按照 '/' 分割
+        let pathParts = path.split('/');
+
+        // 去除空字符串的部分
+        pathParts = pathParts.filter(part => part !== '');
+
+        // 返回路径的层数
+        return pathParts.length;
+    }
+
     window.$docsify = {
         loadSidebar: true,
         loadNavbar: true,
@@ -20,27 +34,41 @@
         auto2top: true,
         name: 'AI Leanrning Handbook',
         repo: '',
-        wikilink: {
-            baseURL: '/#/',
-            linkPattern: /\[\[(.*?)\]\]/g,
-            linkReplacer: function (link) {
-                // 处理图片链接
-                if (/\.(png|jpe?g|gif|svg|webp)$/i.test(link)) {
-                    // 如果没有指定路径，默认从 images 目录获取
-                    if (!link.includes('/')) {
-                        return 'images/' + link;
+        plugins: [
+            function (hook) {
+                hook.doneEach(function () {
+                    if (typeof MathJax !== 'undefined') {
+                        MathJax.typeset(); // 重新渲染公式
                     }
-                    // 如果已指定相对路径，保持原样
-                    return link;
-                }
+                });
+            },
+            function (hook) {
+                // 兼容obsidian的双向链接
+                hook.beforeEach(function (content, next) {
+                    // 有几层url，如： /a/b/c 是3层，path_depth=2
+                    const path_depth = getPathLevel(window.location.hash) -1
+                    // 计算需要返回的层级数（如 "/docs/sub/page.md" → 需返回 2 层到根目录）
+                    const relativePrefix = path_depth > 0 ? '../'.repeat(path_depth) : './';
+                    // 替换 [[...]]，并处理 URL 编码
+                    const processedContent = content.replace(
+                        /\[\[(.*?)\]\]/g,
+                        function (match, p1) {
+                            if (/\.(png|jpe?g|gif|svg|webp)$/i.test(p1)) {
+                                // URL 编码文件名（处理空格、中文等）
+                                const encodedName = encodeURIComponent(p1);
+                                // 动态生成路径（如 "../../images/xxx"）
+                                return `[${p1}](${relativePrefix}images/${encodedName})`;
+                            }
+                        }
+                    );
 
-                // 对于普通链接，按照默认规则处理
-                return link;
+                    next(processedContent);
+                });
             }
-        }
+        ]
     }
 </script>
-<script src="//cdn.jsdelivr.net/npm/docsify-wikilink@1"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!-- Docsify v4 -->
 <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>

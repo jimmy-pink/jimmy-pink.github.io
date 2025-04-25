@@ -11,10 +11,12 @@
             "id": "efbaee2aec5a48eb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "image",
+              "state": {
+                "file": "images/block-matrix.webp"
+              },
+              "icon": "lucide-image",
+              "title": "block-matrix"
             }
           }
         ]
@@ -162,5 +164,13 @@
     }
   },
   "active": "efbaee2aec5a48eb",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "test/1.html",
+    "test",
+    "2-MachineLearning/2.6 聚类和降维.md",
+    "2-MachineLearning/模型评估、调优与实践.md",
+    "1-EssentialBasics/1.0 基础数学.md",
+    "10-AI-Full-Stack/PS+ComfyUI PS智能体.md",
+    "11-瞄准就业/🛞轮子1：CineTransAI 视频翻译.md"
+  ]
 }
