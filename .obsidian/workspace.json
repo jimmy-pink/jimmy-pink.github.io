@@ -1,39 +1,56 @@
 {
   "main": {
-    "id": "1f9a6aa626acf16e",
+    "id": "6a823f62b207d0b0",
     "type": "split",
     "children": [
       {
-        "id": "4476d753cf6fe63f",
+        "id": "da9f6ed9c347b199",
         "type": "tabs",
         "children": [
           {
-            "id": "efbaee2aec5a48eb",
+            "id": "90b1f35a6b40e3b9",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/block-matrix.webp"
+                "file": "README.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "block-matrix"
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "daab937059078a75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_sidebar.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "_sidebar"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "b1328551228ff926",
+    "id": "989fa3b213fec470",
     "type": "split",
     "children": [
       {
-        "id": "3bb9761d6c7b688b",
+        "id": "b00fd101e00f11be",
         "type": "tabs",
         "children": [
           {
-            "id": "c881fa662d276082",
+            "id": "40e04f8cbdb1f2f7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -46,7 +63,7 @@
             }
           },
           {
-            "id": "019f062b3a757423",
+            "id": "000821c21fb047c2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -63,7 +80,7 @@
             }
           },
           {
-            "id": "ddd1c0f43ad2e9b3",
+            "id": "8e5d81fc6b8170fa",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -76,22 +93,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 288.5
   },
   "right": {
-    "id": "6f9813c7c0a09517",
+    "id": "0e1756b3ee60238b",
     "type": "split",
     "children": [
       {
-        "id": "f340c23bdea92659",
+        "id": "b0ba2ddc990711d6",
         "type": "tabs",
         "children": [
           {
-            "id": "e8e873cc3a91d4ed",
+            "id": "047feed725748d2c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "0-Preface/🕯️序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,24 +119,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "🕯️序 的反向链接列表"
             }
           },
           {
-            "id": "508019399c0a5451",
+            "id": "a63f8c1d220429bc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "0-Preface/🕯️序.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "🕯️序 的出链列表"
             }
           },
           {
-            "id": "65d94bb0096183f1",
+            "id": "b07137a7d6c09304",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,24 +152,36 @@
             }
           },
           {
-            "id": "39744d87853db8f9",
+            "id": "e3045da1741fa3c9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "_sidebar.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "_sidebar 的大纲"
+            }
+          },
+          {
+            "id": "57df933338ca1612",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 423.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -160,17 +191,58 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "efbaee2aec5a48eb",
+  "active": "daab937059078a75",
   "lastOpenFiles": [
-    "test/1.html",
-    "test",
-    "2-MachineLearning/2.6 聚类和降维.md",
+    "README.md",
+    "0-Preface/序2 - 为什么要学AI？.md",
+    "index.html",
+    "jupyter-notes/__vault-format.py",
+    "jupyter-notes/__vault-fomrat.ipynb",
+    "jupyter-notes/_vault-fomrat.ipynb",
+    "jupyter-notes/vault-fomrat.ipynb",
+    "0-Preface/序 - 学习路线图.md",
+    "_sidebar.md",
+    "0-Preface/README.md",
+    "images/silhouette-socre.webp",
     "2-MachineLearning/模型评估、调优与实践.md",
+    "images/Pasted image 20250424191505.png",
+    "images/Pasted image 20250424190752.png",
+    "images/confusion-matrix.webp",
+    "2-MachineLearning/2.6 聚类和降维.md",
+    "test/test_2.py",
+    "test/1.json",
+    "2-MachineLearning/2.5 回归与分类.md",
+    "1-EssentialBasics/机器学习工具最常用命令合集.md",
+    "images/explain-variance-ratio-4pca.webp",
+    "2-MachineLearning/2.3 特征和特征工程.md",
+    "test/cancer_pre.py~",
+    "test/cancer_pre.py",
+    "1-EssentialBasics/1.5 信息论基础 (信息熵、KL散度).md",
+    "1-EssentialBasics/1.4 机器学习工具.md",
+    "1-EssentialBasics/1.3 概率论与数理统计.md",
+    "1-EssentialBasics/1.2 线性代数.md",
+    "1-EssentialBasics/1.1 高等数学.md",
+    "11-瞄准就业/如何获得 AI side project？.md",
+    "11-瞄准就业/🛞轮子1：CineTransAI 视频翻译.md",
+    "11-瞄准就业/未命名",
+    "IBM-AI-Engineer-Course/IBM- 0 - Course Introduction and Study Plan.md",
+    "IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md",
+    "IBM-AI-Engineer-Course/IBM- 2 - CNN and PyTorch.md",
+    "9-推荐系统/推荐系统.md",
+    "2-MachineLearning/2.2 机器学习的分类.md",
     "1-EssentialBasics/1.0 基础数学.md",
-    "10-AI-Full-Stack/PS+ComfyUI PS智能体.md",
-    "11-瞄准就业/🛞轮子1：CineTransAI 视频翻译.md"
+    "images/block-matrix.webp",
+    "images/pca-tsne-umap.webp",
+    "images/Pasted image 20250422214834.png",
+    "images/pca-steps-.webp",
+    "t-sne.webp",
+    "2-MachineLearning/2.4 梯度下降、损失函数、自动求导和链式法则.md",
+    "7-RAG/现代搜索技术.md",
+    "9-推荐系统/谷歌搜索流程图.canvas",
+    "2-MachineLearning/机器学习图谱.canvas"
   ]
 }

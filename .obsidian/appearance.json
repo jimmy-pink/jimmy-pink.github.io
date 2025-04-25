@@ -1,3 +1,5 @@
 {
-  "baseFontSize": 13
+  "baseFontSize": 14,
+  "cssTheme": "",
+  "accentColor": "#42c6ff"
 }

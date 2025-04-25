@@ -1,7 +1,7 @@
 * [首页](README.md)
 * 0-Preface
-  * [序1 - 学习路线图](0-Preface/%E5%BA%8F1%20-%20%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE.md)
-  * [序2 - 为什么要学AI？](0-Preface/%E5%BA%8F2%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6AI%EF%BC%9F.md)
+  * [序1 - 为什么要学AI？](0-Preface/%E5%BA%8F1%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6AI%EF%BC%9F.md)
+  * [序2 - 学习路线图](0-Preface/%E5%BA%8F2%20-%20%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE.md)
 * 1-EssentialBasics
   * [1.0 基础数学](1-EssentialBasics/1.0%20%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6.md)
   * [1.1 高等数学](1-EssentialBasics/1.1%20%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6.md)
