@@ -182,6 +182,8 @@
   },
   "active": "0a53d7c3b0084ab4",
   "lastOpenFiles": [
+    "images/favicon.png",
+    "favicon.png",
     "images/AI-HBook-BG@0.5x.webp",
     "images/guide-bg.webp",
     "README.md",
@@ -227,8 +229,6 @@
     "1-EssentialBasics/1.3 概率论与数理统计.md",
     "1-EssentialBasics/1.2 线性代数.md",
     "images/pca-tsne-umap.webp",
-    "images/Pasted image 20250422214834.png",
-    "images/pca-steps-.webp",
     "9-推荐系统/谷歌搜索流程图.canvas",
     "2-MachineLearning/机器学习图谱.canvas"
   ]
