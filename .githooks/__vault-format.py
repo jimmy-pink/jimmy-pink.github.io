@@ -1,6 +1,54 @@
 import os
-import urllib.parse
 import re
+import urllib.parse
+from pathlib import Path
+import json
+
+class ArticleIndexGenerator:
+    def __init__(self, root_path):
+        self.root_path = Path(root_path)
+        self.index = {}
+        # 要排除的目录名
+        self.exclude_dirs = {".git", ".idea", "test"}
+
+    def generate_index(self, with_ext):
+        """Generate index mapping filenames (with or without extension) to their relative paths"""
+        for root, dirs, files in os.walk(self.root_path):
+            # 过滤掉要排除的目录
+            dirs[:] = [d for d in dirs if d not in self.exclude_dirs]
+
+            rel_path = os.path.relpath(root, self.root_path)
+            rel_path = "" if rel_path == "." else f"{rel_path}/"
+
+            for file in files:
+                filename = file if with_ext else os.path.splitext(file)[0]
+                self.index[filename] = rel_path
+
+        return self.index
+
+    def save_index(self, output_file="index.json", with_extension=False):
+        """Save the generated index to a JSON file"""
+        if not self.index:
+            self.generate_index(with_extension)
+
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(self.index, f, ensure_ascii=False, indent=2)
+
+        return output_file
+
+    # 根据文件后缀名生成索引
+    def filter_by_extension(self, extensions=None):
+        """Filter index to only include files with specific extensions"""
+        if not self.index:
+            self.generate_index()
+
+        if extensions is None:
+            extensions = ['.md', '.ipynb', '.pdf', '.doc', '.numbers', '.png']
+
+        filtered_index = {k: v for k, v in self.index.items()
+                          if any(k.lower().endswith(ext.lower()) for ext in extensions)}
+
+        return filtered_index
 
 
 class SidebarGenerator:
@@ -18,6 +66,18 @@ class SidebarGenerator:
         self.sidebar_file = os.path.join(root_dir, sidebar_file)
         self.exclude_paths = exclude_paths or ['jupyter-notes', 'test', 'images', "IBM-AI-Engineer-Course/jupyter-demo"]
         self.exclude_file = ["README.md", "_sidebar.md", "_navbar.md"]
+        # 词条翻译词典
+        self.term_trans_dict = {
+            "Preface": "前言",
+            "EssentialBasics": "必备基础",
+            "MachineLearning": "传统机器学习",
+            "DeepLearning": "深度学习",
+            "RAG": "RAG搜索增强",
+            "-Full-Stack": "全栈",
+            "RecommendSystem": "推荐系统",
+            "Side-Project": "上手项目",
+            "IBM-AI-Engineer-Course": "IBM全套AI工程师课程(Coursera)"
+        }
         self.base_url = base_url
 
     def should_exclude(self, path):
@@ -74,8 +134,11 @@ class SidebarGenerator:
 
             # Add directory entry
             indent = "  " * level
-            dir_name = os.path.basename(full_path)
-            sidebar_lines.append(f"{indent}* {dir_name}")
+            cn_dir_name = dir_name = os.path.basename(full_path)
+            for k in self.term_trans_dict.keys():
+                if str.__contains__(dir_name, k):
+                    cn_dir_name = dir_name.replace(k, self.term_trans_dict[k])
+            sidebar_lines.append(f"{indent}* {cn_dir_name}")
 
             # Recursively scan subdirectory
             sidebar_lines.extend(self.scan_directory(full_path, level + 1))
@@ -105,6 +168,11 @@ class SidebarGenerator:
 if __name__ == "__main__":
     generator = SidebarGenerator("../")
     content = generator.save()
-
-    print(content)
+    # print(content)
     print(f"已生成: {generator.sidebar_file}")
+
+    generator = ArticleIndexGenerator("../")
+    index = generator.save_index("../.obsidian/filename_index.json", with_extension=True)
+
+    # Get all files
+    print(f"生成索引,文件路径： {index} ")

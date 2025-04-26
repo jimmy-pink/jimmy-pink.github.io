@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "da9f6ed9c347b199",
+        "id": "6e66e17a73d10490",
         "type": "tabs",
         "children": [
           {
-            "id": "90b1f35a6b40e3b9",
+            "id": "0a53d7c3b0084ab4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "README"
             }
-          },
-          {
-            "id": "daab937059078a75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_sidebar.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "_sidebar"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 294.5
   },
   "right": {
     "id": "0e1756b3ee60238b",
@@ -157,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_sidebar.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "_sidebar 的大纲"
+              "title": "README 的大纲"
             }
           },
           {
@@ -181,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 423.5,
+    "width": 229.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -195,9 +180,31 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "daab937059078a75",
+  "active": "0a53d7c3b0084ab4",
   "lastOpenFiles": [
+    "images/AI-HBook-BG@0.5x.webp",
+    "images/guide-bg.webp",
     "README.md",
+    "10-AI-Full-Stack/PS+ComfyUI PS智能体.md",
+    "10-AI-Full-Stack/Github热点项目.md",
+    "10-AI-Full-Stack",
+    "10-AIFull-Stack/PS+ComfyUI PS智能体.md",
+    "10-AIFull-Stack/Github热点项目.md",
+    "10-AIFull-Stack",
+    "test/test.py",
+    "test",
+    "9-RecommendSystem/谷歌搜索流程图.canvas",
+    "9-RecommendSystem/推荐系统.md",
+    "9-RecommendSystem",
+    "_sidebar.md",
+    "IBM-AI-Engineer-Course/IBM- 0 - Course Introduction and Study Plan.md",
+    "0-Preface/序2 - 学习路线图.md",
+    "0-Preface/序1 - 为什么要学AI？.md",
+    "10-Full-Stack/Github热点项目.md",
+    "10-AI-Full-Stack/PS%2BComfyUI PS智能体.md",
+    "1-EssentialBasics/机器学习工具最常用命令合集.md",
+    "images/block-matrix.webp",
+    "_navbar.md",
     "0-Preface/序2 - 为什么要学AI？.md",
     "index.html",
     "jupyter-notes/__vault-format.py",
@@ -205,7 +212,6 @@
     "jupyter-notes/_vault-fomrat.ipynb",
     "jupyter-notes/vault-fomrat.ipynb",
     "0-Preface/序 - 学习路线图.md",
-    "_sidebar.md",
     "0-Preface/README.md",
     "images/silhouette-socre.webp",
     "2-MachineLearning/模型评估、调优与实践.md",
@@ -213,35 +219,16 @@
     "images/Pasted image 20250424190752.png",
     "images/confusion-matrix.webp",
     "2-MachineLearning/2.6 聚类和降维.md",
-    "test/test_2.py",
-    "test/1.json",
     "2-MachineLearning/2.5 回归与分类.md",
-    "1-EssentialBasics/机器学习工具最常用命令合集.md",
     "images/explain-variance-ratio-4pca.webp",
     "2-MachineLearning/2.3 特征和特征工程.md",
-    "test/cancer_pre.py~",
-    "test/cancer_pre.py",
     "1-EssentialBasics/1.5 信息论基础 (信息熵、KL散度).md",
     "1-EssentialBasics/1.4 机器学习工具.md",
     "1-EssentialBasics/1.3 概率论与数理统计.md",
     "1-EssentialBasics/1.2 线性代数.md",
-    "1-EssentialBasics/1.1 高等数学.md",
-    "11-瞄准就业/如何获得 AI side project？.md",
-    "11-瞄准就业/🛞轮子1：CineTransAI 视频翻译.md",
-    "11-瞄准就业/未命名",
-    "IBM-AI-Engineer-Course/IBM- 0 - Course Introduction and Study Plan.md",
-    "IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md",
-    "IBM-AI-Engineer-Course/IBM- 2 - CNN and PyTorch.md",
-    "9-推荐系统/推荐系统.md",
-    "2-MachineLearning/2.2 机器学习的分类.md",
-    "1-EssentialBasics/1.0 基础数学.md",
-    "images/block-matrix.webp",
     "images/pca-tsne-umap.webp",
     "images/Pasted image 20250422214834.png",
     "images/pca-steps-.webp",
-    "t-sne.webp",
-    "2-MachineLearning/2.4 梯度下降、损失函数、自动求导和链式法则.md",
-    "7-RAG/现代搜索技术.md",
     "9-推荐系统/谷歌搜索流程图.canvas",
     "2-MachineLearning/机器学习图谱.canvas"
   ]
