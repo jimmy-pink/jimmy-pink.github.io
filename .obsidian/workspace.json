@@ -13,15 +13,66 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "2-MachineLearning/2.6 聚类和降维.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "2.6 聚类和降维"
+            }
+          },
+          {
+            "id": "fd000e19f440881f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/regression@2.webp"
+              },
+              "icon": "lucide-image",
+              "title": "regression@2"
+            }
+          },
+          {
+            "id": "ccb053c45d3bcf93",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Pasted image 20250428225214.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250428225214"
+            }
+          },
+          {
+            "id": "1ff25eb6e81a8821",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Pasted image 20250428223720.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250428223720"
+            }
+          },
+          {
+            "id": "775264d25fe86bf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-MachineLearning/模型评估、调优与实践.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "模型评估、调优与实践"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -94,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Preface/🕯️序.md",
+                "file": "IBM-AI-Engineer-Course/IBM- 0 - Course Introduction and Study Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "🕯️序 的反向链接列表"
+              "title": "IBM- 0 - Course Introduction and Study Plan 的反向链接列表"
             }
           },
           {
@@ -113,12 +164,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Preface/🕯️序.md",
+                "file": "IBM-AI-Engineer-Course/IBM- 0 - Course Introduction and Study Plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "🕯️序 的出链列表"
+              "title": "IBM- 0 - Course Introduction and Study Plan 的出链列表"
             }
           },
           {
@@ -142,13 +193,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "images/Pasted image 20250428223720.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "Pasted image 20250428223720 的大纲"
             }
           },
           {
@@ -166,69 +217,68 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
-    "collapsed": true
+    "width": 261.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
+      "canvas:新建白板": true,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": true,
       "command-palette:打开命令面板": false,
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "0a53d7c3b0084ab4",
+  "active": "40e04f8cbdb1f2f7",
   "lastOpenFiles": [
+    "images/Pasted image 20250428225214.png",
+    "images/regression@2.webp",
+    "IBM-AI-Engineer-Course/IBM- 0 - Course Introduction and Study Plan.md",
+    "0-Preface/序1 - 为什么要学AI？.md",
+    "0-Preface/序2 - 学习路线图.md",
+    "11-Side-Project/🛞轮子1：CineTransAI 视频翻译.md",
+    "10-AI-Full-Stack/PS+ComfyUI PS智能体.md",
+    "10-AI-Full-Stack/Github热点项目.md",
+    "2-MachineLearning/模型评估、调优与实践.md",
+    "2-MachineLearning/2.6 聚类和降维.md",
+    "2-MachineLearning/2.5 回归与分类.md",
+    "2-MachineLearning/2.3 特征和特征工程.md",
+    "2-MachineLearning/2.4 梯度下降、损失函数、自动求导和链式法则.md",
+    "2-MachineLearning/2.2 机器学习的分类.md",
+    "1-EssentialBasics/1.3 概率论与数理统计.md",
+    "1-EssentialBasics/1.2 线性代数.md",
+    "1-EssentialBasics/1.4 机器学习工具.md",
+    "2-MachineLearning/2.1 机器学习概述.md",
+    "regression.webp",
+    "images/Pasted image 20250428223720.png",
+    "1-EssentialBasics/1.1 高等数学.md",
+    "1-EssentialBasics/1.0 基础数学.md",
+    "1-EssentialBasics/机器学习工具最常用命令合集.md",
+    "test/assignment.ipynb",
+    "IBM-AI-Engineer-Course/jupyter-demo/IBM-1-6-2-Final-Rainfall-Classifier.ipynb",
+    "jupyter-notes/Lab-Titanic.py",
+    "jupyter-notes/Lab-Titanic.ipynb",
+    "jupyter-notes/Lab-TitanicSurvival.ipynb",
+    "README.md",
+    "IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md",
+    "IBM-AI-Engineer-Course/cheat-sheet",
+    "images/Pasted image 20250428104328.png",
+    "1-EssentialBasics/1.5 信息论基础 (信息熵、KL散度).md",
+    "未命名.canvas",
+    "_sidebar.md",
+    "test/github_trending.py",
+    "images/Pasted image 20250427210701.png",
+    "images/L1-L2.webp",
+    "11-Side-Project/Project-MacFolderIcon.md",
     "images/favicon.png",
     "favicon.png",
     "images/AI-HBook-BG@0.5x.webp",
-    "images/guide-bg.webp",
-    "README.md",
-    "10-AI-Full-Stack/PS+ComfyUI PS智能体.md",
-    "10-AI-Full-Stack/Github热点项目.md",
     "10-AI-Full-Stack",
     "10-AIFull-Stack/PS+ComfyUI PS智能体.md",
-    "10-AIFull-Stack/Github热点项目.md",
     "10-AIFull-Stack",
     "test/test.py",
-    "test",
     "9-RecommendSystem/谷歌搜索流程图.canvas",
-    "9-RecommendSystem/推荐系统.md",
-    "9-RecommendSystem",
-    "_sidebar.md",
-    "IBM-AI-Engineer-Course/IBM- 0 - Course Introduction and Study Plan.md",
-    "0-Preface/序2 - 学习路线图.md",
-    "0-Preface/序1 - 为什么要学AI？.md",
-    "10-Full-Stack/Github热点项目.md",
-    "10-AI-Full-Stack/PS%2BComfyUI PS智能体.md",
-    "1-EssentialBasics/机器学习工具最常用命令合集.md",
-    "images/block-matrix.webp",
-    "_navbar.md",
-    "0-Preface/序2 - 为什么要学AI？.md",
-    "index.html",
-    "jupyter-notes/__vault-format.py",
-    "jupyter-notes/__vault-fomrat.ipynb",
-    "jupyter-notes/_vault-fomrat.ipynb",
-    "jupyter-notes/vault-fomrat.ipynb",
-    "0-Preface/序 - 学习路线图.md",
-    "0-Preface/README.md",
-    "images/silhouette-socre.webp",
-    "2-MachineLearning/模型评估、调优与实践.md",
-    "images/Pasted image 20250424191505.png",
-    "images/Pasted image 20250424190752.png",
-    "images/confusion-matrix.webp",
-    "2-MachineLearning/2.6 聚类和降维.md",
-    "2-MachineLearning/2.5 回归与分类.md",
-    "images/explain-variance-ratio-4pca.webp",
-    "2-MachineLearning/2.3 特征和特征工程.md",
-    "1-EssentialBasics/1.5 信息论基础 (信息熵、KL散度).md",
-    "1-EssentialBasics/1.4 机器学习工具.md",
-    "1-EssentialBasics/1.3 概率论与数理统计.md",
-    "1-EssentialBasics/1.2 线性代数.md",
-    "images/pca-tsne-umap.webp",
     "9-推荐系统/谷歌搜索流程图.canvas",
     "2-MachineLearning/机器学习图谱.canvas"
   ]

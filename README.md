@@ -19,7 +19,7 @@
 - **定位清晰**：面向初学者到中高级AI学习者，注重循序渐进。
 - **内容严谨**：
 	- 参考了Coursera、MIT、斯坦福等优质公开课程
-	- 多平台生成式AI知识构建比核对。
+	- 多平台生成式AI知识构建和复核。
 - **自用+共享**：原本为个人学习整理，现开放共享，希望帮助更多人高效掌握AI技术。
 
 
@@ -49,9 +49,8 @@
 ### 重要引用参考资料列表
 
 + 《<font style="color:tomato;">The Document is All You Need！一站式LLM底层技术原理入门指南</font>》by 陈敏凯 （非常适合小白快速入门，搞懂基本原理）
-+ 
 + Coursera AI 相关课程
-	+ [[IBM- 0 - Course Introduction and Study Plan]]  (适合普通程序员快速上手， 课程非常全面，Jupyter小项目多)
+	+ [[IBM- 0 - Course Introduction and Study Plan|IBM全套AI工程师课程]]  (适合普通程序员快速上手， 课程非常全面，Jupyter小项目多)
 + [《动手学深度学习》by b站李沐](https://zh-v2.d2l.ai/) 
 +  [跟着迪哥学Python数据分析与机器学习实战](https://github.com/tangyudi/Ai-Learn)
 
