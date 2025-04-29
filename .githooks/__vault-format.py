@@ -3,6 +3,7 @@ import re
 import urllib.parse
 from pathlib import Path
 import json
+import convert_obsidian_md
 
 class ArticleIndexGenerator:
     def __init__(self, root_path):
@@ -176,3 +177,5 @@ if __name__ == "__main__":
 
     # Get all files
     print(f"生成索引,文件路径： {index} ")
+
+    convert_obsidian_md.main()
