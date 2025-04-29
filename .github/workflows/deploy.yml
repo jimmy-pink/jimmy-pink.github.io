@@ -20,21 +20,20 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run your Python script
-        run: |
-          python .githooks/__vault-format.py
 
       - name: Switch to main branch
         run: |
           git fetch origin main
           git checkout main
+          
 
       - name: Copy changes from obsidian to main (excluding .githooks)
         run: |
           git checkout obsidian -- .
-          rm -rf .githooks    
-          rm -rf .github  
-          rm -rf .obsidian
+
+      - name: Run your Python script
+        run: |
+          python .github/myhooks/deploy_vault_format.py
 
       - name: Commit and push changes
         run: |

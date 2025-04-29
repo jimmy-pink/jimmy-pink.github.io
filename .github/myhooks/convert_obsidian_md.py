@@ -7,7 +7,7 @@ from urllib.parse import quote
 
 
 def load_filename_index(root_dir):
-    index_path = os.path.join(root_dir, '.githooks', 'filename_index.json')
+    index_path = os.path.join(root_dir, '.obsidian', 'filename_index.json')
     if os.path.exists(index_path):
         with open(index_path, 'r', encoding='utf-8') as f:
             return json.load(f)

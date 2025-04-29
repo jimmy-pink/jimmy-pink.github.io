@@ -179,7 +179,7 @@ if __name__ == "__main__":
 
     print(args.dir)
     generator = ArticleIndexGenerator(args.dir)
-    index_path = os.path.join(args.dir, '.githooks', 'filename_index.json')
+    index_path = os.path.join(args.dir, '.obsidian', 'filename_index.json')
     index = generator.save_index(index_path, with_extension=True)
 
     # Get all files
