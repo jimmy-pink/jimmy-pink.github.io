@@ -12,37 +12,6 @@
 <body>
 <div id="app"></div>
 <script>
-    // Global variable to store the article index
-    let filenameIndex = {};
-
-    // Function to load the article index
-    async function loadFilenameIndex() {
-        try {
-            const response = await fetch('.obsidian/filename_index.json');
-            if (!response.ok) {
-                console.error('Failed to load article index:', response.statusText);
-                return {};
-            }
-            return await response.json();
-        } catch (error) {
-            console.error('Error loading article index:', error);
-            return {};
-        }
-    }
-
-    function getPathLevel(hash) {
-        // 去掉前导的 # 符号，得到实际路径
-        let path = hash.substring(1);
-
-        // 使用正则表达式将路径按照 '/' 分割
-        let pathParts = path.split('/');
-
-        // 去除空字符串的部分
-        pathParts = pathParts.filter(part => part !== '');
-
-        // 返回路径的层数
-        return pathParts.length;
-    }
 
     window.$docsify = {
         loadSidebar: true,
@@ -61,51 +30,6 @@
                     }
                 });
             },
-            async function (hook) {
-                // Load article index if not already loaded
-                if (Object.keys(filenameIndex).length === 0) {
-                    filenameIndex = await loadFilenameIndex();
-                }
-                // 兼容obsidian的双向链接
-                hook.beforeEach(function (content, next) {
-                    // 有几层url，如： /a/b/c 是3层，path_depth=2
-                    const path_depth = getPathLevel(window.location.hash) - 1
-                    // 计算需要返回的层级数（如 "/docs/sub/page.md" → 需返回 2 层到根目录）, 跳到项目根目录
-                    const root_path = path_depth > 0 ? '../'.repeat(path_depth) : './';
-                    // 替换 [[...]]，并处理 URL 编码
-                    const processedContent = content.replace(
-                        /\[\[(.*?)\]\]/g,
-                        function (match, p1) {
-                            if (/\.(png|jpe?g|gif|svg|webp)$/i.test(p1)) {
-                                // URL 编码文件名（处理空格、中文等）
-                                const encodedName = encodeURIComponent(p1);
-                                // 动态生成路径（如 "../../images/xxx"）
-                                return `[${p1}](${root_path}images/${encodedName})`;
-                            } else {
-                                // 处理文件引用，使用文件名索引查找相对路径
-                                let fileName = p1;
-
-                                // 如果没有扩展名，添加 .md 扩展名
-                                if (!fileName.match(/\.\w+$/)) {
-                                    fileName += '.md';
-                                }
-
-                                // 从索引中查找文件路径
-                                let relativePath = '';
-                                if (filenameIndex[fileName]) {
-                                    relativePath = filenameIndex[fileName];
-                                }
-                                const encodedName = encodeURIComponent(p1);
-                                const res = `[${p1}](${root_path}${relativePath}${encodedName})`;
-                                console.log(res)
-                                return res
-                            }
-                        }
-                    );
-
-                    next(processedContent);
-                });
-            }
         ]
     }
 </script>

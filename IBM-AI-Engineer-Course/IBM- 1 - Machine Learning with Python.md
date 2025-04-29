@@ -8,7 +8,7 @@
 - Data preparation and data analysis with python
 
 ### What you will learn?
-![[Pasted image 20250411140839.png]]
+![Pasted image 20250411140839.png](../images/Pasted%20image%2020250411140839.png)
 
 - Multiple linear regression
 - Logistic regression
@@ -54,7 +54,7 @@ Algorithms:
 
 ### ML Techniques
 
-![[Pasted image 20250411174710.png]]
+![Pasted image 20250411174710.png](../images/Pasted%20image%2020250411174710.png)
 
 - **classification**： predicts class or category of a case.
 - **regression**:  predicts *continuous* values
@@ -65,11 +65,11 @@ Algorithms:
 - **dimension reduction**: reduces size of data
 - **recommendation systems** : associate people's preferences.
 
-![[classsification-regression-clustering.png]]
+![classsification-regression-clustering.png](../images/classsification-regression-clustering.png)
 
 ### Applications of ML
 
-![[Pasted image 20250411181921.png]]
+![Pasted image 20250411181921.png](../images/Pasted%20image%2020250411181921.png)
 
 #### Image Recognition with ML
 
@@ -77,11 +77,11 @@ Algorithms:
 > **Traditional Programming**: create rules to detect the animals
 > **ML**: build a model to infer the animal type
 
-![[Pasted image 20250411182233.png]]
+![Pasted image 20250411182233.png](../images/Pasted%20image%2020250411182233.png)
 
 #### Pairing ML with human intelligence
 
-![[Pasted image 20250411182553.png]]
+![Pasted image 20250411182553.png](../images/Pasted%20image%2020250411182553.png)
 
 - chatbot
 - face recognition
@@ -103,13 +103,13 @@ Algorithms:
 	- **collaborative filtering**: recommend -->
 		- **similar users** target item
 		- **similar items** to users who buy target item
-		- 查看详细内容： [[推荐系统]] 
+		- 查看详细内容： [推荐系统](../9-RecommendSystem/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.md) 
 - ✅ **Model Evaluation**
 - **🚀 Model Deployment**
 
 ### Tools for ML
 
-![[Pasted image 20250411200005.png]]
+![Pasted image 20250411200005.png](../images/Pasted%20image%2020250411200005.png)
 
 #### Data
 
@@ -176,7 +176,7 @@ used to draw insights, inform decisions, and fuel advanced technologies.
 - Enables easy implementation of ML models
 
 #### Machine Learning pipeline tasks
-![[Pasted image 20250411200910.png]]
+![Pasted image 20250411200910.png](../images/Pasted%20image%2020250411200910.png)
 
 #### Sk Learn Demo
 
@@ -243,12 +243,12 @@ y_pred = model.predict(np.array([[6], [7]])  )
 > - linear regression
 > - logistic regression
 
-[[2.5 回归与分类]]
+[2.5 回归与分类](2.5%20%E5%9B%9E%E5%BD%92%E4%B8%8E%E5%88%86%E7%B1%BB)
 
 Regression is a statistical method used to model the **relationship** between a continuous input **variable**  and explanatory **features**.
 
 a type of supervised learning model
-![[Pasted image 20250414190604.png]]
+![Pasted image 20250414190604.png](../images/Pasted%20image%2020250414190604.png)
 ### Regression algorithms
 
 - Linear and polynomial 
@@ -284,7 +284,7 @@ a type of supervised learning model
 
 #### Simple Linear Regression
 [SimpleLinearRegression-Jupyter Lab](jupyter-demo/IBM-1-2-1-SimpleLinearRegression.ipynb)
-![[Pasted image 20250418160344.png]]
+![Pasted image 20250418160344.png](../images/Pasted%20image%2020250418160344.png)
 predict a continuous value
 - the Best Fit
 find the <font style="background-color:tomato; color:black">regression line</font> or hyperplane that best describe the relationship between X and Y.  
@@ -326,7 +326,7 @@ Fitting a <font style="background-color:tomato; color:black">hyperplane</font>
 is usually the best solution for standard linear regression.
 
 #### Nonlinear Regression
-![[Pasted image 20250415163345.png]]
+![Pasted image 20250415163345.png](../images/Pasted%20image%2020250415163345.png)
 Features：
 - Represented by a nonlinear equation
 	- polynomial
@@ -344,7 +344,7 @@ Features：
 - log-loss
 - threshold probability
 
-![[Pasted image 20250415202645.png]]
+![Pasted image 20250415202645.png](../images/Pasted%20image%2020250415202645.png)
 
 
 ### Module 2 Summary
@@ -398,7 +398,7 @@ Features：
 
 ### Basics
 #### Classification
-![[Pasted image 20250416091910.png]]
+![Pasted image 20250416091910.png](../images/Pasted%20image%2020250416091910.png)
 
 
 #### Application of Classification
@@ -434,10 +434,10 @@ Features：
 - Regression Tree
 
 #### Support Vector Machine SVM
-![[Pasted image 20250417153141.png]]
+![Pasted image 20250417153141.png](../images/Pasted%20image%2020250417153141.png)
 
 ### K-Nearest Neighbors
-![[KNN.webp]]
+<img src="../images/KNN.webp" alt="KNN.webp">
 
 ### Ensemble Models
 ####  Random Forest

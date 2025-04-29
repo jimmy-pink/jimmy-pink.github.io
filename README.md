@@ -1,4 +1,4 @@
-![AI-HBook-BG@0.5x.webp](images/AI-HBook-BG@0.5x.webp)
+![AI-HBook-BG@0.5x.webp](./images/AI-HBook-BG@0.5x.webp)
 
 # AI学习手册
 
@@ -50,7 +50,7 @@
 
 + 《<font style="color:tomato;">The Document is All You Need！一站式LLM底层技术原理入门指南</font>》by 陈敏凯 （非常适合小白快速入门，搞懂基本原理）
 + Coursera AI 相关课程
-	+ [[IBM- 0 - Course Introduction and Study Plan|IBM全套AI工程师课程]]  (适合普通程序员快速上手， 课程非常全面，Jupyter小项目多)
+	+ [IBM全套AI工程师课程](../IBM-AI-Engineer-Course/IBM-%200%20-%20Course%20Introduction%20and%20Study%20Plan.md)  (适合普通程序员快速上手， 课程非常全面，Jupyter小项目多)
 + [《动手学深度学习》by b站李沐](https://zh-v2.d2l.ai/) 
 +  [跟着迪哥学Python数据分析与机器学习实战](https://github.com/tangyudi/Ai-Learn)
 

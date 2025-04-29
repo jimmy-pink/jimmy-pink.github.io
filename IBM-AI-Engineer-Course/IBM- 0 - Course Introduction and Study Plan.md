@@ -3,14 +3,14 @@
 
 **[IBM AI Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ai-engineer#courses)**
 
-![[Pasted image 20250411124302.png]]
+![Pasted image 20250411124302.png](../images/Pasted%20image%2020250411124302.png)
 
 | Index | Course URL                                                                                                                                                                           | Local Note                                |     |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------- | --- |
-| 1     | [Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python?specialization=ai-engineer)                                                               | [[IBM- 1 - Machine Learning with Python]] |     |
+| 1     | [Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python?specialization=ai-engineer)                                                               | [IBM- 1 - Machine Learning with Python](../IBM-AI-Engineer-Course/IBM-%201%20-%20Machine%20Learning%20with%20Python.md) |     |
 | 2     | [DL and NN With Keras](https://www.coursera.org/learn/introduction-to-deep-learning-with-keras?specialization=ai-engineer)                                                           |                                           |     |
 | 3     | [Deep Learning with Keras and Tensorflow](https://www.coursera.org/learn/building-deep-learning-models-with-tensorflow?specialization=ai-engineer)                                   |                                           |     |
-| 4     | [CNN and PyTorch](https://www.coursera.org/learn/deep-neural-networks-with-pytorch/)                                                                                                 | [[IBM- 2 - CNN and PyTorch]]              |     |
+| 4     | [CNN and PyTorch](https://www.coursera.org/learn/deep-neural-networks-with-pytorch/)                                                                                                 | [IBM- 2 - CNN and PyTorch](../IBM-AI-Engineer-Course/IBM-%202%20-%20CNN%20and%20PyTorch.md)              |     |
 | 5     | [Deep Learning with PyTorch](https://www.coursera.org/learn/advanced-deep-learning-with-pytorch?specialization=ai-engineer)                                                          |                                           |     |
 | 6     | [AI Capstone Project with Deep Learning](https://www.coursera.org/learn/ai-deep-learning-capstone?specialization=ai-engineerr)                                                       |                                           |     |
 | 7     | [Generative AI and LLMs: Architecture and Data Preparation](https://www.coursera.org/learn/generative-ai-llm-architecture-data-preparation?specialization=ai-engineer)               |                                           |     |
