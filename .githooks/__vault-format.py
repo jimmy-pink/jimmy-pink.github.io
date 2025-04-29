@@ -1,3 +1,4 @@
+import argparse
 import os
 import re
 import urllib.parse
@@ -172,8 +173,14 @@ if __name__ == "__main__":
     # print(content)
     print(f"已生成: {generator.sidebar_file}")
 
-    generator = ArticleIndexGenerator("../")
-    index = generator.save_index("../.githooks/filename_index.json", with_extension=True)
+    parser = argparse.ArgumentParser(description='Convert Obsidian links to standard markdown links')
+    parser.add_argument('--dir', default='.', help='Root directory to scan (default: current directory)')
+    args = parser.parse_args()
+
+    print(args.dir)
+    generator = ArticleIndexGenerator(args.dir)
+    index_path = os.path.join(args.dir, '.githooks', 'filename_index.json')
+    index = generator.save_index(index_path, with_extension=True)
 
     # Get all files
     print(f"生成索引,文件路径： {index} ")
