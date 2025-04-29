@@ -331,9 +331,9 @@
       "showInContextMenu": false
     },
     {
-      "name": "Simplify",
-      "prompt": "<instruction>Simplify the text below to a 6th-grade reading level (ages 11-12). Use simple sentences, common words, and clear explanations. Maintain the original key concepts. Return only the simplified text.</instruction>\n\n<text>{copilot-selection}</text>",
-      "showInContextMenu": false
+      "name": "FormularFormat",
+      "prompt": "<instruction>\n选中区域为markdown 公式， 请修复矫正为清晰美观标准的MathJax格式.\n请不要输出除 MathJax 公式代码以外的任何其他内容\n</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
     },
     {
       "name": "Make shorter",
