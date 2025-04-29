@@ -56,6 +56,19 @@ class SidebarGenerator:
                 return dir_name.replace(k, v)
         return dir_name
 
+    def find_first_md_file(self, directory):
+        """Find the first .md file in a directory, excluding excluded files."""
+        try:
+            files = [f for f in os.listdir(directory) 
+                    if f.endswith('.md') 
+                    and f not in self.exclude_file
+                    and os.path.isfile(os.path.join(directory, f))]
+            if files:
+                return sorted(files, key=self.natural_sort_key)[0]
+        except Exception:
+            pass
+        return None
+
     def scan_directory(self, directory, level=0):
         """
         Recursively scan a directory and generate sidebar entries.
@@ -101,9 +114,15 @@ class SidebarGenerator:
             cn_dir_name = self.translate_dir_name(entry)
             sidebar_lines.append(f"{indent}* {cn_dir_name}")
             
-            # Add to navbar with relative path
-            encoded_path = urllib.parse.quote(rel_path)
-            navbar_lines.append(f"  * [{cn_dir_name}]({self.base_url}{encoded_path})")
+            # Find first .md file in the directory for navbar link
+            first_md = self.find_first_md_file(full_path)
+            if first_md:
+                md_rel_path = os.path.relpath(os.path.join(full_path, first_md), self.root_dir)
+                encoded_path = urllib.parse.quote(md_rel_path)
+                navbar_lines.append(f"  * [{cn_dir_name}]({self.base_url}{encoded_path})")
+            else:
+                # If no .md file found, just add the directory name without link
+                navbar_lines.append(f"  * {cn_dir_name}")
             
             # Recursively scan subdirectory
             sub_sidebar, sub_navbar = self.scan_directory(full_path, level + 1)
@@ -121,7 +140,7 @@ class SidebarGenerator:
         # Add all other entries
         sidebar_md.extend(sidebar)
         navbar_md.extend(navbar)
-        navbar_md.append('* [GitHub Repo](https://github.com/jimmy-pink/jimmy-pink.github.io)')
+        navbar_md.append('* [GitHub](https://github.com/jimmy-pink/jimmy-pink.github.io)')
         return "\n".join(sidebar_md), "\n".join(navbar_md)
 
     def save(self):
