@@ -7,7 +7,7 @@ from urllib.parse import quote
 
 
 def load_filename_index(root_dir):
-    index_path = os.path.join(root_dir, '.obsidian', 'filename_index.json')
+    index_path = os.path.join(root_dir, '.githooks', 'filename_index.json')
     if os.path.exists(index_path):
         with open(index_path, 'r', encoding='utf-8') as f:
             return json.load(f)
@@ -44,7 +44,11 @@ def convert_obsidian_links(content, filename_index, root_path=''):
     # 处理图片和视频链接
     content = re.sub(
         r'!\[\[([^\]]+)\]\]',
-        lambda m: f'![{os.path.basename(m.group(1))}]({process_link(m.group(1), filename_index, root_path)})',
+        lambda m: (
+            f'<img src="{process_link(m.group(1), filename_index, root_path)}" alt="{os.path.basename(m.group(1))}">'
+            if m.group(1).lower().endswith('.webp')
+            else f'![{os.path.basename(m.group(1))}]({process_link(m.group(1), filename_index, root_path)})'
+        ),
         content
     )
 

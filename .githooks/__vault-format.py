@@ -173,7 +173,7 @@ if __name__ == "__main__":
     print(f"已生成: {generator.sidebar_file}")
 
     generator = ArticleIndexGenerator("../")
-    index = generator.save_index("../.obsidian/filename_index.json", with_extension=True)
+    index = generator.save_index("../.githooks/filename_index.json", with_extension=True)
 
     # Get all files
     print(f"生成索引,文件路径： {index} ")
