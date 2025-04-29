@@ -22,7 +22,7 @@ jobs:
 
       - name: Run your Python script
         run: |
-          python .githooks/_vault-format.py
+          python .githooks/__vault-format.py
 
       - name: Switch to main branch
         run: |
