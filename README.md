@@ -1,4 +1,4 @@
-![AI-HBook-BG@0.5x.webp](./images/AI-HBook-BG@0.5x.webp)
+![AI-HBook-BG@0.5x.webp](images/AI-HBook-BG@0.5x.webp)
 
 # AI学习手册
 
