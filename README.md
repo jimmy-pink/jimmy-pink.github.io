@@ -1,16 +1,62 @@
+
 ![AI-HBook-BG@0.5x.webp](./images/AI-HBook-BG@0.5x.webp)
+
 
 # AI学习手册
 
 史上最全面的AI学习手册，面向**普通白领、程序员、创业者**及**业余AI学习爱好者**。
 
-[🔗 访问 GitHub Pages](https://jimmy-pink.github.io)
+[🔗 访问 GitHub Pages](https://jimmy-pink.github.io)  
+[🔗 访问 GitHub Repo](https://github.com/jimmy-pink/jimmy-pink.github.io)
 
-欢迎来到 **AI学习手册**！  
+<html>
+<h1 style="
+  text-align: center;
+  font-size: 3em;
+  font-weight: 800;
+  font-family: 'Arial Black', sans-serif;
+  margin: 0.5em 0;
+  background: linear-gradient(45deg, #0061ff, #60efff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  letter-spacing: 1px;
+  position: relative;
+  display: inline-block;
+  padding: 0 20px;
+">
+  <span style="
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #0061ff, #60efff);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  "></span>
+  Jimmy's AI 学习手册
+</h1>
+
+<script>
+  // 悬停时触发下划线动画（可选）
+  document.querySelector('h1').addEventListener('mouseenter', function() {
+    this.querySelector('span').style.transform = 'scaleX(1)';
+  });
+  document.querySelector('h1').addEventListener('mouseleave', function() {
+    this.querySelector('span').style.transform = 'scaleX(0)';
+  });
+</script>
+
+</html>
+
+欢迎来到 **Jimmy‘s AI学习手册**！  
 这是一本精心整理的学习笔记、教程与资源融合。
 - 记录了系统学习人工智能的完整路径
 - 整理了坊间流传的知名AI学习手册
-- 数百万次AI知识交流，对关键知识点做详细补充和绘图解释
+- 数万次AI知识交流，对关键知识点做详细补充和绘图解释
 
 无论你是刚入门的新手，还是正在进阶的学习者，这份手册都能为你提供**结构化、系统化的学习资料**，涵盖从基础概念到前沿应用的广阔领域。
 
@@ -50,7 +96,7 @@
 
 + 《<font style="color:tomato;">The Document is All You Need！一站式LLM底层技术原理入门指南</font>》by 陈敏凯 （非常适合小白快速入门，搞懂基本原理）
 + Coursera AI 相关课程
-	+ [[IBM- 0 - Course Introduction and Study Plan|IBM全套AI工程师课程]]  (适合普通程序员快速上手， 课程非常全面，Jupyter小项目多)
+	+ [[IBM-0-Course Introduction and Study Plan|IBM全套AI工程师课程]]  (适合普通程序员快速上手， 课程非常全面，Jupyter小项目多)
 + [《动手学深度学习》by b站李沐](https://zh-v2.d2l.ai/) 
 +  [跟着迪哥学Python数据分析与机器学习实战](https://github.com/tangyudi/Ai-Learn)
 

@@ -41,6 +41,18 @@ def process_link(link, filename_index, root_path=''):
 
 
 def convert_obsidian_links(content, filename_index, root_path=''):
+    # 高亮 ==文本== 转换为 <font style="background-color:#FBDE28;color:black">文本</font>
+    content = re.sub(
+        r'===([^=]+)===',
+        r'<font style="background-color:tomato; color:black">\1</font>',
+        content
+    )
+    content = re.sub(
+        r'==([^=]+)==',
+        r'<font style="background-color:yellow; color:black">\1</font>',
+        content
+    )
+
     # 处理图片和视频链接
     content = re.sub(
         r'!\[\[([^\]]+)\]\]',
