@@ -15,12 +15,17 @@
   * [2.2 机器学习的分类](2-MachineLearning/2.2%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%88%86%E7%B1%BB.md)
   * [2.3 特征和特征工程](2-MachineLearning/2.3%20%E7%89%B9%E5%BE%81%E5%92%8C%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B.md)
   * [2.4 梯度下降、损失函数、自动求导和链式法则](2-MachineLearning/2.4%20%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E3%80%81%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0%E3%80%81%E8%87%AA%E5%8A%A8%E6%B1%82%E5%AF%BC%E5%92%8C%E9%93%BE%E5%BC%8F%E6%B3%95%E5%88%99.md)
+  * [2.4 梯度下降和损失函数](2-MachineLearning/2.4%20%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%92%8C%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0.md)
   * [2.5 回归与分类](2-MachineLearning/2.5%20%E5%9B%9E%E5%BD%92%E4%B8%8E%E5%88%86%E7%B1%BB.md)
+  * [2.5 监督学习常用算法](2-MachineLearning/2.5%20%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95.md)
+  * [2.6 无监督学习常用算法](2-MachineLearning/2.6%20%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95.md)
   * [2.6 聚类和降维](2-MachineLearning/2.6%20%E8%81%9A%E7%B1%BB%E5%92%8C%E9%99%8D%E7%BB%B4.md)
   * [Tensorflow 入门实战 By Coursera 劳伦斯](2-MachineLearning/Tensorflow%20%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%20By%20Coursera%20%E5%8A%B3%E4%BC%A6%E6%96%AF.md)
   * [模型评估、调优与实践](2-MachineLearning/%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E3%80%81%E8%B0%83%E4%BC%98%E4%B8%8E%E5%AE%9E%E8%B7%B5.md)
 * 3-深度学习
+  * [3.1 神经元和神经网络](3-DeepLearning/3.1%20%E7%A5%9E%E7%BB%8F%E5%85%83%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md)
   * [3.1 神经网络与多层感知机](3-DeepLearning/3.1%20%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E5%A4%9A%E5%B1%82%E6%84%9F%E7%9F%A5%E6%9C%BA.md)
+  * [3.2 深度学习模型](3-DeepLearning/3.2%20%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B.md)
 * 7-RAG搜索增强
   * [现代搜索技术](7-RAG/%E7%8E%B0%E4%BB%A3%E6%90%9C%E7%B4%A2%E6%8A%80%E6%9C%AF.md)
 * 9-推荐系统
@@ -32,6 +37,10 @@
   * [如何获得 AI side project？](11-Side-Project/%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97%20AI%20side%20project%EF%BC%9F.md)
   * [🛞轮子1：CineTransAI 视频翻译](11-Side-Project/%F0%9F%9B%9E%E8%BD%AE%E5%AD%901%EF%BC%9ACineTransAI%20%E8%A7%86%E9%A2%91%E7%BF%BB%E8%AF%91.md)
 * IBM全套AI工程师课程(Coursera)
+  * [IBM-0-Course Introduction and Study Plan](IBM-AI-Engineer-Course/IBM-0-Course%20Introduction%20and%20Study%20Plan.md)
+  * [IBM-1-Machine Learning with Python](IBM-AI-Engineer-Course/IBM-1-Machine%20Learning%20with%20Python.md)
+  * [IBM-2-DL and NN with Keras](IBM-AI-Engineer-Course/IBM-2-DL%20and%20NN%20with%20Keras.md)
+  * [IBM-4-NN and PyTorch](IBM-AI-Engineer-Course/IBM-4-NN%20and%20PyTorch.md)
   * [IBM- 0 - Course Introduction and Study Plan](IBM-AI-Engineer-Course/IBM-%200%20-%20Course%20Introduction%20and%20Study%20Plan.md)
   * [IBM- 1 - Machine Learning with Python](IBM-AI-Engineer-Course/IBM-%201%20-%20Machine%20Learning%20with%20Python.md)
   * [IBM- 2 - CNN and PyTorch](IBM-AI-Engineer-Course/IBM-%202%20-%20CNN%20and%20PyTorch.md)

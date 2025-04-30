@@ -4,73 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "6e66e17a73d10490",
+        "id": "12ec16f929289c9b",
         "type": "tabs",
         "children": [
           {
-            "id": "0a53d7c3b0084ab4",
+            "id": "c499c53cc2a2fa62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-EssentialBasics/1.1 高等数学.md",
+                "file": "3-DeepLearning/3.1 神经元和神经网络.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1 高等数学"
+              "title": "3.1 神经元和神经网络"
             }
           },
           {
-            "id": "fd000e19f440881f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "images/regression@2.webp"
-              },
-              "icon": "lucide-image",
-              "title": "regression@2"
-            }
-          },
-          {
-            "id": "ccb053c45d3bcf93",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "images/Pasted image 20250428225214.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250428225214"
-            }
-          },
-          {
-            "id": "1ff25eb6e81a8821",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-EssentialBasics/1.1 高等数学.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.1 高等数学"
-            }
-          },
-          {
-            "id": "775264d25fe86bf5",
+            "id": "21e32c370dc54a76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "2-MachineLearning/模型评估、调优与实践.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "模型评估、调优与实践"
+            }
+          },
+          {
+            "id": "d85ba53f712bf1d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-MachineLearning/2.4 梯度下降和损失函数.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.4 梯度下降和损失函数"
             }
           }
         ]
@@ -146,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IBM-AI-Engineer-Course/IBM- 0 - Course Introduction and Study Plan.md",
+                "file": "3-DeepLearning/3.1 神经元和神经网络.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "IBM- 0 - Course Introduction and Study Plan 的反向链接列表"
+              "title": "3.1 神经元和神经网络 的反向链接列表"
             }
           },
           {
@@ -165,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IBM-AI-Engineer-Course/IBM- 0 - Course Introduction and Study Plan.md",
+                "file": "3-DeepLearning/3.1 神经元和神经网络.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "IBM- 0 - Course Introduction and Study Plan 的出链列表"
+              "title": "3.1 神经元和神经网络 的出链列表"
             }
           },
           {
@@ -194,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-EssentialBasics/1.1 高等数学.md",
+                "file": "3-DeepLearning/3.1 神经元和神经网络.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.1 高等数学 的大纲"
+              "title": "3.1 神经元和神经网络 的大纲"
             }
           },
           {
@@ -218,7 +194,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 268.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,54 +207,54 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "0a53d7c3b0084ab4",
+  "active": "40e04f8cbdb1f2f7",
   "lastOpenFiles": [
-    "1-EssentialBasics/1.2 线性代数.md",
-    "2-MachineLearning/2.6 聚类和降维.md",
     "2-MachineLearning/模型评估、调优与实践.md",
+    "2-MachineLearning/2.4 梯度下降和损失函数.md",
+    "3-DeepLearning/3.1 神经元和神经网络.md",
+    "2-MachineLearning/2.3 特征和特征工程.md",
+    "1-EssentialBasics/1.3 概率论与数理统计.md",
+    "1-EssentialBasics/1.5 信息论基础 (信息熵、KL散度).md",
+    "1-EssentialBasics/1.4 机器学习工具.md",
     "1-EssentialBasics/1.1 高等数学.md",
-    "IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md",
-    "convert_obsidian_links.py",
-    "IBM-AI-Engineer-Course/IBM- 2 - CNN and PyTorch.md",
-    "README.md",
     "0-Preface/序2 - 学习路线图.md",
-    "0-Preface/序1 - 为什么要学AI？.md",
+    "1-EssentialBasics/1.2 线性代数.md",
     "1-EssentialBasics/1.0 基础数学.md",
+    "images/Pasted image 20250430162017.png",
+    "images/multi-gradient-descent.gif",
+    "images/GradientDescentGIF.gif",
+    "Pasted image 20250430151219.png",
+    "Pasted image 20250430151235.png",
+    "images/Pasted image 20250430151152.png",
+    "3-DeepLearning/3.2 深度学习模型.md",
+    "3-DeepLearning/3.1 神经网络与多层感知机.md",
+    "2-MachineLearning/2.1 机器学习概述.md",
+    "neuron.jpg",
     "images/Pasted image 20250428223720.png",
     "images/Pasted image 20250428225214.png",
-    "images/regression@2.webp",
-    "IBM-AI-Engineer-Course/IBM- 0 - Course Introduction and Study Plan.md",
-    "11-Side-Project/🛞轮子1：CineTransAI 视频翻译.md",
-    "10-AI-Full-Stack/PS+ComfyUI PS智能体.md",
-    "10-AI-Full-Stack/Github热点项目.md",
-    "2-MachineLearning/2.5 回归与分类.md",
-    "2-MachineLearning/2.3 特征和特征工程.md",
-    "2-MachineLearning/2.4 梯度下降、损失函数、自动求导和链式法则.md",
+    "images/pca-steps-.webp",
+    "IBM-AI-Engineer-Course/IBM-2-DL and NN with Keras.md",
+    "IBM-AI-Engineer-Course/IBM-0-Course Introduction and Study Plan.md",
+    "test/1.json",
     "2-MachineLearning/2.2 机器学习的分类.md",
-    "1-EssentialBasics/1.3 概率论与数理统计.md",
-    "1-EssentialBasics/1.4 机器学习工具.md",
-    "2-MachineLearning/2.1 机器学习概述.md",
-    "regression.webp",
+    "IBM-AI-Engineer-Course/IBM-4-NN and PyTorch.md",
+    "IBM-AI-Engineer-Course/IBM-1-Machine Learning with Python.md",
+    "0-Preface/序1 - 为什么要学AI？.md",
+    "README.md",
     "1-EssentialBasics/机器学习工具最常用命令合集.md",
+    "2-MachineLearning/2.6 无监督学习常用算法.md",
+    "2-MachineLearning/2.5 监督学习常用算法.md",
+    "convert_obsidian_links.py",
+    "11-Side-Project/🛞轮子1：CineTransAI 视频翻译.md",
     "test/assignment.ipynb",
     "IBM-AI-Engineer-Course/jupyter-demo/IBM-1-6-2-Final-Rainfall-Classifier.ipynb",
     "jupyter-notes/Lab-Titanic.py",
     "jupyter-notes/Lab-Titanic.ipynb",
     "jupyter-notes/Lab-TitanicSurvival.ipynb",
     "IBM-AI-Engineer-Course/cheat-sheet",
-    "images/Pasted image 20250428104328.png",
-    "1-EssentialBasics/1.5 信息论基础 (信息熵、KL散度).md",
     "未命名.canvas",
-    "_sidebar.md",
     "test/github_trending.py",
-    "images/Pasted image 20250427210701.png",
-    "images/L1-L2.webp",
-    "11-Side-Project/Project-MacFolderIcon.md",
-    "images/favicon.png",
-    "favicon.png",
-    "images/AI-HBook-BG@0.5x.webp",
     "10-AI-Full-Stack",
-    "10-AIFull-Stack",
     "9-RecommendSystem/谷歌搜索流程图.canvas",
     "9-推荐系统/谷歌搜索流程图.canvas",
     "2-MachineLearning/机器学习图谱.canvas"
