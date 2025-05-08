@@ -12,12 +12,12 @@
 [Corsera Official Colab](https://www.coursera.org/learn/introduction-tensorflow/ungradedLab/6Hb8q/get-hands-on-with-computer-vision-lab-1/lab?path=%2Flab%2Ftree%2Flab_1)
 
 
-![ans-data-rules.png](../images/ans-data-rules.png)
+![[ans-data-rules.png]]
 公式表示机器学习的数学原理 (根据数据和目标变量Lables， 推理得到规则函数)：
 $$f(Data, Labels) = \text{Rules}$$
 
 ### 简单线性回归
-<font style="background-color:tomato; color:black">快速上手</font> 训练一批数据，使其掌握 y=2x+1 的规律  
+===快速上手=== 训练一批数据，使其掌握 y=2x+1 的规律  
 `x_array = [0, 1, 2, 3, 4, 5]` 特征    
 `y_array = [-1, 1, 3, 5, 7, 9]` 标签  
 
@@ -114,8 +114,8 @@ model.compile(optimizer="adam", loss="binary_crossentropy", metrics=['accuracy']
 
 ## Fashion Mnist - CNN
 
-<font style="background-color:tomato; color:black">快速上手</font> Fashion Mnist 训练模型识别服装类型
-![fashion-mnist.png](../images/fashion-mnist.png)
+===快速上手=== Fashion Mnist 训练模型识别服装类型
+![[fashion-mnist.png]]
 1. 问题定义：
 	- 训练7万个时尚穿着，使机器能识别时装分类
 2. 数据收集与准备：

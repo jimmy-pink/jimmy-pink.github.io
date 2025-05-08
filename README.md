@@ -83,8 +83,8 @@
 
 + 《<font style="color:tomato;">The Document is All You Need！一站式LLM底层技术原理入门指南</font>》by 陈敏凯 
 	+ 特点：非常适合小白快速入门，搞懂基本原理
-+ <font style="background-color:yellow; color:black">Coursera AI 相关课程</font>
-	+ [IBM全套AI工程师课程](../IBM-AI-Engineer-Course/IBM-0-Course%20Introduction%20and%20Study%20Plan.md) 
++ ==Coursera AI 相关课程==
+	+ [[IBM-0-Course Introduction and Study Plan|IBM全套AI工程师课程]] 
 		+ 特点：
 			+ 适合普通程序构建完整AI知识体系， 课程非常全面，Jupyter小项目多
 			+ 具有一定的实用性和职业导向性。

@@ -9,37 +9,39 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout obsidian branch
+      - name: Checkout main branch
         uses: actions/checkout@v4
         with:
-          ref: obsidian  # 确保checkout的是 obsidian 分支
-          fetch-depth: 0  # 重要！否则 git push 时会出问题
+          ref: main  # 先检出main分支
+          fetch-depth: 0  # 完整克隆以便进行分支操作
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-
-      - name: Switch to main branch
-        run: |
-          git fetch origin main
-          git checkout main
-          
-
-      - name: Copy changes from obsidian to main (excluding .githooks)
-        run: |
-          git checkout obsidian -- .
-
-      - name: Run your Python script
-        run: |
-          python .github/myhooks/deploy_vault_format.py
-
-      - name: Commit and push changes
+      - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
+      - name: Merge obsidian branch into main
+        run: |
+          # 确保我们有最新的obsidian分支
+          git fetch origin obsidian
+          
+          # 合并obsidian到main，保留obsidian的内容
+          git merge origin/obsidian -X theirs --allow-unrelated-histories -m "Merge obsidian branch into main: ${{ github.event.head_commit.message }}"
+
+      - name: Run Python script for formatting
+        run: |
+          python .github/myhooks/deploy_vault_format.py
+
+      - name: Commit formatting changes
+        run: |
           git add .
-          git commit -m "${{ github.event.head_commit.message }}" || echo "No changes to commit"
+          git commit -m "Format vault content: ${{ github.event.head_commit.message }}" || echo "No changes to commit"
+          
+      - name: Push changes to main
+        run: |
           git push origin main

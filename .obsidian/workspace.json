@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-DeepLearning/3.3 卷积神经网络 CNN.md",
+                "file": "2-MachineLearning/2.5 监督学习常用算法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.3 卷积神经网络 CNN"
+              "title": "2.5 监督学习常用算法"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-DeepLearning/3.3 卷积神经网络 CNN.md",
+                "file": "2-MachineLearning/2.5 监督学习常用算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "3.3 卷积神经网络 CNN 的反向链接列表"
+              "title": "2.5 监督学习常用算法 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-DeepLearning/3.3 卷积神经网络 CNN.md",
+                "file": "2-MachineLearning/2.5 监督学习常用算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "3.3 卷积神经网络 CNN 的出链列表"
+              "title": "2.5 监督学习常用算法 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-DeepLearning/3.3 卷积神经网络 CNN.md",
+                "file": "2-MachineLearning/2.5 监督学习常用算法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3.3 卷积神经网络 CNN 的大纲"
+              "title": "2.5 监督学习常用算法 的大纲"
             }
           },
           {
@@ -181,14 +181,14 @@
   },
   "active": "e825bd103c83bd7e",
   "lastOpenFiles": [
+    "3-DeepLearning/3.5 Transformer.md",
+    "3-DeepLearning/3.3 卷积神经网络 CNN.md",
     "3-DeepLearning/3.6 Autoencoder, AE.md",
     "3-DeepLearning/3.1 神经元和神经网络.md",
     "2-MachineLearning/2.1 机器学习概述.md",
     "IBM-AI-Engineer-Course/IBM-2-DL and NN with Keras.md",
     "IBM-AI-Engineer-Course/IBM-4-NN and PyTorch.md",
-    "3-DeepLearning/3.5 Transformer.md",
     "3-DeepLearning/3.2 深度学习概述.md",
-    "3-DeepLearning/3.3 卷积神经网络 CNN.md",
     "3-DeepLearning/3.x 模型优化.md",
     "3-DeepLearning/深度学习模型分类.canvas",
     "images/AI-HBook-BG@0.5x.webp",
