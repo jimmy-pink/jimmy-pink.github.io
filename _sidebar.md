@@ -17,12 +17,12 @@
   * [2.4 梯度下降和损失函数](2-MachineLearning/2.4%20%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%92%8C%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0.md)
   * [2.5 监督学习常用算法](2-MachineLearning/2.5%20%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95.md)
   * [2.6 无监督学习常用算法](2-MachineLearning/2.6%20%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95.md)
-  * [Tensorflow 入门实战 By Coursera 劳伦斯](2-MachineLearning/Tensorflow%20%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%20By%20Coursera%20%E5%8A%B3%E4%BC%A6%E6%96%AF.md)
-  * [模型评估、调优与实践](2-MachineLearning/%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E3%80%81%E8%B0%83%E4%BC%98%E4%B8%8E%E5%AE%9E%E8%B7%B5.md)
+  * [Tensorflow 入门实战](Tensorflow%20入门实战.md)
+  * [2.7 模型评估与调优](2.7%20模型评估与调优.md)
 * 3-深度学习
   * [3.1 神经元和神经网络](3-DeepLearning/3.1%20%E7%A5%9E%E7%BB%8F%E5%85%83%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md)
   * [3.1 神经网络与多层感知机](3-DeepLearning/3.1%20%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E5%A4%9A%E5%B1%82%E6%84%9F%E7%9F%A5%E6%9C%BA.md)
-  * [3.2 深度学习模型](3-DeepLearning/3.2%20%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B.md)
+  * [3.2 深度学习分类](3.2%20深度学习分类.md)
 * 7-RAG搜索增强
   * [现代搜索技术](7-RAG/%E7%8E%B0%E4%BB%A3%E6%90%9C%E7%B4%A2%E6%8A%80%E6%9C%AF.md)
 * 9-推荐系统

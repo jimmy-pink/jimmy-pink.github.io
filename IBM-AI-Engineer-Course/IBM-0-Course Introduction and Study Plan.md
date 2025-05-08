@@ -9,6 +9,12 @@ IBM AI工程师专业证书课程列表：
 
 1. [Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python?specialization=ai-engineer)
 	- 课程笔记：[[IBM-1-Machine Learning with Python]]
+	- 核心知识：
+		- [[2.1 机器学习概述]]
+		- [[2.2 机器学习的分类]]
+		- [[2.5 监督学习常用算法]]
+		- [[2.6 无监督学习常用算法]]
+		- [[2.7 模型评估与调优]]
 	- 内容总结：
 		- 机器学习生命周期阶段
 		- 机器学习分类和模型
@@ -17,12 +23,16 @@ IBM AI工程师专业证书课程列表：
 	
 2. [DL and NN With Keras](https://www.coursera.org/learn/introduction-to-deep-learning-with-keras?specialization=ai-engineer)
 	- 课程笔记：[[IBM-2-DL and NN with Keras]]
+	- 核心知识：
+		- [[3.1 神经元和神经网络]]
 	- 内容总结：
 		- 深度学习基础
 		- 神经元和神经网络
-		- 人工神经网络
-		- 深度学习库
 		- 深度学习模型
+			- CNN
+			- RNN
+			- Transformer
+			- Autocoder
 3. [Deep Learning with Keras and Tensorflow](https://www.coursera.org/learn/building-deep-learning-models-with-tensorflow?specialization=ai-engineer)
 4. [DNN and PyTorch](https://www.coursera.org/learn/deep-neural-networks-with-pytorch/)
 	- 课程笔记：[[IBM-4-NN and PyTorch]]
