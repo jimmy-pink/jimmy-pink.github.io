@@ -4,6 +4,8 @@
   * [1-必备基础](1-EssentialBasics/1.0%20%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6.md)
   * [2-传统机器学习](2-MachineLearning/2.1%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%BF%B0.md)
   * [3-深度学习](3-DeepLearning/3.1%20%E7%A5%9E%E7%BB%8F%E5%85%83%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md)
+  * [4-NLP](4-NLP/4.1%20NLP%20%E5%85%A5%E9%97%A8.md)
+  * [5-ComputerVision](5-ComputerVision/%E5%9B%BE%E5%83%8F%E5%A2%9E%E5%BC%BA.md)
   * [7-RAG搜索增强](7-RAG/%E7%8E%B0%E4%BB%A3%E6%90%9C%E7%B4%A2%E6%8A%80%E6%9C%AF.md)
   * [9-推荐系统](9-RecommendSystem/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.md)
   * [10-AI全栈](10-AI-Full-Stack/Github%E7%83%AD%E7%82%B9%E9%A1%B9%E7%9B%AE.md)

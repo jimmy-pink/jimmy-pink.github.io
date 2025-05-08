@@ -17,12 +17,24 @@
   * [2.4 梯度下降和损失函数](2-MachineLearning/2.4%20%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%92%8C%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0.md)
   * [2.5 监督学习常用算法](2-MachineLearning/2.5%20%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95.md)
   * [2.6 无监督学习常用算法](2-MachineLearning/2.6%20%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95.md)
-  * [Tensorflow 入门实战](Tensorflow%20入门实战.md)
-  * [2.x 模型评估与调优](2.x%20模型评估与调优.md)
+  * [2.7 模型评估与调优](2-MachineLearning/2.7%20%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E4%B8%8E%E8%B0%83%E4%BC%98.md)
+  * [2.x 模型评估与调优](2-MachineLearning/2.x%20%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E4%B8%8E%E8%B0%83%E4%BC%98.md)
 * 3-深度学习
   * [3.1 神经元和神经网络](3-DeepLearning/3.1%20%E7%A5%9E%E7%BB%8F%E5%85%83%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md)
-  * [3.1 神经网络与多层感知机](3-DeepLearning/3.1%20%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E5%A4%9A%E5%B1%82%E6%84%9F%E7%9F%A5%E6%9C%BA.md)
-  * [3.2 深度学习概述](3.2%20深度学习概述.md)
+  * [3.2 深度学习分类](3-DeepLearning/3.2%20%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%88%86%E7%B1%BB.md)
+  * [3.2 深度学习概述](3-DeepLearning/3.2%20%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%BF%B0.md)
+  * [3.2 深度学习模型](3-DeepLearning/3.2%20%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B.md)
+  * [3.3 卷积神经网络 CNN](3-DeepLearning/3.3%20%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%20CNN.md)
+  * [3.4 循环神经网络 RNN](3-DeepLearning/3.4%20%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%20RNN.md)
+  * [3.5 Transformer](3-DeepLearning/3.5%20Transformer.md)
+  * [3.6 Autoencoder, AE](3-DeepLearning/3.6%20Autoencoder%2C%20AE.md)
+  * [3.x 模型优化](3-DeepLearning/3.x%20%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96.md)
+  * [Tensorflow 入门实战](3-DeepLearning/Tensorflow%20%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98.md)
+  * [模型优化](3-DeepLearning/%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96.md)
+* 4-NLP
+  * [4.1 NLP 入门](4-NLP/4.1%20NLP%20%E5%85%A5%E9%97%A8.md)
+* 5-ComputerVision
+  * [图像增强](5-ComputerVision/%E5%9B%BE%E5%83%8F%E5%A2%9E%E5%BC%BA.md)
 * 7-RAG搜索增强
   * [现代搜索技术](7-RAG/%E7%8E%B0%E4%BB%A3%E6%90%9C%E7%B4%A2%E6%8A%80%E6%9C%AF.md)
 * 9-推荐系统
