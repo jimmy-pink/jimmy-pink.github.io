@@ -9,7 +9,6 @@
 [🔗 访问 GitHub Pages](https://jimmy-pink.github.io)  
 [🔗 访问 GitHub Repo](https://github.com/jimmy-pink/jimmy-pink.github.io)
 
-<html>
 <h1 style="
   text-align: center;
   font-size: 3em;
@@ -40,18 +39,6 @@
   Jimmy's AI 学习手册
 </h1>
 
-<script>
-  // 悬停时触发下划线动画（可选）
-  document.querySelector('h1').addEventListener('mouseenter', function() {
-    this.querySelector('span').style.transform = 'scaleX(1)';
-  });
-  document.querySelector('h1').addEventListener('mouseleave', function() {
-    this.querySelector('span').style.transform = 'scaleX(0)';
-  });
-</script>
-
-</html>
-
 欢迎来到 **Jimmy‘s AI学习手册**！  
 这是一本精心整理的学习笔记、教程与资源融合。
 - 记录了系统学习人工智能的完整路径
@@ -62,7 +49,7 @@
 
 ### ✨  特点
 
-- **定位清晰**：面向初学者到中高级AI学习者，注重循序渐进。
+- 面向初学者到中高级AI学习者，注重循序渐进。
 - **内容严谨**：
 	- 参考了Coursera、MIT、斯坦福等优质公开课程
 	- 多平台生成式AI知识构建和复核。
@@ -94,9 +81,17 @@
 
 ### 重要引用参考资料列表
 
-+ 《<font style="color:tomato;">The Document is All You Need！一站式LLM底层技术原理入门指南</font>》by 陈敏凯 （非常适合小白快速入门，搞懂基本原理）
-+ Coursera AI 相关课程
-	+ [IBM全套AI工程师课程](../IBM-AI-Engineer-Course/IBM-0-Course%20Introduction%20and%20Study%20Plan.md)  (适合普通程序员快速上手， 课程非常全面，Jupyter小项目多)
++ 《<font style="color:tomato;">The Document is All You Need！一站式LLM底层技术原理入门指南</font>》by 陈敏凯 
+	+ 特点：非常适合小白快速入门，搞懂基本原理
++ <font style="background-color:yellow; color:black">Coursera AI 相关课程</font>
+	+ [IBM全套AI工程师课程](../IBM-AI-Engineer-Course/IBM-0-Course%20Introduction%20and%20Study%20Plan.md) 
+		+ 特点：
+			+ 适合普通程序构建完整AI知识体系， 课程非常全面，Jupyter小项目多
+			+ 具有一定的实用性和职业导向性。
+	+ [劳伦斯的AI课程](https://www.coursera.org/instructor/lmoroney)
+		+ 特点：课程互动性强、实践性高，Laurence讲师带做经典入门DNN案例
+	+ [吴恩达的AI课程](https://www.coursera.org/instructor/andrewng)
+		+ 特点：理论与实践结合；强调算法、数学原理，并通过编程实现。
 + [《动手学深度学习》by b站李沐](https://zh-v2.d2l.ai/) 
 +  [跟着迪哥学Python数据分析与机器学习实战](https://github.com/tangyudi/Ai-Learn)
 
@@ -114,5 +109,5 @@
 
 ---
 
-如果你喜欢这份知识库，欢迎⭐Star支持！  
+如果你喜欢这份知识库，欢迎 [⭐Star支持](https://github.com/jimmy-pink/jimmy-pink.github.io)！  
 你的支持，是我持续更新的最大动力！🚀

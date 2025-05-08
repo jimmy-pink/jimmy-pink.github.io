@@ -4,49 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "12ec16f929289c9b",
+        "id": "2538eccbd7f065a3",
         "type": "tabs",
         "children": [
           {
-            "id": "c499c53cc2a2fa62",
+            "id": "d9e40e47dfd80cba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-DeepLearning/3.1 神经元和神经网络.md",
+                "file": "4-NLP/4.1 NLP 入门.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.1 神经元和神经网络"
-            }
-          },
-          {
-            "id": "21e32c370dc54a76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-MachineLearning/模型评估、调优与实践.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "模型评估、调优与实践"
-            }
-          },
-          {
-            "id": "d85ba53f712bf1d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-MachineLearning/2.4 梯度下降和损失函数.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2.4 梯度下降和损失函数"
+              "title": "4.1 NLP 入门"
             }
           }
         ]
@@ -122,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-DeepLearning/3.1 神经元和神经网络.md",
+                "file": "4-NLP/4.1 NLP 入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "3.1 神经元和神经网络 的反向链接列表"
+              "title": "4.1 NLP 入门 的反向链接列表"
             }
           },
           {
@@ -141,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-DeepLearning/3.1 神经元和神经网络.md",
+                "file": "4-NLP/4.1 NLP 入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "3.1 神经元和神经网络 的出链列表"
+              "title": "4.1 NLP 入门 的出链列表"
             }
           },
           {
@@ -170,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-DeepLearning/3.1 神经元和神经网络.md",
+                "file": "4-NLP/4.1 NLP 入门.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3.1 神经元和神经网络 的大纲"
+              "title": "4.1 NLP 入门 的大纲"
             }
           },
           {
@@ -185,8 +157,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
@@ -194,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 239.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,56 +179,56 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "40e04f8cbdb1f2f7",
+  "active": "d9e40e47dfd80cba",
   "lastOpenFiles": [
-    "2-MachineLearning/模型评估、调优与实践.md",
-    "2-MachineLearning/2.4 梯度下降和损失函数.md",
+    "3-DeepLearning/Tensorflow 入门实战.md",
+    "3-DeepLearning/3.4 循环神经网络 RNN.md",
+    "3-DeepLearning/3.5 Transformer.md",
+    "3-DeepLearning/3.3 卷积神经网络 CNN.md",
+    "3-DeepLearning/3.2 深度学习分类.md",
+    "README.md",
+    "4-NLP/4.1 NLP 入门.md",
+    "5-ComputerVision/图像增强.md",
+    "images/WordPiece.png",
+    "images/sub-tokenization.png",
+    "IBM-AI-Engineer-Course/IBM-0-Course Introduction and Study Plan.md",
+    "images/word-embedding-1.png",
+    "images/transformer-full.png",
+    "transformer.png",
+    "images/multi-layer-fnn.png",
     "3-DeepLearning/3.1 神经元和神经网络.md",
+    "2-MachineLearning/2.4 梯度下降和损失函数.md",
+    "images/self-attention-mechanism.png",
+    "Pasted image 20250507205206.png",
+    "Pasted image 20250507203538.png",
+    "images/transformer-positional-embedding.png",
+    "3-DeepLearning/模型优化.md",
+    "_template/make-bold.md",
+    "_template/open-in-coursera.md",
+    "_template/open-in-github.md",
+    "_template",
+    "未命名",
+    "2-MachineLearning/2.6 无监督学习常用算法.md",
+    "2-MachineLearning/2.7 模型评估与调优.md",
+    "2-MachineLearning/2.1 机器学习概述.md",
+    "2-MachineLearning/2.2 机器学习的分类.md",
+    "2-MachineLearning/机器学习图谱.canvas",
+    "2-MachineLearning/2.5 监督学习常用算法.md",
     "2-MachineLearning/2.3 特征和特征工程.md",
-    "1-EssentialBasics/1.3 概率论与数理统计.md",
+    "1-EssentialBasics/机器学习工具最常用命令合集.md",
     "1-EssentialBasics/1.5 信息论基础 (信息熵、KL散度).md",
     "1-EssentialBasics/1.4 机器学习工具.md",
-    "1-EssentialBasics/1.1 高等数学.md",
-    "0-Preface/序2 - 学习路线图.md",
-    "1-EssentialBasics/1.2 线性代数.md",
-    "1-EssentialBasics/1.0 基础数学.md",
-    "images/Pasted image 20250430162017.png",
-    "images/multi-gradient-descent.gif",
-    "images/GradientDescentGIF.gif",
-    "Pasted image 20250430151219.png",
-    "Pasted image 20250430151235.png",
-    "images/Pasted image 20250430151152.png",
-    "3-DeepLearning/3.2 深度学习模型.md",
-    "3-DeepLearning/3.1 神经网络与多层感知机.md",
-    "2-MachineLearning/2.1 机器学习概述.md",
-    "neuron.jpg",
-    "images/Pasted image 20250428223720.png",
-    "images/Pasted image 20250428225214.png",
-    "images/pca-steps-.webp",
-    "IBM-AI-Engineer-Course/IBM-2-DL and NN with Keras.md",
-    "IBM-AI-Engineer-Course/IBM-0-Course Introduction and Study Plan.md",
-    "test/1.json",
-    "2-MachineLearning/2.2 机器学习的分类.md",
-    "IBM-AI-Engineer-Course/IBM-4-NN and PyTorch.md",
-    "IBM-AI-Engineer-Course/IBM-1-Machine Learning with Python.md",
     "0-Preface/序1 - 为什么要学AI？.md",
-    "README.md",
-    "1-EssentialBasics/机器学习工具最常用命令合集.md",
-    "2-MachineLearning/2.6 无监督学习常用算法.md",
-    "2-MachineLearning/2.5 监督学习常用算法.md",
-    "convert_obsidian_links.py",
-    "11-Side-Project/🛞轮子1：CineTransAI 视频翻译.md",
-    "test/assignment.ipynb",
-    "IBM-AI-Engineer-Course/jupyter-demo/IBM-1-6-2-Final-Rainfall-Classifier.ipynb",
-    "jupyter-notes/Lab-Titanic.py",
-    "jupyter-notes/Lab-Titanic.ipynb",
-    "jupyter-notes/Lab-TitanicSurvival.ipynb",
-    "IBM-AI-Engineer-Course/cheat-sheet",
+    "4-NLP",
+    "5-ComputerVision",
+    "IBM-AI-Engineer-Course/jupyter-demo/IBM-2-3-1-Regression-Keras.ipynb",
+    "IBM-AI-Engineer-Course/jupyter-demo/IBM-2-3-1-Regression-NN.ipynb",
+    "anaconda_projects/db/project_filebrowser.db",
+    "anaconda_projects/db",
+    "anaconda_projects",
+    "test/1.json",
     "未命名.canvas",
-    "test/github_trending.py",
-    "10-AI-Full-Stack",
     "9-RecommendSystem/谷歌搜索流程图.canvas",
-    "9-推荐系统/谷歌搜索流程图.canvas",
-    "2-MachineLearning/机器学习图谱.canvas"
+    "9-推荐系统/谷歌搜索流程图.canvas"
   ]
 }
