@@ -4,7 +4,7 @@ IBM AI工程师专业证书课程列表：
 
 **[IBM AI Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ai-engineer#courses)**
 
-![[Pasted image 20250411124302.png]]
+![[ibm-ai-engineer-course-outline.png]]
 
 
 1. [Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python?specialization=ai-engineer)
@@ -14,7 +14,7 @@ IBM AI工程师专业证书课程列表：
 		- [[2.2 机器学习的分类]]
 		- [[2.5 监督学习常用算法]]
 		- [[2.6 无监督学习常用算法]]
-		- [[2.7 模型评估与调优]]
+		- [[2.x 模型评估与调优]]
 	- 内容总结：
 		- 机器学习生命周期阶段
 		- 机器学习分类和模型
