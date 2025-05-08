@@ -1,0 +1,41 @@
+{
+  "templates": [
+    {
+      "id": "default",
+      "name": "Styled H1",
+      "content": "<h1 style=\" text-align: center; font-size: 3em; font-family: 'Georgia', serif; color: #2c3e50; margin: 0.5em 0; padding: 10px 0; border-top: 4px solid #3498db; border-bottom: 4px solid #3498db; text-transform: uppercase; letter-spacing: 3px;\">{{selectedText}}</h1>",
+      "params": [
+        "selectedText"
+      ],
+      "defaultValues": {
+        "selectedText": "Welcome to Mustache Template."
+      }
+    },
+    {
+      "id": "1746685230032",
+      "name": "YellowBgText",
+      "content": "<font style=\"background-color: #FFFACD; color:{{color}}; padding: 4px; border-radius: 8px; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); font-weight: bold;\">{{selectedText}}</font>",
+      "params": [
+        "color",
+        "selectedText"
+      ],
+      "defaultValues": {
+        "selectedText": "",
+        "color": "tomato"
+      },
+      "isCommand": true
+    },
+    {
+      "id": "1746685411514",
+      "name": "RedBgText",
+      "content": "<font style=\"background-color:tomato; color:white; padding:4px; text-shadow: 1px 1px 2px rgba(0,0,0,0.2);font-weight: bold;\">{{selectedText}}</font>",
+      "params": [
+        "selectedText"
+      ],
+      "defaultValues": {
+        "selectedText": ""
+      },
+      "isCommand": true
+    }
+  ]
+}

@@ -152,24 +152,6 @@
       "key": "L"
     }
   ],
-  "copilot:color-pink": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "9"
-    }
-  ],
-  "copilot:color-yellow": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "0"
-    }
-  ],
   "editor:toggle-strikethrough": [
     {
       "modifiers": [
@@ -185,6 +167,24 @@
         "Mod"
       ],
       "key": "B"
+    }
+  ],
+  "obsidian-template-inserter:template-1746685411514": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "9"
+    }
+  ],
+  "obsidian-template-inserter:template-1746685230032": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "0"
     }
   ]
 }

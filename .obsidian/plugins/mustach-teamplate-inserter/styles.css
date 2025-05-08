@@ -1,0 +1,157 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+/* 设置通用文本颜色 */
+.theme-light {
+    --text-normal: #202020;
+}
+
+/* 设置左侧功能区背景 */
+.theme-dark .side-dock-ribbon-action {
+    color: var(--text-normal);
+}
+
+/* 模板设置文本区域 */
+.template-setting textarea {
+    min-height: 200px;
+    font-family: monospace;
+}
+
+/* 新模板管理器样式 */
+.templates-container {
+    margin-top: 20px;
+}
+
+.template-item-container {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.template-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: var(--background-secondary);
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.template-name {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.template-toggle-container {
+    margin: 0;
+}
+
+.template-toggle-container .setting-item {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.template-toggle-container .setting-item-info {
+    display: none;
+}
+
+.template-toggle-container .setting-item-control {
+    padding: 0;
+}
+
+.template-preview-container {
+    padding: 10px 15px;
+    width: 100%;
+    background-color: var(--background-primary);
+}
+
+.template-preview-container input {
+    width: 100%;
+    font-family: monospace;
+    color: var(--text-normal);
+    background-color: var(--background-primary-alt);
+}
+
+.template-button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 15px;
+    background-color: var(--background-primary-alt);
+    border-top: 1px solid var(--background-modifier-border);
+}
+
+.template-edit-button,
+.template-delete-button {
+    margin-left: 10px;
+    padding: 4px 12px;
+    border-radius: 4px;
+    border: 1px solid var(--background-modifier-border);
+    cursor: pointer;
+}
+
+.template-edit-button {
+    background-color: var(--interactive-normal);
+    color: var(--text-normal);
+}
+
+.template-edit-button:hover {
+    background-color: var(--interactive-hover);
+}
+
+.template-delete-button {
+    background-color: var(--text-error);
+    color: white;
+}
+
+.template-delete-button:hover {
+    background-color: var(--text-error-hover);
+}
+
+/* 模板命令开关样式 */
+.template-command-toggle {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+/* 模板编辑器样式 */
+.template-edit-modal {
+    width: 100% !important;
+    max-width: 1000px !important;
+}
+
+.template-edit-modal .modal-content {
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.template-edit-modal textarea {
+    width: 100%;
+    min-height: 200px;
+    font-family: monospace;
+    margin-bottom: 15px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    padding: 8px;
+}
+
+/* 参数输入模态窗口样式 */
+.template-parameter-modal {
+    width: 100% !important;
+    max-width: 1000px !important;
+}
+
+/* 模板选择模态窗口样式 */
+.template-selection-modal {
+    width: 100% !important;
+    max-width: 1000px !important;
+}

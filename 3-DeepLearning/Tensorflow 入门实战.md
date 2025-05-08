@@ -115,7 +115,7 @@ model.compile(optimizer="adam", loss="binary_crossentropy", metrics=['accuracy']
 ## Fashion Mnist - CNN
 
 <font style="background-color:tomato; color:black">快速上手</font> Fashion Mnist 训练模型识别服装类型
-![Pasted image 20250501224236.png](../images/Pasted%20image%2020250501224236.png)
+![fashion-mnist.png](../images/fashion-mnist.png)
 1. 问题定义：
 	- 训练7万个时尚穿着，使机器能识别时装分类
 2. 数据收集与准备：
