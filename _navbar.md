@@ -11,4 +11,5 @@
   * [10-AI全栈](10-AI-Full-Stack/Github%E7%83%AD%E7%82%B9%E9%A1%B9%E7%9B%AE.md)
   * [11-上手项目](11-Side-Project/%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97%20AI%20side%20project%EF%BC%9F.md)
   * [IBM全套AI工程师课程(Coursera)](IBM-AI-Engineer-Course/IBM-0-Course%20Introduction%20and%20Study%20Plan.md)
+  * resources
 * [GitHub](https://github.com/jimmy-pink/jimmy-pink.github.io)

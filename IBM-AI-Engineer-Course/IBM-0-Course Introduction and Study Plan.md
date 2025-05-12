@@ -10,11 +10,11 @@ IBM AI工程师专业证书课程列表：
 1. [Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python?specialization=ai-engineer)
 	- 课程笔记：[IBM-1-Machine Learning with Python](../IBM-AI-Engineer-Course/IBM-1-Machine%20Learning%20with%20Python.md)
 	- 核心知识：
-		- [[2.1 机器学习概述]]
-		- [[2.2 机器学习的分类]]
-		- [[2.5 回归和分类]]
-		- [[2.6 聚类和降维]]
-		- [[2.x 模型评估与调优]]
+		- [2.1 机器学习概述](2.1%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%BF%B0)
+		- [2.2 机器学习的分类](2.2%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%88%86%E7%B1%BB)
+		- [2.5 回归和分类](2.5%20%E5%9B%9E%E5%BD%92%E5%92%8C%E5%88%86%E7%B1%BB)
+		- [2.6 聚类和降维](2.6%20%E8%81%9A%E7%B1%BB%E5%92%8C%E9%99%8D%E7%BB%B4)
+		- [2.x 模型评估与调优](2.x%20%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E4%B8%8E%E8%B0%83%E4%BC%98)
 	- 内容总结：
 		- 机器学习生命周期阶段
 		- 机器学习分类和模型
@@ -34,7 +34,7 @@ IBM AI工程师专业证书课程列表：
 			- Transformer
 			- Autocoder
 3. [Deep Learning with Keras and Tensorflow](https://www.coursera.org/learn/building-deep-learning-models-with-tensorflow?specialization=ai-engineer)
-	- 课堂笔记：[[IBM-3-DL with Keras and Tensorflow]]
+	- 课堂笔记：[IBM-3-DL with Keras and Tensorflow](../IBM-AI-Engineer-Course/IBM-3-DL%20with%20Keras%20and%20Tensorflow.md)
 	- 内容总结：
 		- Custom Layers and Models
 		- 数据增强
@@ -49,7 +49,7 @@ IBM AI工程师专业证书课程列表：
 		- Q-Learning
 		- Deep Q-Network
 4. [Neural Network and PyTorch](https://www.coursera.org/learn/deep-neural-networks-with-pytorch/)
-	- 课程笔记：[[IBM-4-Neural Network and PyTorch]]
+	- 课程笔记：[IBM-4-Neural Network and PyTorch](../IBM-AI-Engineer-Course/IBM-4-Neural%20Network%20and%20PyTorch.md)
 5. [Deep Learning with PyTorch](https://www.coursera.org/learn/advanced-deep-learning-with-pytorch?specialization=ai-engineer)
 6. [AI Capstone Project with Deep Learning](https://www.coursera.org/learn/ai-deep-learning-capstone?specialization=ai-engineerr)
 7. [Generative AI and LLMs: Architecture and Data Preparation](https://www.coursera.org/learn/generative-ai-llm-architecture-data-preparation?specialization=ai-engineer)
