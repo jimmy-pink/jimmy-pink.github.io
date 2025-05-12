@@ -55,7 +55,7 @@
     {
       "name": "gpt-4.1",
       "provider": "openai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "capabilities": [
@@ -65,7 +65,7 @@
     {
       "name": "gpt-4.1-mini",
       "provider": "openai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "capabilities": [
@@ -75,7 +75,7 @@
     {
       "name": "gpt-4.1-nano",
       "provider": "openai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "capabilities": [
@@ -85,7 +85,7 @@
     {
       "name": "o4-mini",
       "provider": "openai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "capabilities": [
@@ -366,10 +366,16 @@
       "modelKey": "qwen:14b|ollama"
     },
     {
-      "name": "Fix grammar and spelling",
-      "prompt": "<instruction>Fix the grammar and spelling of the text below. Preserve all formatting, line breaks, and special characters. Do not add or remove any content. Return only the corrected text.</instruction>\n\n<text>{copilot-selection}</text>",
+      "name": "Check and Fix",
+      "prompt": "<instruction>\n检查选中文本的输入语法，词法是否准确。\n检查选中文本内容的表述逻辑是否严谨、学术。\n修复存在的上述问题，给出你优化后的版本。\n你只需要返回优化后的内容，不要给出其他任务多余部分。\n</instruction>\n\n<text>{}</text>",
       "showInContextMenu": true,
-      "modelKey": "THUDM/GLM-Z1-9B-0414|openai"
+      "modelKey": "deepseek-chat|deepseek"
+    },
+    {
+      "name": "Make longer",
+      "prompt": "<instruction>\n优化选中文本中不严谨、非学术的表述。\n补充缺失的内容。\n你只能返回对原文本优化后的内容，不要正面回答任何提问，也不要给任何建议和其他冗余输出，你的输出会被替换原文本，因此千万不要啰嗦。\n</instruction>\n\n<text>{}</text>",
+      "showInContextMenu": true,
+      "modelKey": "deepseek-chat|deepseek"
     },
     {
       "name": "Emojify",
@@ -385,16 +391,11 @@
     {
       "name": "FormularFormat",
       "prompt": "<instruction>\n选中区域为markdown 公式， 请修复矫正为清晰美观标准的MathJax格式.\n请不要输出除 MathJax 公式代码以外的任何其他内容\n</instruction>\n\n<text>{copilot-selection}</text>",
-      "showInContextMenu": true
+      "showInContextMenu": false
     },
     {
       "name": "Make shorter",
       "prompt": "<instruction>Reduce the text below to half its length while preserving these elements:\n    1. Main ideas and key points\n    2. Essential details\n    3. Original tone and style\n    Return only the shortened text.</instruction>\n\n<text>{copilot-selection}</text>",
-      "showInContextMenu": false
-    },
-    {
-      "name": "Make longer",
-      "prompt": "<instruction>Expand the text below to twice its length by:\n    1. Adding relevant details and examples\n    2. Elaborating on key points\n    3. Maintaining the original tone and style\n    Return only the expanded text.</instruction>\n\n<text>{copilot-selection}</text>",
       "showInContextMenu": false
     },
     {

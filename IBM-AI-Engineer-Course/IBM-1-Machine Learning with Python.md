@@ -242,7 +242,7 @@ y_pred = model.predict(np.array([[6], [7]])  )
 > - linear regression
 > - logistic regression
 
-[[2.5 监督学习常用算法]]
+[[2.5 回归和分类]]
 
 Regression is a statistical method used to model the **relationship** between a continuous input **variable**  and explanatory **features**.
 

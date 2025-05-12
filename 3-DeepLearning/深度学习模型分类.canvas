@@ -1,13 +1,6 @@
 {
 	"nodes":[
 		{"id":"architecture","type":"text","text":"## 按网络架构特点分类","x":20,"y":200,"width":260,"height":50,"color":"2"},
-		{"id":"sequential","type":"text","text":"### 序列模型\n- RNN\n- LSTM/GRU\n- 1D CNN\n- Transformer","x":50,"y":315,"width":200,"height":120,"color":"2"},
-		{"id":"memory","type":"text","text":"### 记忆网络\n- Memory Networks\n- Neural Turing Machines\n- Differentiable Neural Computer","x":0,"y":470,"width":300,"height":130,"color":"2"},
-		{"id":"generative","type":"text","text":"### 生成模型\n- GAN\n- VAE\n- Flow-based Models\n- Diffusion Models\n- Autoregressive Models","x":50,"y":635,"width":200,"height":150,"color":"2"},
-		{"id":"graph","type":"text","text":"### 图神经网络\n- GCN: 图卷积网络\n- GAT: 图注意力网络\n- GraphSAGE\n- GIN: 图同构网络","x":50,"y":840,"width":200,"height":120,"color":"2"},
-		{"id":"regression","type":"text","text":"### 回归任务\n- DNN: 房价预测、销量预测\n- CNN: 图像回归、目标定位\n- RNN: 时间序列预测\n- Transformer: 股价预测","x":-780,"y":560,"width":340,"height":150,"color":"3"},
-		{"id":"generation","type":"text","text":"### 生成任务\n- GAN: 图像生成、数据增强\n- VAE: 图像生成、文本生成\n- 自回归模型(GPT): 文本生成、对话系统\n- Diffusion Models: 图像生成","x":-780,"y":785,"width":340,"height":155,"color":"3"},
-		{"id":"classification","type":"text","text":"### 分类任务\n- CNN: 图像分类、物体识别\n- MLP: 手写数字识别、文本分类\n- RNN: 序列分类、情感分析\n- Transformer: 文本分类、情感分析","x":-780,"y":300,"width":340,"height":170,"color":"3"},
 		{"id":"task-type","type":"text","text":"## 按任务类型分类","x":-735,"y":200,"width":250,"height":50,"color":"3"},
 		{"id":"structure","type":"text","text":"## 按模型结构分类","x":-340,"y":200,"width":250,"height":50,"color":"5"},
 		{"id":"fnn","type":"text","text":"### 前馈神经网络（FNN）\n- 多层感知机（MLP）\n- 深度前馈网络\n- 全连接网络","x":-340,"y":300,"width":250,"height":120,"color":"5"},
@@ -24,7 +17,14 @@
 		{"id":"recommender","type":"text","text":"### 推荐系统\n- AutoEncoder: 协同过滤\n- CNN: 用户行为建模\n- RNN: 序列推荐\n- GNN: 图神经网络推荐","x":740,"y":900,"width":250,"height":150,"color":"4"},
 		{"id":"unsupervised","type":"text","text":"### 无监督学习\n- 自编码器(AE): 降维、去噪\n- 变分自编码器(VAE): 生成模型\n- GAN: 图像生成、风格转换\n- 自监督Transformer: BERT预训练","x":355,"y":500,"width":300,"height":150,"color":"6"},
 		{"id":"reinforcement","type":"text","text":"### 强化学习\n- DQN: 深度Q网络\n- PPO: 近端策略优化\n- A3C: 异步优势演员评论家\n- SAC: 软演员评论家","x":380,"y":700,"width":250,"height":150,"color":"6"},
-		{"id":"root","type":"text","text":"# 深度学习模型分类","x":0,"y":40,"width":300,"height":50,"color":"1"}
+		{"id":"root","type":"text","text":"# 深度学习模型分类","x":0,"y":40,"width":300,"height":50,"color":"1"},
+		{"id":"generative","type":"text","text":"### 生成模型\n- GAN\n- VAE\n- Flow-based Models\n- Diffusion Models\n- Autoregressive Models","x":10,"y":710,"width":280,"height":150,"color":"2"},
+		{"id":"graph","type":"text","text":"### 图神经网络\n- GCN: 图卷积网络\n- GAT: 图注意力网络\n- GraphSAGE\n- GIN: 图同构网络","x":50,"y":930,"width":200,"height":120,"color":"2"},
+		{"id":"memory","type":"text","text":"### 记忆网络\n- Memory Networks\n- Neural Turing Machines\n- Differentiable Neural Computer","x":0,"y":520,"width":300,"height":130,"color":"2"},
+		{"id":"sequential","type":"text","text":"### 序列模型\n- RNN\n- LSTM/GRU\n- 1D CNN\n- Transformer","x":20,"y":300,"width":260,"height":170,"color":"2"},
+		{"id":"generation","type":"text","text":"### 生成任务\n- GAN: 图像生成、数据增强\n- VAE: 图像生成、文本生成\n- 自回归模型(GPT): 文本生成、对话系统\n- Diffusion Models: 图像生成","x":-780,"y":900,"width":340,"height":155,"color":"3"},
+		{"id":"classification","type":"text","text":"### 分类任务\n- CNN: 图像分类、物体识别\n- MLP: 手写数字识别、文本分类\n- RNN: 序列分类、情感分析\n- Transformer: 文本分类、情感分析","x":-780,"y":350,"width":340,"height":170,"color":"3"},
+		{"id":"regression","type":"text","text":"### 回归任务\n- DNN: 房价预测、销量预测\n- CNN: 图像回归、目标定位\n- RNN: 时间序列预测\n- Transformer: 股价预测","x":-780,"y":625,"width":340,"height":150,"color":"3"}
 	],
 	"edges":[
 		{"id":"root-task","fromNode":"root","fromSide":"left","toNode":"task-type","toSide":"top"},

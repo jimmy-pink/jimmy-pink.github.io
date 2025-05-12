@@ -12,8 +12,8 @@ IBM AI工程师专业证书课程列表：
 	- 核心知识：
 		- [[2.1 机器学习概述]]
 		- [[2.2 机器学习的分类]]
-		- [[2.5 监督学习常用算法]]
-		- [[2.6 无监督学习常用算法]]
+		- [[2.5 回归和分类]]
+		- [[2.6 聚类和降维]]
 		- [[2.x 模型评估与调优]]
 	- 内容总结：
 		- 机器学习生命周期阶段
@@ -34,8 +34,22 @@ IBM AI工程师专业证书课程列表：
 			- Transformer
 			- Autocoder
 3. [Deep Learning with Keras and Tensorflow](https://www.coursera.org/learn/building-deep-learning-models-with-tensorflow?specialization=ai-engineer)
-4. [DNN and PyTorch](https://www.coursera.org/learn/deep-neural-networks-with-pytorch/)
-	- 课程笔记：[[IBM-4-NN and PyTorch]]
+	- 课堂笔记：[[IBM-3-DL with Keras and Tensorflow]]
+	- 内容总结：
+		- Custom Layers and Models
+		- 数据增强
+		- 迁移学习
+		- Transpose Convolution
+		- Transformers for text generation
+		- Autoencoders
+		- Diffusion models
+		- GANs
+		- Custom Training Loops
+		- 超参数调优
+		- Q-Learning
+		- Deep Q-Network
+4. [Neural Network and PyTorch](https://www.coursera.org/learn/deep-neural-networks-with-pytorch/)
+	- 课程笔记：[[IBM-4-Neural Network and PyTorch]]
 5. [Deep Learning with PyTorch](https://www.coursera.org/learn/advanced-deep-learning-with-pytorch?specialization=ai-engineer)
 6. [AI Capstone Project with Deep Learning](https://www.coursera.org/learn/ai-deep-learning-capstone?specialization=ai-engineerr)
 7. [Generative AI and LLMs: Architecture and Data Preparation](https://www.coursera.org/learn/generative-ai-llm-architecture-data-preparation?specialization=ai-engineer)
@@ -57,3 +71,7 @@ IBM AI工程师专业证书课程列表：
 
 - [【2025版】这绝对是B站最好的Pytorch天花板教程，从入门到实战，通俗易懂，一套解决Pytorch框架所有问题！深度学习/人工智能/神经网络_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1JLPaeoE4L/?spm_id_from=333.337.search-card.all.click&vd_source=d2c6cad4e8b48a4a5ab3df7cb838685b)
 - [PyTorch documentation — PyTorch 2.6 documentation](https://pytorch.org/docs/stable/index.html)
+
+
+
+

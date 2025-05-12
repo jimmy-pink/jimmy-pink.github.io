@@ -15,9 +15,9 @@
   * [2.2 机器学习的分类](2-MachineLearning/2.2%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%88%86%E7%B1%BB.md)
   * [2.3 特征和特征工程](2-MachineLearning/2.3%20%E7%89%B9%E5%BE%81%E5%92%8C%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B.md)
   * [2.4 梯度下降和损失函数](2-MachineLearning/2.4%20%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%92%8C%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0.md)
-  * [2.5 监督学习常用算法](2-MachineLearning/2.5%20%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95.md)
-  * [2.6 无监督学习常用算法](2-MachineLearning/2.6%20%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95.md)
-  * [Tensorflow 入门实战](Tensorflow%20入门实战.md)
+  * [2.5 回归和分类](2.5%20回归和分类.md)
+  * [2.6 聚类和降维](2.6%20聚类和降维.md)
+  * [Tensorflow 和 Keras 入门实战](Tensorflow%20和%20Keras%20入门实战.md)
   * [2.x 模型评估与调优](2.x%20模型评估与调优.md)
 * 3-深度学习
   * [3.1 神经元和神经网络](3-DeepLearning/3.1%20%E7%A5%9E%E7%BB%8F%E5%85%83%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md)
@@ -37,4 +37,4 @@
   * [IBM-0-Course Introduction and Study Plan](IBM-AI-Engineer-Course/IBM-0-Course%20Introduction%20and%20Study%20Plan.md)
   * [IBM-1-Machine Learning with Python](IBM-AI-Engineer-Course/IBM-1-Machine%20Learning%20with%20Python.md)
   * [IBM-2-DL and NN with Keras](IBM-AI-Engineer-Course/IBM-2-DL%20and%20NN%20with%20Keras.md)
-  * [IBM-4-NN and PyTorch](IBM-AI-Engineer-Course/IBM-4-NN%20and%20PyTorch.md)
+  * [IBM-4-Neural Network and PyTorch](IBM-4-Neural%20Network%20and%20PyTorch.md)
