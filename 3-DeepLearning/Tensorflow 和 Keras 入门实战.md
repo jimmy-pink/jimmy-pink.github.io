@@ -21,6 +21,7 @@ $$f(Data, Labels) = \text{Rules}$$
 `x_array = [0, 1, 2, 3, 4, 5]` 特征    
 `y_array = [-1, 1, 3, 5, 7, 9]` 标签  
 
+#### Sequential API
 经过 n 轮训练，计算机将掌握 y=2+1 的规律，给出一些测试值$x_i$，模型将给出$y_i = 2* x_i +1$的近似值
 ```python
 import tensorflow as tf
@@ -79,6 +80,71 @@ yn_pred = loaded_model.predict(xn)
 
 print(f'输入 xn={xn[0]}，预测输出 yn={yn_pred}')
 
+```
+### Keras 入门
+#### Functional API in Keras
+```python
+import numpy as np  
+from tensorflow.keras.layers import Dropout, Input, Dense  
+from tensorflow.keras.models import Model  
+from tensorflow.keras.layers import BatchNormalization
+
+X_train = np.random.rand(1000, 20) 
+y_train = np.random.randint(2, size=(1000, 1)) 
+X_test = np.random.rand(200, 20) 
+y_test = np.random.randint(2, size=(200, 1)) 
+
+input_layer = Input(shape=(20,))
+
+hidden_layer1 = Dense(64, activation='relu')(input_layer) 
+dropout1 = Dropout(0.5)(hidden_layer1)
+batch_norm1 = BatchNormalization()(dropout1)
+
+hidden_layer2 = Dense(64, activation='relu')(batch_norm1) 
+dropout2 = Dropout(0.5)(hidden_layer2)
+batch_norm2 = BatchNormalization()(dropout2)
+
+output_layer = Dense(1, activation='sigmoid')(batch_norm2) 
+
+model = Model(inputs=input_layer, outputs=output_layer)
+model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+model.fit(X_train, y_train, epochs=10, batch_size=32) 
+loss, accuracy = model.evaluate(X_test, y_test)
+print(f'Test loss: {loss}')
+print(f'Test accuracy: {accuracy}')
+```
+#### 自定义模型层
+```python
+from tensorflow.keras.layers import Layer
+from tensorflow.keras.models import Sequential
+
+class CustomDenseLayer(Layer):
+    def __init__(self, units=128):
+        super(CustomDenseLayer, self).__init__()
+        self.units = units
+
+    def build(self, input_shape):
+        self.w = self.add_weight(shape=(input_shape[-1], self.units),
+                                 initializer='random_normal',
+                                 trainable=True)
+        self.b = self.add_weight(shape=(self.units,),
+                                 initializer='zeros',
+                                 trainable=True)
+
+    def call(self, inputs):
+        return tf.nn.relu(tf.matmul(inputs, self.w) + self.b)
+
+# Integrate the new custom layer into a model
+model = Sequential([
+    CustomDenseLayer(128),
+    CustomDenseLayer(10)
+])
+
+# Recompile the model
+model.compile(optimizer='adam', loss='categorical_crossentropy')
+
+# Train the model again
+model.fit(x_train, y_train, epochs=10, batch_size=32)
 ```
 
 ### Sarcasm - FNN
@@ -193,7 +259,7 @@ model.fit(training_images, training_labels, epochs=5)
 test_loss, test_accuracy = model.evaluate(test_images, test_labels, verbose=0)
 ```
 
-### IMDB_Reviews 影评情感分析
+## IMDB_Reviews 影评情感分析
 
 -  问题分析
 	

@@ -270,11 +270,7 @@ y_pred = model.predict(np.array([[6], [7]])  )
 > - linear regression
 > - logistic regression
 
-<<<<<<<< HEAD:IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md
-[2.5 回归与分类](2.5%20%E5%9B%9E%E5%BD%92%E4%B8%8E%E5%88%86%E7%B1%BB)
-=====<font style="background-color:tomato; color:black">
-[2.5 监督学习常用算法](2.5%20%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95)
->>>>>>>> origin/obsidian:IBM-AI-Engineer-Course/IBM-1-Machine Learning with Python.md
+[[2.5 回归和分类]]
 
 Regression is a statistical method used to model the **relationship** between a continuous input **variable**  and explanatory **features**.
 
