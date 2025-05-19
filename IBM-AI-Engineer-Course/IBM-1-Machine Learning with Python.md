@@ -8,10 +8,6 @@
 - Data preparation and data analysis with python
 
 ### What you will learn?
-<<<<<<<< HEAD:IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md
-![Pasted image 20250411140839.png](../images/Pasted%20image%2020250411140839.png)
-=====<font style="background-color:tomato; color:black">
->>>>>>>> origin/obsidian:IBM-AI-Engineer-Course/IBM-1-Machine Learning with Python.md
 
 - Multiple linear regression
 - Logistic regression
@@ -57,11 +53,7 @@ Algorithms:
 
 ### ML Techniques
 
-<<<<<<<< HEAD:IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md
-![Pasted image 20250411174710.png](../images/Pasted%20image%2020250411174710.png)
-</font>==<font style="background-color:tomato; color:black">
 ![ml-4-techniques.png](../images/ml-4-techniques.png)
->>>>>>>> origin/obsidian:IBM-AI-Engineer-Course/IBM-1-Machine Learning with Python.md
 
 - **classification**： predicts class or category of a case.
 - **regression**:  predicts *continuous* values
@@ -76,11 +68,7 @@ Algorithms:
 
 ### Applications of ML
 
-<<<<<<<< HEAD:IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md
-![Pasted image 20250411181921.png](../images/Pasted%20image%2020250411181921.png)
-</font>==<font style="background-color:tomato; color:black">
 ![ml-applications.png](../images/ml-applications.png)
->>>>>>>> origin/obsidian:IBM-AI-Engineer-Course/IBM-1-Machine Learning with Python.md
 
 #### Image Recognition with ML
 
@@ -88,19 +76,11 @@ Algorithms:
 > **Traditional Programming**: create rules to detect the animals
 > **ML**: build a model to infer the animal type
 
-<<<<<<<< HEAD:IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md
-![Pasted image 20250411182233.png](../images/Pasted%20image%2020250411182233.png)
-
-#### Pairing ML with human intelligence
-
-![Pasted image 20250411182553.png](../images/Pasted%20image%2020250411182553.png)
-</font>==<font style="background-color:tomato; color:black">
 ![mlp-samples-cats-dogs.png](../images/mlp-samples-cats-dogs.png)
 
 #### Pairing ML with human intelligence
 
 ![ml-with-human-intelligence.png](../images/ml-with-human-intelligence.png)
->>>>>>>> origin/obsidian:IBM-AI-Engineer-Course/IBM-1-Machine Learning with Python.md
 
 - chatbot
 - face recognition
@@ -128,11 +108,7 @@ Algorithms:
 
 ### Tools for ML
 
-<<<<<<<< HEAD:IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md
-![Pasted image 20250411200005.png](../images/Pasted%20image%2020250411200005.png)
-</font>==<font style="background-color:tomato; color:black">
 ![tools-for-ml.png](../images/tools-for-ml.png)
->>>>>>>> origin/obsidian:IBM-AI-Engineer-Course/IBM-1-Machine Learning with Python.md
 
 #### Data
 
@@ -199,11 +175,7 @@ used to draw insights, inform decisions, and fuel advanced technologies.
 - Enables easy implementation of ML models
 
 #### Machine Learning pipeline tasks
-<<<<<<<< HEAD:IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md
-![Pasted image 20250411200910.png](../images/Pasted%20image%2020250411200910.png)
-</font>=====
 ![hyperparameter-tuning-with-crossentropy.png](../images/hyperparameter-tuning-with-crossentropy.png)
->>>>>>>> origin/obsidian:IBM-AI-Engineer-Course/IBM-1-Machine Learning with Python.md
 
 #### Sk Learn Demo
 
@@ -276,11 +248,7 @@ y_pred = model.predict(np.array([[6], [7]])  )
 Regression is a statistical method used to model the **relationship** between a continuous input **variable**  and explanatory **features**.
 
 a type of supervised learning model
-<<<<<<<< HEAD:IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md
-![Pasted image 20250414190604.png](../images/Pasted%20image%2020250414190604.png)
-</font>==<font style="background-color:tomato; color:black">
 ![data-sample-vehicle-configuration.png](../images/data-sample-vehicle-configuration.png)
->>>>>>>> origin/obsidian:IBM-AI-Engineer-Course/IBM-1-Machine Learning with Python.md
 ### Regression algorithms
 
 - Linear and polynomial 
@@ -316,11 +284,7 @@ a type of supervised learning model
 
 #### Simple Linear Regression
 [SimpleLinearRegression-Jupyter Lab](jupyter-demo/IBM-1-2-1-SimpleLinearRegression.ipynb)
-<<<<<<<< HEAD:IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md
-![Pasted image 20250418160344.png](../images/Pasted%20image%2020250418160344.png)
-</font>=====
 ![regression-line-and-plane.png](../images/regression-line-and-plane.png)
->>>>>>>> origin/obsidian:IBM-AI-Engineer-Course/IBM-1-Machine Learning with Python.md
 predict a continuous value
 - the Best Fit
 find the <font style="background-color:tomato; color:black">regression line</font> or hyperplane that best describe the relationship between X and Y.  
@@ -362,11 +326,7 @@ Fitting a <font style="background-color:tomato; color:black">hyperplane</font>
 is usually the best solution for standard linear regression.
 
 #### Nonlinear Regression
-<<<<<<<< HEAD:IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md
-![Pasted image 20250415163345.png](../images/Pasted%20image%2020250415163345.png)
-=====<font style="background-color:tomato; color:black">
 ![regression-nonlinear.png](../images/regression-nonlinear.png)
->>>>>>>> origin/obsidian:IBM-AI-Engineer-Course/IBM-1-Machine Learning with Python.md
 Features：
 - Represented by a nonlinear equation
 	- polynomial
@@ -384,11 +344,7 @@ Features：
 - log-loss
 - threshold probability
 
-<<<<<<<< HEAD:IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md
-![Pasted image 20250415202645.png](../images/Pasted%20image%2020250415202645.png)
-</font>=====
 ![sigmoid-function.png](../images/sigmoid-function.png)
->>>>>>>> origin/obsidian:IBM-AI-Engineer-Course/IBM-1-Machine Learning with Python.md
 
 
 ### Module 2 Summary
@@ -442,11 +398,7 @@ Features：
 
 ### Basics
 #### Classification
-<<<<<<<< HEAD:IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md
-![Pasted image 20250416091910.png](../images/Pasted%20image%2020250416091910.png)
-=====<font style="background-color:tomato; color:black">
 ![classification-illustration.png](../images/classification-illustration.png)
->>>>>>>> origin/obsidian:IBM-AI-Engineer-Course/IBM-1-Machine Learning with Python.md
 
 
 #### Application of Classification
@@ -482,11 +434,7 @@ Features：
 - Regression Tree
 
 #### Support Vector Machine SVM
-<<<<<<<< HEAD:IBM-AI-Engineer-Course/IBM- 1 - Machine Learning with Python.md
-![Pasted image 20250417153141.png](../images/Pasted%20image%2020250417153141.png)
-</font>=====
 ![ml-svm.png](../images/ml-svm.png)
->>>>>>>> origin/obsidian:IBM-AI-Engineer-Course/IBM-1-Machine Learning with Python.md
 
 ### K-Nearest Neighbors
 <img src="../images/KNN.webp" alt="KNN.webp">
