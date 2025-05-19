@@ -22,3 +22,163 @@
 - TensorFlow 2.x is a powerful and flexible platform for machine learning with features such as eager execution, high-level APIs, and a rich ecosystem of tools. 
     
 - Understanding these features and capabilities will help you build and deploy machine learning models more effectively, whether working on research, prototyping, or production applications.
+
+
+## M2 Advanced CNNs in Keras
+
+### Transfer Learning Implementaion
+
+Transfer learning is a powerful technique that enables the use of pre-trained models on new tasks, significantly saving time and computational resources. Here are key tips for implementing transfer learning effectively:
+
+1. **Choose the right pre-trained model:** Select a model trained on a dataset similar to your target task to enhance performance. Popular models like VGG16, ResNet, or InceptionV3 are particularly effective for image-related tasks. Ensure that the architecture aligns with your specific problem requirements.
+    
+2. **Freeze early layers:** In the initial training stages, freeze the early layers of the pre-trained model to preserve their learned features. This approach is beneficial when working with small datasets or datasets that closely resemble the original dataset the model was trained on.
+    
+3. **Fine-tune later layers:** As training progresses, gradually unfreeze the deeper layers and fine-tune them. These layers capture task-specific features, and fine-tuning allows the model to adapt better to the nuances of your new dataset.
+    
+4. **Adjust learning rates:** Use a lower learning rate for fine-tuning to prevent catastrophic forgetting of the pre-trained knowledge. High learning rates during this phase can disrupt the learned features and degrade model performance.
+    
+5. **Use data augmentation:** Implement data augmentation techniques, particularly for image tasks, to increase variability within the dataset. This practice helps prevent overfitting and enhances the model's ability to generalize.
+    
+6. **Consider domain adaptation:** If there is a significant disparity between the domain of the pre-trained model and your target task, consider applying domain adaptation techniques. These methods can help align the source and target datasets, improving the model's performance.
+    
+### Summary
+
+- Using advanced techniques to develop convolutional neural networks (CNNs) using Keras can enhance deep learning models and significantly improve performance on complete tasks.
+    
+- Incorporating various data augmentation techniques using Keras can improve the performance and generalization ability of models.
+    
+- Transfer learning using pre-trained models in Keras improves training time and performance.
+    
+- Pre-trained models in Keras allow you to build high-performing models even with limited computational resources and data.
+    
+- Transfer learning involves fine tuning of pre-trained models when you do not have enough data to train a deep-learning model.
+    
+- Fine tuning pre-trained models allows you to adapt the model to a specific task, leading to even better performance.
+    
+- TensorFlow is a powerful library that enables image manipulation tasks, such as classification, data augmentations, and more advanced techniques.
+    
+- TensorFlow’s high-level APIs simplify the implementation of complete image-processing tasks.
+    
+- Transpose convolution is helpful in image generation, super-resolution, and semantic segmentation applications.
+    
+- It performs the inverse convolution operation, effectively up-sampling the input image to a larger higher resolution size.
+    
+- It works by inserting zeros between elements of the input feature map and then applying the convolution operation.
+
+### Glossary
+
+| Term                                       | Definition                                                                                                                                                              |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Activation function**                    | A mathematical function used in neural networks to determine the output of a neuron.                                                                                    |
+| **Adam optimizer**                         | An optimization algorithm that can be used instead of the classical stochastic gradient descent procedure to update network weights iteratively based on training data. |
+| **Augmentation**                           | A process of increasing the diversity of training data by applying various transformations like rotation, scaling, and so on.                                           |
+| **Binary cross-entropy**                   | A loss function used for binary classification tasks, measuring the performance of a classification model whose output is a probability value between 0 and 1.          |
+| **Convolution**                            | A mathematical operation used in deep learning, especially in convolutional neural networks (CNNs), for filtering data.                                                 |
+| **Custom augmentation function**           | A user-defined function that applies specific transformations to images during data augmentation, providing full control over the augmentation process.                 |
+| **Data augmentation**                      | Techniques used to increase the diversity of training data by applying random transformations such as rotation, translation, flipping, scaling, and adding noise.       |
+| **Deconvolution**                          | Also known as transpose convolution, this is a technique used to up-sample an image, often used in generative models.                                                   |
+| **Dense layer**                            | A fully connected neural network layer, where each input node is connected to each output node, commonly used in the final stages of a network.                         |
+| **Feature map**                            | A set of features generated by applying a convolution operation to an image or data input.                                                                              |
+| **Feature-wise normalization**             | A technique to set the mean of the data set to 0 and normalize it to have a standard deviation of 1.                                                                    |
+| **Fine-tuning**                            | The process of unfreezing some of the top layers of a pre-trained model base and jointly training both the newly added layers and the base layers for a specific task.  |
+| **Flatten layer**                          | A layer that converts the output of a convolutional layer to a 1D array, allowing it to be passed to a fully connected layer.                                           |
+| **Generative adversarial networks (GANs)** | A class of machine learning frameworks where two neural networks compete with each other to create realistic data samples.                                              |
+| **Height shift range**                     | A data augmentation parameter that randomly shifts an image vertically, altering its position to improve model robustness to vertical translations.                     |
+| **TensorFlow Hub**                         | A repository of reusable machine learning modules, which can be easily integrated into TensorFlow applications to accelerate development.                               |
+| **TensorFlow.js**                          | A library for training and deploying machine learning models in JavaScript environments, such as web browsers and Node.js.                                              |
+| **Horizontal flip**                        | A data augmentation technique where the image is flipped horizontally, creating a mirror image to increase data diversity.                                              |
+| **ImageDataGenerator**                     | A Keras class used for generating batches of tensor image data with real-time data augmentation.                                                                        |
+| **ImageNet**                               | A large visual database designed for use in visual object recognition software research, often used as a data set for pre-training convolutional neural networks.       |
+| **Image processing**                       | The manipulation of an image to improve its quality or extract information from it.                                                                                     |
+| **Kernel**                                 | A small matrix used in convolution operations to detect features such as edges in images.                                                                               |
+| **Latent vector**                          | A vector representing compressed data in a lower-dimensional space, often used in generative models.                                                                    |
+| **Pre-trained model**                      | A model previously trained on a large data set, which can be used as a starting point for training on a new, related task.                                              |
+| **Random noise**                           | A type of custom augmentation that adds random noise to images, simulating different lighting conditions and sensor noise to make models more robust.                   |
+| **Rotation range**                         | A data augmentation parameter that randomly rotates an image within a specified range of degrees, enhancing model robustness to rotations.                              |
+| **Sample-wise normalization**              | A technique to set the mean of each sample to 0 and normalize each sample to have a standard deviation of 1.                                                            |
+| **Semantic segmentation**                  | A deep learning task that involves classifying each pixel in an image into a predefined class.                                                                          |
+| **Shear range**                            | A data augmentation parameter that applies a shear transformation to an image, slanting it along one axis to simulate different perspectives.                           |
+| **Stride**                                 | A parameter in convolution that determines the step size of the kernel when moving across the input data.                                                               |
+| **TensorFlow**                             | An open-source machine learning library used for various tasks, including deep learning and image processing.                                                           |
+| **Transfer learning**                      | A method where a pre-trained model is adapted to a new, related task by adjusting its weights, allowing it to perform well even with limited data for the new task.     |
+| **Transpose convolution**                  | An operation that reverses the effects of convolution, often used for up-sampling in image processing.                                                                  |
+| **VGG16**                                  | A convolutional neural network model pre-trained on the ImageNet data set, commonly used in transfer learning for tasks involving image classification.                 |
+| **Width shift range**                      | A data augmentation parameter that randomly shifts an image horizontally, altering its position to improve model robustness to horizontal translations.                 |
+| **Zoom range**                             | A data augmentation parameter that randomly zooms in or out on an image, altering its scale during training.                                                            |
+
+## M3 Transformers in Keras
+
+### Summary
+
+- The transformer model consists of two main parts: the encoder and the decoder.
+    
+- Both the encoder and decoder are composed of layers that include self-attention mechanisms and feedforward neural networks.
+    
+- Transformers have become a cornerstone in deep learning, especially in natural language processing.
+    
+- Understanding and implementing transformers will enable you to build powerful models for various tasks.
+    
+- Sequential data is characterized by its order and the dependency of each element on previous elements.
+    
+- Transformers address the limitations of recurrent neural networks (RNNs) and long short-term memory networks (LSTMs) by using self-attention mechanisms, which allow the model to attend to all positions in the input sequence simultaneously.
+    
+- Transformers’ versatile architecture makes them applicable to a wide range of domains, including computer vision, speech recognition, and even reinforcement learning.
+    
+- Vision transformers have shown that self-attention mechanisms can be applied to image data.
+    
+- By converting audio signals into spectrograms, transformers can process the sequential nature of speech data.
+    
+- Transformers have found applications in reinforcement learning, where they can be used to model complex dependencies in sequences of states and actions.
+    
+- Time series data is a sequence of data points collected or recorded at successive points in time.
+    
+- By leveraging the self-attention mechanism, transformers can effectively capture long-term dependencies in time series data, making them a powerful tool for forecasting.
+    
+- The key components of the transformer model include an embedding layer, multiple transformer blocks, and a final dense layer for output prediction.
+    
+- Sequential data is characterized by its temporal or sequential nature, meaning that the order in which data points appear is important.
+    
+- TensorFlow provides several layers and tools specifically designed for sequential data. These include:
+    
+    - RNNs
+        
+    - LSTMs
+        
+    - Gated recurrent units
+        
+    - Convolutional layers for sequence data (Conv1D)
+        
+- Text data requires specific preprocessing steps, such as tokenization and padding.
+    
+- TensorFlow’s TextVectorization layer helps in converting text data into numerical format suitable for model training.
+
+
+### Glossary
+| Term                                                           | Definition                                                                                                                                                                                                                                        |
+| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Autoregressive integrated moving average (ARIMA)               | A time series forecasting model that is used to predict future data points by combining three components: autoregression, differencing, and moving averages.                                                                                      |
+| Bidirectional Encoder Representations from Transformers (BERT) | A deep learning model in which every output element is connected to every input element. The weightings between them are dynamically calculated based on their connection.                                                                        |
+| Convolutional neural networks (CNNs)                           | A type of deep learning model designed to process and analyze visual data by automatically detecting patterns through convolutional layers.                                                                                                       |
+| Computer vision                                                | A field of AI that enables machines to interpret and understand visual information from various content such as images and videos.                                                                                                                |
+| Cross-attention mechanism                                      | A model that allows the model to focus on relevant parts of the input sequence while generating output.                                                                                                                                           |
+| Decoder                                                        | A transformer decoder is a neural network architecture used in natural language processing tasks like machine translation and text generation. It generates output text by combining with an encoder to process input text.                       |
+| Deep learning                                                  | A branch of artificial intelligence (AI). Deep learning is a subset of machine learning that uses large, multi-layered neural networks to automatically learn and make predictions from complex data.                                             |
+| Embed                                                          | In transformers, embedding is the technique of converting input tokens into dense, continuous vectors that represent their semantic meaning within the model.                                                                                     |
+| Encoder                                                        | Encoders are neural network layers that process the input sequence and produce a continuous representation of the input. The transformer encoder architecture is the basis for many state-of-the-art models in natural language processing tasks. |
+| Generative pre-trained transformers (GPT)                      | The neural network-based language prediction models that are built on the Transformer architecture. They analyze natural language queries, known as prompts, and predict the best possible response based on their understanding of language.     |
+| Image recognition                                              | A software's ability to identify and classify people, objects, places, writing, and actions in digital images and video.                                                                                                                          |
+| Image processing                                               | A technique of manipulating and analyzing digital images to enhance, extract information, or convert them into a different format.                                                                                                                |
+| Long short-term memory networks (LSTMs)                        | A type of recurrent neural network (RNN) designed to capture and maintain long-term dependencies in sequential data.                                                                                                                              |
+| Layer normalization                                            | A technique used in Transformer neural networks to normalize the input values of all neurons in a layer for each data sample.                                                                                                                     |
+| Natural language generation                                    | The use of artificial intelligence to produce spoken or written human-like text.                                                                                                                                                                  |
+| Natural language processing (NLP)                              | Branch of artificial intelligence that enables computers to understand, manipulate, and generate human language (natural language).                                                                                                               |
+| Parallelization                                                | In transformers, parallelization refers to the ability to process multiple elements of a sequence simultaneously, rather than sequentially, to speed up training and inference.                                                                   |
+| Recurrent neural network (RNN)                                 | A deep learning model that is trained to process and convert a sequential data input into a specific sequential data output.                                                                                                                      |
+| Reinforcement learning                                         | An area of machine learning where an agent learns to make decisions by taking actions in an environment to maximize cumulative rewards.                                                                                                           |
+| Self-attention mechanisms                                      | Mechanisms in transformers that allow each element of a sequence to dynamically focus on and weigh the importance of other elements in the sequence to capture context and dependencies.                                                          |
+| Sequence                                                       | In transformers, a sequence refers to an ordered set of tokens, such as words, that are processed together as input to capture dependencies and contextual information across the entire sequence.                                                |
+| Sequential data                                                | Data that is ordered in a specific sequence, where the arrangement of elements matters, such as time series, audio, or text.                                                                                                                      |
+| Speech recognition                                             | A technology that converts spoken language into text by analyzing and interpreting audio signals.                                                                                                                                                 |
+| Vision transformers (ViTs)                                     | A type of neural network architecture that applies transformer models to image analysis, treating image patches as sequences to capture visual patterns.                                                                                          |
+| Transformers                                                   | A technology that can leverage self-attention mechanisms to process input data in parallel, making them highly efficient and powerful.                                                                                                            |

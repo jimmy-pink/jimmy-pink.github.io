@@ -95,6 +95,7 @@
 		+ 特点：理论与实践结合；强调算法、数学原理，并通过编程实现。
 + [《动手学深度学习》by b站李沐](https://zh-v2.d2l.ai/) 
 +  [跟着迪哥学Python数据分析与机器学习实战](https://github.com/tangyudi/Ai-Learn)
++ https://roadmap.sh/ai-engineer
 
 
 ### 基于 Obsidian 构建
