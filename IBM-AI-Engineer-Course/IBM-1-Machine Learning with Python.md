@@ -236,6 +236,7 @@ y_pred = model.predict(np.array([[6], [7]])  )
     
 - The machine learning ecosystem includes a network of tools, frameworks, libraries, platforms, and processes that collectively support the development and management of machine learning models.
 
+
 ## M2: Linear and Logistic Regression
 
 >2 classical statistical methods:
