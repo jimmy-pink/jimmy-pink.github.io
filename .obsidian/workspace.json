@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-DeepLearning/3.8 强化学习.md",
+                "file": "6-NLP/6.1 NLP 入门.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.8 强化学习"
+              "title": "6.1 NLP 入门"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pca",
+                "query": "transpose",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-DeepLearning/3.5 Transformer 架构.md",
+                "file": "6-NLP/6.1 NLP 入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "3.5 Transformer 架构 的反向链接列表"
+              "title": "6.1 NLP 入门 的反向链接列表"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-MachineLearning/2.5 监督学习常用算法.md",
+                "file": "6-NLP/6.1 NLP 入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2.5 监督学习常用算法 的出链列表"
+              "title": "6.1 NLP 入门 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-DeepLearning/3.8 强化学习.md",
+                "file": "6-NLP/6.1 NLP 入门.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3.8 强化学习 的大纲"
+              "title": "6.1 NLP 入门 的大纲"
             }
           },
           {
@@ -175,13 +175,11 @@
               "title": "插件不再活动"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 312.5,
-    "collapsed": true
+    "width": 312.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,11 +194,26 @@
   },
   "active": "40e04f8cbdb1f2f7",
   "lastOpenFiles": [
+    "4-DeepLearningInAction/Tensorflow 和 Keras 入门实战.md",
+    "4-DeepLearningInAction/Keras高阶用法.md",
+    "4-DeepLearningInAction",
+    "1-EssentialBasics/机器学习工具最常用命令合集.md",
+    "1-EssentialBasics/1.5 信息论基础 (信息熵、KL散度).md",
+    "1-EssentialBasics/1.3 概率论与数理统计.md",
+    "1-EssentialBasics/1.4 机器学习工具.md",
+    "3-DeepLearning/Tensorflow 和 Keras 入门实战.md",
+    "IBM-AI-Engineer-Course/IBM-0-Course Introduction and Study Plan.md",
+    "IBM-AI-Engineer-Course/IBM-3-DL with Keras and Tensorflow.md",
+    "images/technical-deep-learning-ai-engineer-skills.png",
+    "IBM-AI-Engineer-Course/IBM-4-Neural Network and PyTorch.md",
+    "3-DeepLearning/3.8 强化学习.md",
+    "3-DeepLearning/3.7 自监督学习.md",
+    "3-DeepLearning/3.6 Autoencoder, AE.md",
+    "3-DeepLearning/3.x 模型优化.md",
+    "2-MachineLearning/2.x 模型评估与调优.md",
     "images/deep-q-learning.png",
     "images/q-learning.png",
-    "3-DeepLearning/3.8 强化学习.md",
     "images/q-learning.png",
-    "2-MachineLearning/2.x 模型评估与调优.md",
     "1-EssentialBasics/1.2 线性代数.md",
     "1-EssentialBasics/1.1 高等数学.md",
     "images/First Mean Value Theorem.png",
@@ -210,30 +223,16 @@
     "images/Directional Derivative.png",
     "2-MachineLearning/2.2 机器学习的分类.md",
     "images/gradient-gg.png",
-    "images/convergence of a sequence.png",
-    "images/monotonicity of a function.png",
-    "3-DeepLearning/3.x 模型优化.md",
     "3-DeepLearning/Keras高阶用法.md",
-    "IBM-AI-Engineer-Course/IBM-3-DL with Keras and Tensorflow.md",
-    "IBM-AI-Engineer-Course/IBM-0-Course Introduction and Study Plan.md",
     "3-DeepLearning/深度学习模型分类.canvas",
-    "3-DeepLearning/3.7 自监督学习.md",
     "IBM-AI-Engineer-Course/IBM-2-DL and NN with Keras.md",
     "3-DeepLearning/3.1 神经元和神经网络.md",
     "3-DeepLearning/3.2 深度学习概述.md",
     "2-MachineLearning/2.4 梯度下降和损失函数.md",
-    "3-DeepLearning/3.6 Autoencoder, AE.md",
     "3-DeepLearning/3.3 卷积神经网络 CNN.md",
     "3-DeepLearning/3.4 循环神经网络 RNN.md",
     "2-MachineLearning/2.6 聚类和降维.md",
-    "3-DeepLearning/3.5 Transformer 架构.md",
-    "IBM-AI-Engineer-Course/IBM-4-Neural Network and PyTorch.md",
-    "2-MachineLearning/2.5 回归和分类.md",
-    "3-DeepLearning/3.8 Fusion Model.md",
-    "3-DeepLearning/Tensorflow 和 Keras 入门实战.md",
-    "11-Side-Project/如何获得 AI side project？.md",
     "resources/pumpkin_book.pdf",
-    "resources/test.md",
     "PyTorch-入门-张量.ipynb",
     "resources",
     "2-MachineLearning/机器学习图谱.canvas",
@@ -243,7 +242,6 @@
     "IBM-AI-Engineer-Course/jupyter-demo/IBM-2-3-1-Regression-Keras.ipynb",
     "IBM-AI-Engineer-Course/jupyter-demo/IBM-2-3-1-Regression-NN.ipynb",
     "anaconda_projects/db/project_filebrowser.db",
-    "anaconda_projects/db",
     "9-RecommendSystem/谷歌搜索流程图.canvas",
     "9-推荐系统/谷歌搜索流程图.canvas"
   ]
