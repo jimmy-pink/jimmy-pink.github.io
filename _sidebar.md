@@ -49,4 +49,3 @@
   * [IBM-2-DL and NN with Keras](IBM-AI-Engineer-Course/IBM-2-DL%20and%20NN%20with%20Keras.md)
   * [IBM-3-DL with Keras and Tensorflow](IBM-AI-Engineer-Course/IBM-3-DL%20with%20Keras%20and%20Tensorflow.md)
   * [IBM-4-Neural Network and PyTorch](IBM-AI-Engineer-Course/IBM-4-Neural%20Network%20and%20PyTorch.md)
-* resources
