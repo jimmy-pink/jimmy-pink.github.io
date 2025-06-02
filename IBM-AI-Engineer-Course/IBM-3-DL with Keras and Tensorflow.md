@@ -1,4 +1,4 @@
-![[technical-deep-learning-ai-engineer-skills.png]]
+![technical-deep-learning-ai-engineer-skills.png](../images/technical-deep-learning-ai-engineer-skills.png)
 ## M1 Advanced Keras Functionalities
 ### Summary
 - Keras is a high-level neural networks API written in Python and capable of running on top of TensorFlow, Theano, and CNTK.

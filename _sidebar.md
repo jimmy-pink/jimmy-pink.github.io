@@ -29,12 +29,13 @@
   * [3.7 自监督学习](3-DeepLearning/3.7%20%E8%87%AA%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.md)
   * [3.8 强化学习](3-DeepLearning/3.8%20%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0.md)
   * [3.x 模型优化](3-DeepLearning/3.x%20%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96.md)
-  * [Keras高阶用法](3-DeepLearning/Keras%E9%AB%98%E9%98%B6%E7%94%A8%E6%B3%95.md)
-  * [Tensorflow 和 Keras 入门实战](3-DeepLearning/Tensorflow%20%E5%92%8C%20Keras%20%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98.md)
-* 4-NLP
-  * [4.1 NLP 入门](4-NLP/4.1%20NLP%20%E5%85%A5%E9%97%A8.md)
+* 4-深度学习InAction
+  * [Keras高阶用法](4-DeepLearningInAction/Keras%E9%AB%98%E9%98%B6%E7%94%A8%E6%B3%95.md)
+  * [Tensorflow 和 Keras 入门实战](4-DeepLearningInAction/Tensorflow%20%E5%92%8C%20Keras%20%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98.md)
 * 5-ComputerVision
   * [图像增强](5-ComputerVision/%E5%9B%BE%E5%83%8F%E5%A2%9E%E5%BC%BA.md)
+* 6-NLP
+  * [6.1 NLP 入门](6-NLP/6.1%20NLP%20%E5%85%A5%E9%97%A8.md)
 * 7-RAG搜索增强
   * [现代搜索技术](7-RAG/%E7%8E%B0%E4%BB%A3%E6%90%9C%E7%B4%A2%E6%8A%80%E6%9C%AF.md)
 * 9-推荐系统
