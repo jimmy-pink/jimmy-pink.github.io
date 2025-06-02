@@ -283,7 +283,7 @@ a type of supervised learning model
 	- multiple nonlinear regression
 
 #### Simple Linear Regression
-[SimpleLinearRegression-Jupyter Lab](jupyter-demo/IBM-1-2-1-SimpleLinearRegression.ipynb)
+<font style="background:#F6E1AC;color:#664900">🌰 DEMO </font>[ ✍️ SimpleLinearRegression](https://github.com/jimmy-pink/colab-playground/blob/main/1traditional-ml/IBM-1-2-1-SimpleLinearRegression.ipynb)
 ![[regression-line-and-plane.png]]
 predict a continuous value
 - the Best Fit
@@ -300,7 +300,7 @@ $$\text{SSR} = \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$$
 - accuracy can be greatly reduced by outliers
 
 #### Multiple Linear Regression
-[MultipleLinearRegression-Jupyter Lab](jupyter-demo/IBM-1-2-2-MultipleLinearRegression.ipynb)
+[MultipleLinearRegression-Jupyter Lab](https://github.com/jimmy-pink/colab-playground/blob/main/1traditional-ml/IBM-1-2-2-MultipleLinearRegression.ipynb)
 
 
 Features:
@@ -483,15 +483,15 @@ Features：
 |XGBoost regressor|**Process:** A gradient boosting method that builds trees sequentially to correct errors from previous trees.  <br>**Key hyperparameters:**  <br>- `n_estimators`: Number of boosting rounds  <br>- `learning_rate`: Step size to improve accuracy  <br>- `max_depth`: Maximum depth of each tree  <br>**Pros:** High accuracy and works well with large datasets.  <br>**Cons:** Computationally intensive, complex to tune.  <br>**Common applications:** Predictive modeling, especially in Kaggle competitions.|1. import xgboost as xgb  <br>    <br>2. model = xgb.XGBRegressor(n_estimators=100, learning_rate=0.1, max_depth=5)|
 
 
-|Method Name|Brief Description|Code Syntax|
-|---|---|---|
-|OneHotEncoder|Transforms categorical features into a one-hot encoded matrix.|1. from sklearn.preprocessing import OneHotEncoder  <br>    <br>2. encoder = OneHotEncoder(sparse=False)  <br>    <br>3. encoded_data = encoder.fit_transform(categorical_data)|
-|accuracy_score|Computes the accuracy of a classifier by comparing predicted and true labels.|1. from sklearn.metrics import accuracy_score  <br>    <br>2. accuracy = accuracy_score(y_true, y_pred)|
-|LabelEncoder|Encodes labels (target variable) into numeric format.|1. from sklearn.preprocessing import LabelEncoder  <br>    <br>2. encoder = LabelEncoder()  <br>    <br>3. encoded_labels = encoder.fit_transform(labels)|
-|plot_tree|Plots a decision tree model for visualization.|1. from sklearn.tree import plot_tree  <br>    <br>2. plot_tree(model, max_depth=3, filled=True)|
-|normalize|Scales each feature to have zero mean and unit variance (standardization).|1. from sklearn.preprocessing import normalize  <br>    <br>2. normalized_data = normalize(data, norm='l2')|
-|compute_sample_weight|Computes sample weights for imbalanced datasets.|1. from sklearn.utils.class_weight import compute_sample_weight  <br>    <br>2. weights = compute_sample_weight(class_weight='balanced', y=y)|
-|roc_auc_score|Computes the Area Under the Receiver Operating Characteristic Curve (AUC-ROC) for binary classification models.|1. from sklearn.metrics import roc_auc_score  <br>    <br>2. auc = roc_auc_score(y_true, y_score)|
+| Method Name           | Brief Description                                                                                               | Code Syntax                                                                                                                                                                     |
+| --------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OneHotEncoder         | Transforms categorical features into a one-hot encoded matrix.                                                  | 1. from sklearn.preprocessing import OneHotEncoder  <br>    <br>2. encoder = OneHotEncoder(sparse=False)  <br>    <br>3. encoded_data = encoder.fit_transform(categorical_data) |
+| accuracy_score        | Computes the accuracy of a classifier by comparing predicted and true labels.                                   | 1. from sklearn.metrics import accuracy_score  <br>    <br>2. accuracy = accuracy_score(y_true, y_pred)                                                                         |
+| LabelEncoder          | Encodes labels (target variable) into numeric format.                                                           | 1. from sklearn.preprocessing import LabelEncoder  <br>    <br>2. encoder = LabelEncoder()  <br>    <br>3. encoded_labels = encoder.fit_transform(labels)                       |
+| plot_tree             | Plots a decision tree model for visualization.                                                                  | 1. from sklearn.tree import plot_tree  <br>    <br>2. plot_tree(model, max_depth=3, filled=True)                                                                                |
+| normalize             | Scales each feature to have zero mean and unit variance (standardization).                                      | 1. from sklearn.preprocessing import normalize  <br>    <br>2. normalized_data = normalize(data, norm='l2')                                                                     |
+| compute_sample_weight | Computes sample weights for imbalanced datasets.                                                                | 1. from sklearn.utils.class_weight import compute_sample_weight  <br>    <br>2. weights = compute_sample_weight(class_weight='balanced', y=y)                                   |
+| roc_auc_score         | Computes the Area Under the Receiver Operating Characteristic Curve (AUC-ROC) for binary classification models. | 1. from sklearn.metrics import roc_auc_score  <br>    <br>2. auc = roc_auc_score(y_true, y_score)                                                                               |
 
 ## M4: Building Unsupervised Learning Models
 

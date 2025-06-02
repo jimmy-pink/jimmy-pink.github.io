@@ -182,3 +182,151 @@ Transfer learning is a powerful technique that enables the use of pre-trained mo
 | Speech recognition                                             | A technology that converts spoken language into text by analyzing and interpreting audio signals.                                                                                                                                                 |
 | Vision transformers (ViTs)                                     | A type of neural network architecture that applies transformer models to image analysis, treating image patches as sequences to capture visual patterns.                                                                                          |
 | Transformers                                                   | A technology that can leverage self-attention mechanisms to process input data in parallel, making them highly efficient and powerful.                                                                                                            |
+## M4 Unsupervised Learning and Generative Models in Keras
+
+### Summary and Highlights
+
+- Unsupervised learning is a type of machine learning in which an algorithm finds patterns in data without labels or predefined outcomes.
+    
+- Unsupervised learning can be broadly categorized into two types: clustering and dimensionality reduction.
+    
+- Autoencoders consist of two main parts: encoder and decoder.
+    
+- Generative adversarial networks (GANs) consist of two networks, the generator and the discriminator, which compete against each other in a zero-sum game.
+    
+- Generator network generates new data instances that resemble the training data.
+    
+- Discriminator network evaluates the authenticity of the generated data.
+    
+- Autoencoders are versatile tools for various tasks, including data denoising, dimensionality reduction, and feature learning.
+    
+- The basic architecture of an autoencoder includes three main components: encoder, bottleneck, and decoder.
+    
+- There are different types of autoencoders: basic autoencoders, variational autoencoders (VAEs), and convolutional autoencoders.
+    
+- Diffusion models are powerful tools for generative tasks, capable of producing high-quality data samples and enhancing image quality.
+    
+- They are probabilistic models that generate data by iteratively refining a noisy initial sample.
+    
+- The process is akin to simulating the physical process of diffusion, where particles spread out from regions of high concentration to regions of low concentration.
+    
+- Diffusion models work by defining a forward process and a reverse process.
+    
+- GANs are a revolutionary type of neural network architecture designed for generating synthetic data that closely resembles real data.
+    
+- GANs consist of two main components: a generator and a discriminator.
+    
+- These two networks are trained simultaneously through a process of adversarial training.
+    
+- This adversarial training loop continues until the generator produces data that the discriminator can no longer distinguish from real data.
+    
+- Unsupervised learning is a powerful approach for discovering hidden patterns in data, and TensorFlow provides robust tools to facilitate these tasks.
+    
+- Common applications include clustering, dimensionality reduction, and anomaly detection.
+    
+- These applications are widely used in various domains such as customer segmentation, image compression, and fraud detection.
+
+### Glossary
+
+|Term|Definition|
+|---|---|
+|Anomaly detection|A type of unsupervised learning used to identify unusual data points that do not fit the general pattern in a dataset.|
+|Adam Optimizer|An optimization algorithm that can be used instead of the classical stochastic gradient descent procedure to update network weights iteratively based on training data.|
+|Adversarial training|A training method in GANs where the generator and discriminator networks are trained simultaneously, with the generator aiming to fool the discriminator, and the discriminator trying to accurately classify real and fake data.|
+|Autoencoders|A type of neural network used to learn efficient representations of data, often for dimensionality reduction or feature learning.|
+|Binary crossentropy loss|A loss function used in binary classification tasks, often utilized in training neural networks to measure the difference between predicted and actual outputs.|
+|Bottleneck|The central, most compressed layer in an autoencoder that contains the most critical features of the input data.|
+|Clustering|A method in unsupervised learning that involves grouping data points into clusters, where data points in the same cluster are more similar to each other.|
+|Convolutional autoencoders|A type of autoencoder that uses convolutional layers, making it particularly effective for tasks involving image data.|
+|Convolutional neural network (CNN)|A type of deep neural network commonly used in image processing tasks, known for its ability to capture spatial hierarchies in images.|
+|Data augmentation|A technique used to increase the diversity of data available for training models by generating new synthetic data, often by applying transformations to existing data.|
+|Decoder|The part of an autoencoder that reconstructs the input data from the compressed latent space representation.|
+|Denoising|The process of removing noise from data, such as images, to improve their quality.|
+|Diffusion|A physical process where particles spread from regions of high concentration to low concentration; in diffusion models, this concept is simulated to generate or enhance data.|
+|Diffusion model|A type of probabilistic generative model that iteratively refines noisy data to produce high-quality samples, often used in image generation.|
+|Dimensionality reduction|A process in unsupervised learning that reduces the number of random variables under consideration by obtaining a set of principal variables.|
+|Discriminator network|In a generative adversarial network (GAN), this network evaluates the authenticity of the generated data, distinguishing between real and fake data.|
+|Encoder|The part of an autoencoder that compresses the input data into a latent-space representation.|
+|Epochs|In machine learning, an epoch refers to one complete pass of the training dataset through the learning algorithm.|
+|Feature learning|A set of techniques that allow a machine to automatically discover the representations needed for feature detection or classification from raw data.|
+|Forward process|In diffusion models, the process of gradually adding noise to data over a series of steps.|
+|Functional API|A way to build neural networks in Keras that allows for more flexible model architectures than the Sequential API.|
+|Generative adversarial networks (GANs)|A class of neural networks where two networks, the generator and the discriminator, compete against each other, leading to the generation of realistic data.|
+|Generator|In GANs, the neural network creates synthetic data from random noise, aiming to produce data that closely resembles real data.|
+|Image-to-image translation|A task in computer vision where an image from one domain is transformed into an image in another domain, such as converting a sketch into a photo.|
+|K-means algorithm|A popular clustering technique that partitions a dataset into distinct groups based on the features of the data points.|
+|Keras|An open-source software library that provides a Python interface for artificial neural networks and is used to create deep learning models.|
+|Latent-space representation|The compressed version of input data generated by the encoder in an autoencoder.|
+|MNIST dataset|A large database of handwritten digits that is commonly used for training image processing systems and machine learning models.|
+|Modified National Institute of Standards and Technology (MNIST) Dataset|A large database of handwritten digits commonly used for training various image processing systems.|
+|Neural network architecture|The structured layout of a neural network, including its layers, connections, and the flow of information within it.|
+|Normalization|The process of scaling input features so they have a mean of zero and a standard deviation of one, often used to improve the performance of neural networks.|
+|Principal component analysis (PCA)|A dimensionality reduction technique that transforms data into a set of linearly uncorrelated variables called principal components.|
+|Probabilistic model|A model that incorporates randomness and uncertainty, often used to predict distributions or simulate processes that have inherent variability.|
+|Reverse process|In diffusion models, the process of removing noise step by step to reconstruct the original data from a noisy sample.|
+|Stochastic gradient descent (SGD)|An optimization method that adjusts weights iteratively based on a subset of training data, used in training neural networks.|
+|Supervised learning|A type of machine learning where the algorithm is trained on labeled data, meaning the outcome or target variable is known during training.|
+|t-distributed stochastic neighbor embedding (t-SNE)|A dimensionality reduction technique used for visualizing high-dimensional data by giving each datapoint a location in a two or three-dimensional map.|
+|TensorFlow|An open-source machine learning library developed by Google, widely used for building and training machine learning models.|
+|Text-to-image synthesis|A process where a model generates an image based on a textual description provided as input.|
+|Training epoch|A single pass through the entire training dataset during the training process of a machine learning model.|
+|Unsupervised learning|A type of machine learning that finds patterns in data without any labels or predefined outcomes.|
+|Variational autoencoders (VAEs)|A type of autoencoder that introduces probabilistic elements to generate new data samples, often used in generative models.|
+|Zero-Sum Game|A situation in competitive contexts where gain or loss of participants is exactly balanced by the losses or gains of another participant.|
+
+## M5 Advanced Keras Techniques
+
+### Summary and Highlights
+
+- Advanced Keras techniques include custom training loops, specialized layers, advanced callback functions, and model optimization with TensorFlow.
+    
+- These techniques will help you create more flexible and efficient deep learning models.
+    
+- A custom training loop consists of a data set, model, optimizer, and the loss function.
+    
+- To implement the custom training loop, you iterate over the data set, compute the loss, and apply gradients to update the model’s weights.
+    
+- Some of the benefits of custom training loops include custom loss functions and metrics, advanced logging and monitoring, flexibility for research, and integration with custom operations and layers.
+    
+- Hyperparameters are the variables that govern the training process of a model.
+    
+- Examples include the learning rate, batch size, and the number of layers or units in a neural network.
+    
+- Keras Tuner is a library that helps automate the process of hyperparameter tuning.
+    
+- You can define a model with hyperparameters, configure the search, run the hyperparameter search, analyze the results, and train the optimized model.
+    
+- Various techniques for model optimization include weight initialization, learning rate scheduling, batch normalization, mixed precision training, model pruning, and quantization.
+    
+- These techniques can significantly improve the performance, efficiency, and scalability of your deep learning models.
+    
+- TensorFlow includes several optimization tools such as mixed precision training, model pruning, quantization, and the TensorFlow Model Optimization Toolkit.
+
+### Glossary
+
+| Term                                          | Definition                                                                                                                                                                                                    |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Batch normalization                           | A technique that normalizes the inputs of each layer to improve the training stability and speed.                                                                                                             |
+| Callback functions                            | A powerful tool to customize and extend the behavior of your model training process.                                                                                                                          |
+| Custom dense layer                            | A standard fully connected neural network layer.                                                                                                                                                              |
+| Custom training loops                         | Custom training loops are user-defined procedures in machine learning that give developers more control over the training process. They allow the developer to tailor the training process to specific needs. |
+| Epoch                                         | Refers to one complete pass through the entire training dataset.                                                                                                                                              |
+| fit method                                    | A high-level function commonly used in Keras to train a model.                                                                                                                                                |
+| GradientTape                                  | A feature in TensorFlow that provides an easy way to record operations for automatic differentiation.                                                                                                         |
+| hp.Float function                             | A function used for floating-point hyperparameters.                                                                                                                                                           |
+| hp.Int function                               | Function used for integer hyperparameters                                                                                                                                                                     |
+| Hyperparameter tuning                         | A crucial step in the machine learning pipeline that helps optimize model performance by finding the best set of hyperparameters.                                                                             |
+| Hyperparameters                               | Variables that govern the training process of a model.                                                                                                                                                        |
+| Keras Tuner                                   | A library that helps automate the process of hyperparameter tuning. It provides several search algorithms, including Random Search, Hyperband, and Bayesian Optimization.                                     |
+| Lambda layer                                  | Used for creating custom operations that are simple enough to be defined using a lambda function or a small custom function.                                                                                  |
+| Loss function                                 | Measures how well the predictions made by the model match the true labels.                                                                                                                                    |
+| Mixed precision training                      | An optimization tool that leverages both 16-bit and 32-bit floating-point types to accelerate model training and reduce memory usage.                                                                         |
+| MNIST database                                | A large database of handwritten digits that is commonly used for training various image processing systems.                                                                                                   |
+| Model optimization                            | Refers to a set of techniques and processes that aim to improve the performance and efficiency of your neural networks.                                                                                       |
+| Model pruning                                 | An optimization tool involves removing less important weights from the model, reducing the model size, and improving inference speed.                                                                         |
+| Optimizer                                     | Updates the weights of the model to minimize the loss.                                                                                                                                                        |
+| prune_low_magnitude                           | A function that prunes the weights based on their magnitude.                                                                                                                                                  |
+| Quantization                                  | A technique that converts model weights and activations from floating-point to lower bit-width representations, such as 8-bit integers.                                                                       |
+| ReLU                                          | An activation function that outputs the input directly if positive; otherwise, it outputs zero. Commonly used in hidden layers.                                                                               |
+| TensorFlow Model Optimization Toolkit         | Provides easy-to-use APIs for pruning during training.                                                                                                                                                        |
+| Xavier (Glorot) and He initialization methods | Methods that set the initial weights in a way that avoids issues like vanishing or exploding gradients.                                                                                                       |
