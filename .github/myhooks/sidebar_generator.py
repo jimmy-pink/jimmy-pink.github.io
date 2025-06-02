@@ -20,7 +20,12 @@ class SidebarGenerator:
         self.root_dir = root_dir
         self.sidebar_file = os.path.join(root_dir, sidebar_file)
         self.navbar_file = os.path.join(root_dir, navbar_file)
-        self.exclude_paths = exclude_paths or ['jupyter-notes', 'test', 'images', "IBM-AI-Engineer-Course/jupyter-demo"]
+        self.exclude_paths = exclude_paths or [
+            'jupyter-notes',
+            'test',
+            'images',
+            'resources',
+            "IBM-AI-Engineer-Course/jupyter-demo"]
         self.exclude_file = ["README.md", "_sidebar.md", "_navbar.md"]
         # 词条翻译词典
         self.term_trans_dict = {
