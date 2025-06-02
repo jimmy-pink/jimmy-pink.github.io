@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-EssentialBasics/1.1 高等数学.md",
+                "file": "3-DeepLearning/3.8 强化学习.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1 高等数学"
+              "title": "3.8 强化学习"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-EssentialBasics/1.1 高等数学.md",
+                "file": "3-DeepLearning/3.8 强化学习.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.1 高等数学 的大纲"
+              "title": "3.8 强化学习 的大纲"
             }
           },
           {
@@ -196,8 +196,14 @@
   },
   "active": "40e04f8cbdb1f2f7",
   "lastOpenFiles": [
-    "images/First Mean Value Theorem.png",
+    "images/deep-q-learning.png",
+    "images/q-learning.png",
+    "3-DeepLearning/3.8 强化学习.md",
+    "images/q-learning.png",
+    "2-MachineLearning/2.x 模型评估与调优.md",
+    "1-EssentialBasics/1.2 线性代数.md",
     "1-EssentialBasics/1.1 高等数学.md",
+    "images/First Mean Value Theorem.png",
     "images/tangent slope and derivertive.png",
     "images/definite integral.png",
     "images/Riemann sum.png",
@@ -206,8 +212,6 @@
     "images/gradient-gg.png",
     "images/convergence of a sequence.png",
     "images/monotonicity of a function.png",
-    "3-DeepLearning/3.8 强化学习.md",
-    "images/reinforcement-learning 1.png",
     "3-DeepLearning/3.x 模型优化.md",
     "3-DeepLearning/Keras高阶用法.md",
     "IBM-AI-Engineer-Course/IBM-3-DL with Keras and Tensorflow.md",
@@ -218,7 +222,6 @@
     "3-DeepLearning/3.1 神经元和神经网络.md",
     "3-DeepLearning/3.2 深度学习概述.md",
     "2-MachineLearning/2.4 梯度下降和损失函数.md",
-    "2-MachineLearning/2.x 模型评估与调优.md",
     "3-DeepLearning/3.6 Autoencoder, AE.md",
     "3-DeepLearning/3.3 卷积神经网络 CNN.md",
     "3-DeepLearning/3.4 循环神经网络 RNN.md",
@@ -226,13 +229,11 @@
     "3-DeepLearning/3.5 Transformer 架构.md",
     "IBM-AI-Engineer-Course/IBM-4-Neural Network and PyTorch.md",
     "2-MachineLearning/2.5 回归和分类.md",
-    "images/DiffusionModel-ForwardProcess.png",
     "3-DeepLearning/3.8 Fusion Model.md",
     "3-DeepLearning/Tensorflow 和 Keras 入门实战.md",
     "11-Side-Project/如何获得 AI side project？.md",
     "resources/pumpkin_book.pdf",
     "resources/test.md",
-    "IBM-AI-Engineer-Course/IBM-1-Machine Learning with Python.md",
     "PyTorch-入门-张量.ipynb",
     "resources",
     "2-MachineLearning/机器学习图谱.canvas",
