@@ -1,4 +1,4 @@
-
+![[technical-deep-learning-ai-engineer-skills.png]]
 ## M1 Advanced Keras Functionalities
 ### Summary
 - Keras is a high-level neural networks API written in Python and capable of running on top of TensorFlow, Theano, and CNTK.
@@ -330,3 +330,34 @@ Transfer learning is a powerful technique that enables the use of pre-trained mo
 | ReLU                                          | An activation function that outputs the input directly if positive; otherwise, it outputs zero. Commonly used in hidden layers.                                                                               |
 | TensorFlow Model Optimization Toolkit         | Provides easy-to-use APIs for pruning during training.                                                                                                                                                        |
 | Xavier (Glorot) and He initialization methods | Methods that set the initial weights in a way that avoids issues like vanishing or exploding gradients.                                                                                                       |
+
+## M6  Reinforcement Learning with Keras
+
+### Summary and Highlights
+
+- The key innovations of deep Q-networks (DQNs) include experience replay and target networks, which help stabilize training and improve performance.
+    
+- The steps to implement DQNs include initializing the environment, building the Q-network and target network, implementing experience replay, training the Q-network, and evaluating the agent.
+    
+- Reinforcement learning is a powerful tool for training agents to make decisions in complex environments, and Q-learning is one of the foundational algorithms in this field.
+    
+- The essence of Q-learning lies in the Q-value function Q(s, a).
+    
+- The Q-values are updated iteratively using the Bellman equation, which incorporates both the immediate reward and the estimated future rewards.
+### Glossary
+| Term                   | Definition                                                                                                                                                                                                                                                         |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| alpha                  | The learning rate that determines how much newly acquired information influences the update of the current value or policy.                                                                                                                                        |
+| Bellman equation       | A necessary condition for optimality associated with the mathematical optimization method known as dynamic programming. It is named after Richard E. Bellman.                                                                                                      |
+| Deep Q-networks (DQNs) | An extension of Q-learning that uses deep neural networks to approximate the Q-value function. It addresses the limitation using a neural network to estimate the Q-values, allowing the algorithm to scale to environments with large or continuous state spaces. |
+| epsilon                | The exploration rate that controls the probability of choosing a random action instead of the best-known action to encourage exploration of the environment.                                                                                                       |
+| gamma                  | The discount factor determines the importance of future rewards relative to immediate rewards in the value function.                                                                                                                                               |
+| Hyperparameters        | The settings in machine learning models that are set before training and control the learning process, such as learning rate, batch size, and the number of layers.                                                                                                |
+| OpenAI's Gym           | An open-source Python toolkit that provides developers with a simulated environment to develop and test reinforcement learning agents for deep learning models.                                                                                                    |
+| Q-learning             | An off-policy algorithm that seeks to learn the value of taking a specific action in a given state and aims to find the optimal action-selection policy for an agent.                                                                                              |
+| Q-network              | A neural network used to approximate the Q-value function, mapping state-action pairs to their expected future rewards.                                                                                                                                            |
+| Q-table                | A lookup table where each entry estimates the cumulative reward obtained by taking a given action in a given state and following the optimal policy afterward.                                                                                                     |
+| Q-value                | A function that estimates the expected future rewards for taking a specific action in a given state and following the optimal policy thereafter.                                                                                                                   |
+| Reinforcement learning | A powerful paradigm in machine learning that focuses on training agents to make sequences of decisions by maximizing a notion of cumulative reward.                                                                                                                |
+| Supervised learning    | A category of machine learning technology that uses labeled data sets to train algorithms to predict outcomes and recognize patterns.                                                                                                                              |
+| Unsupervised learning  | A category of machine learning technology that uses algorithms to analyze and cluster unlabeled data sets.                                                                                                                                                         |

@@ -29,6 +29,7 @@ class SidebarGenerator:
             "MachineLearning": "传统机器学习",
             "DeepLearning": "深度学习",
             "RAG": "RAG搜索增强",
+            "DeepLearningInAction": "深度学习实战",
             "-Full-Stack": "全栈",
             "RecommendSystem": "推荐系统",
             "Side-Project": "上手项目",
