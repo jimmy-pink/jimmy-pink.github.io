@@ -284,7 +284,7 @@ a type of supervised learning model
 
 #### Simple Linear Regression
 <font style="background:#F6E1AC;color:#664900">🌰 DEMO </font>[ ✍️ SimpleLinearRegression](https://github.com/jimmy-pink/colab-playground/blob/main/1traditional-ml/IBM-1-2-1-SimpleLinearRegression.ipynb)
-![[regression-line-and-plane.png]]
+![regression-line-and-plane.png](../images/regression-line-and-plane.png)
 predict a continuous value
 - the Best Fit
 find the <font style="background-color:tomato; color:black">regression line</font> or hyperplane that best describe the relationship between X and Y.  

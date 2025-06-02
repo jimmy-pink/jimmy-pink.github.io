@@ -27,7 +27,9 @@
   * [3.5 Transformer 架构](3-DeepLearning/3.5%20Transformer%20%E6%9E%B6%E6%9E%84.md)
   * [3.6 Autoencoder, AE](3-DeepLearning/3.6%20Autoencoder%2C%20AE.md)
   * [3.7 自监督学习](3-DeepLearning/3.7%20%E8%87%AA%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.md)
+  * [3.8 强化学习](3-DeepLearning/3.8%20%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0.md)
   * [3.x 模型优化](3-DeepLearning/3.x%20%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96.md)
+  * [Keras高阶用法](3-DeepLearning/Keras%E9%AB%98%E9%98%B6%E7%94%A8%E6%B3%95.md)
   * [Tensorflow 和 Keras 入门实战](3-DeepLearning/Tensorflow%20%E5%92%8C%20Keras%20%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98.md)
 * 4-NLP
   * [4.1 NLP 入门](4-NLP/4.1%20NLP%20%E5%85%A5%E9%97%A8.md)
@@ -37,9 +39,6 @@
   * [现代搜索技术](7-RAG/%E7%8E%B0%E4%BB%A3%E6%90%9C%E7%B4%A2%E6%8A%80%E6%9C%AF.md)
 * 9-推荐系统
   * [推荐系统](9-RecommendSystem/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.md)
-* 10-AI全栈
-  * [Github热点项目](10-AI-Full-Stack/Github%E7%83%AD%E7%82%B9%E9%A1%B9%E7%9B%AE.md)
-  * [PS+ComfyUI PS智能体](10-AI-Full-Stack/PS%2BComfyUI%20PS%E6%99%BA%E8%83%BD%E4%BD%93.md)
 * 11-上手项目
   * [如何获得 AI side project？](11-Side-Project/%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97%20AI%20side%20project%EF%BC%9F.md)
   * [🛞轮子1：CineTransAI 视频翻译](11-Side-Project/%F0%9F%9B%9E%E8%BD%AE%E5%AD%901%EF%BC%9ACineTransAI%20%E8%A7%86%E9%A2%91%E7%BF%BB%E8%AF%91.md)
