@@ -164,7 +164,7 @@ Sarcasm 新闻标题讽刺检测
 	- 子词分词
 - 模型选择
 	- FNN
-[✍️ Github-NLP-Sarcasm-FNN](https://github.com/jimmy-pink/colab-playground/blob/main/coursera/nlp-sarcasm-fnn.ipynb)
+[✍️ Github-NLP-Sarcasm-FNN](https://github.com/jimmy-pink/colab-playground/blob/main/coursera-lab/nlp-sarcasm-fnn.ipynb)
 
 ```python
 from keras import Sequential, Input, layers 

@@ -26,25 +26,25 @@ IBM AI工程师专业证书课程列表：
 	- 核心知识：
 		- [3.1 神经元和神经网络](3.1%20%E7%A5%9E%E7%BB%8F%E5%85%83%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C)
 	- 内容总结：
-		- 深度学习基础
-		- 神经元和神经网络
+		- [[3.2 深度学习概述|深度学习基础]]
+		- [[3.1 神经元和神经网络|神经元和神经网络]]
 		- 深度学习模型
-			- CNN
-			- RNN
-			- Transformer
-			- Autocoder
+			- [[3.3 卷积神经网络 CNN]]
+			- [[3.4 循环神经网络 RNN]]
+			- [[3.5 Transformer 架构]]
+			- [[3.6 Autoencoder, AE]]
 3. [Deep Learning with Keras and Tensorflow](https://www.coursera.org/learn/building-deep-learning-models-with-tensorflow?specialization=ai-engineer)
 	- 课堂笔记：[IBM-3-DL with Keras and Tensorflow](../IBM-AI-Engineer-Course/IBM-3-DL%20with%20Keras%20and%20Tensorflow.md)
 	- 内容总结：
-		- Custom Layers and Models
-		- 数据增强
-		- 迁移学习
+		- [[3.x 模型优化#数据增强 Data Augmentation|数据增强]]
+		- [[3.x 模型优化#迁移学习|迁移学习]]
 		- Transpose Convolution
 		- Transformers for text generation
-		- Autoencoders
-		- Diffusion models
-		- GANs
-		- Custom Training Loops
+		- [[3.6 Autoencoder, AE|Autoencoders]]
+		- [[3.7 自监督学习#融合模型 Diffusion Models|Diffusion models]]
+		- [[3.7 自监督学习#生成对抗网络 GANS|GANs]]
+		- [[Keras高阶用法#**二、自定义训练流程：掌控每一步**|Custom Training Loops]]
+		- [[Keras高阶用法#**三、设计自定义 Layer 与模型组件**|Custom Layers and Models]]
 		- 超参数调优
 		- Q-Learning
 		- Deep Q-Network

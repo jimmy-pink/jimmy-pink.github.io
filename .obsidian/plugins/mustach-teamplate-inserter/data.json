@@ -50,6 +50,20 @@
         "selectedText": ""
       },
       "isCommand": false
+    },
+    {
+      "id": "1747649108295",
+      "name": "快速上手",
+      "content": "<font style=\"background:#F6E1AC;color:#664900\">🌰 快速上手 </font>[ ✍️ {{title}}]({{link}})",
+      "params": [
+        "title",
+        "link"
+      ],
+      "defaultValues": {
+        "link": "",
+        "title": ""
+      },
+      "isCommand": false
     }
   ]
 }
