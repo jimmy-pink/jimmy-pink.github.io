@@ -7,3 +7,5 @@
 /**/jupyter-demo/data/**
 
 .jupyter
+
+.obsidian/plugins/copilot/data.json
