@@ -10,14 +10,14 @@
 
 
 ### 神经网络和张量
-![[nn and tensor.png]]
+![nn and tensor.png](../images/nn%20and%20tensor.png)
 
 神经网络的输入和输出都是张量， 网络本身是一组参数组成，这些参数也是张量
-![[image as tensor.png]]
+![image as tensor.png](../images/image%20as%20tensor.png)
 
 ### 张量操作
 
-更多PyTorch张量操作命令查阅 --> [[机器学习工具最常用命令合集#PyTorch 张量操作]]
+更多PyTorch张量操作命令查阅 --> [机器学习工具最常用命令合集#PyTorch 张量操作](../1-EssentialBasics/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%B7%A5%E5%85%B7%E6%9C%80%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%90%88%E9%9B%86.md#PyTorch 张量操作)
 
 [PyTorch-入门-张量](https://github.com/jimmy-pink/colab-playground/blob/main/3pytorch/PyTorch-%E5%85%A5%E9%97%A8-%E5%BC%A0%E9%87%8F.ipynb)
 
@@ -106,7 +106,7 @@ for i, x in enumerate(X_test):
 		- w 代表权重向量 Weight Vector ，$w[i]$ 和 $x[i]$ 一一对应，即x向量的第i个元素的权重参数是w向量的第i个元素
 		- b 仍是标量
 		- 特征向量与权重向量点乘 得到多维线性方程。
-	- ![[Pasted image 20260201155313.png]]
+	- ![Pasted image 20260201155313.png](../images/Pasted%20image%2020260201155313.png)
 	 [^1]: Image sourced from Coursera: "Introduction to NN and PyTorch" module 4 by IBM.
 
 - 多输出线性回归 Multi Output Linear Regression
@@ -119,7 +119,7 @@ for i, x in enumerate(X_test):
 - Linear Classifier
 > 思考：线性回归如何解决二分类问题？优缺点是什么？
 > 如：使用历年MPNP申请者数据：海外工作年限w1，雅思成绩w2, 居住时间w3,训练模型，训练线性回归模型，用于给新的申请人模拟打分，评估通过率。$$P = \text{Sigmoid}(w_1x_1 + w_2x_2 + w_3x_3 + b)$$
-- [[2.5 回归和分类#逻辑回归 (Logistic Regression)|逻辑回归]]
+- [逻辑回归](2.5%20%E5%9B%9E%E5%BD%92%E5%92%8C%E5%88%86%E7%B1%BB#逻辑回归 (Logistic Regression))
 	- 是 线性函数 + 激活函数 组成
 	- 二分类使用Sigmoid作为激活函数，多分类使用softmax，也称为Logistic Function
 	

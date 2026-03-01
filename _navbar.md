@@ -2,7 +2,8 @@
 * 学习阶段
   * [0-前言](0-Preface/%E5%BA%8F1%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6AI%EF%BC%9F.md)
   * [1-必备基础](1-EssentialBasics/1.0%20%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6.md)
-  * [2-传统机器学习](2.1%20机器学习概述.md)
+  * [2-传统机器学习](2-MachineLearning/2.1%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%BF%B0.md)
+  * [00_机器学习生命周期](2-MachineLearning/00_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/00_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.md)
   * [3-深度学习](3-DeepLearning/3.1%20%E7%A5%9E%E7%BB%8F%E5%85%83%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md)
   * [4-深度学习InAction](4-DeepLearningInAction/Keras%E9%AB%98%E9%98%B6%E7%94%A8%E6%B3%95.md)
   * [5-ComputerVision](5-ComputerVision/%E5%9B%BE%E5%83%8F%E5%A2%9E%E5%BC%BA.md)

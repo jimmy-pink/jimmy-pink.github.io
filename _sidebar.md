@@ -11,14 +11,21 @@
   * [1.5 信息论基础 (信息熵、KL散度)](1-EssentialBasics/1.5%20%E4%BF%A1%E6%81%AF%E8%AE%BA%E5%9F%BA%E7%A1%80%20%28%E4%BF%A1%E6%81%AF%E7%86%B5%E3%80%81KL%E6%95%A3%E5%BA%A6%29.md)
   * [机器学习工具最常用命令合集](1-EssentialBasics/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%B7%A5%E5%85%B7%E6%9C%80%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%90%88%E9%9B%86.md)
 * 2-传统机器学习
-  * [2.1 机器学习概述](2.1%20机器学习概述.md)
+  * [2.1 机器学习概述](2-MachineLearning/2.1%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%BF%B0.md)
   * [2.2 机器学习的分类](2-MachineLearning/2.2%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%88%86%E7%B1%BB.md)
-  * [2.3 数据理解和特征工程](2.3%20数据理解和特征工程.md)
+  * [2.3 数据理解和特征工程](2-MachineLearning/2.3%20%E6%95%B0%E6%8D%AE%E7%90%86%E8%A7%A3%E5%92%8C%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B.md)
   * [2.4 梯度下降和损失函数](2-MachineLearning/2.4%20%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%92%8C%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0.md)
   * [2.5 回归和分类](2-MachineLearning/2.5%20%E5%9B%9E%E5%BD%92%E5%92%8C%E5%88%86%E7%B1%BB.md)
   * [2.6 聚类和降维](2-MachineLearning/2.6%20%E8%81%9A%E7%B1%BB%E5%92%8C%E9%99%8D%E7%BB%B4.md)
-  * [2.7 序列和时间序列任务](2-MachineLearning/2.7%20%E5%BA%8F%E5%88%97%E5%92%8C%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97%E4%BB%BB%E5%8A%A1.md)
+  * [2.7 关联规则和时序](2-MachineLearning/2.7%20%E5%85%B3%E8%81%94%E8%A7%84%E5%88%99%E5%92%8C%E6%97%B6%E5%BA%8F.md)
   * [2.x 模型评估与调优](2-MachineLearning/2.x%20%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E4%B8%8E%E8%B0%83%E4%BC%98.md)
+  * 00_机器学习生命周期
+    * [00_机器学习生命周期](2-MachineLearning/00_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/00_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.md)
+    * [01_业务理解](2-MachineLearning/00_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/01_%E4%B8%9A%E5%8A%A1%E7%90%86%E8%A7%A3.md)
+    * [02_EDA阶段的数据处理](2-MachineLearning/00_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/02_EDA%E9%98%B6%E6%AE%B5%E7%9A%84%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86.md)
+    * [03_数据准备](2-MachineLearning/00_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/03_%E6%95%B0%E6%8D%AE%E5%87%86%E5%A4%87.md)
+    * [04_特征工程](2-MachineLearning/00_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/04_%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B.md)
+    * [05_建模与评估](2-MachineLearning/00_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/05_%E5%BB%BA%E6%A8%A1%E4%B8%8E%E8%AF%84%E4%BC%B0.md)
 * 3-深度学习
   * [3.1 神经元和神经网络](3-DeepLearning/3.1%20%E7%A5%9E%E7%BB%8F%E5%85%83%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md)
   * [3.2 深度学习概述](3-DeepLearning/3.2%20%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%BF%B0.md)
@@ -28,9 +35,12 @@
   * [3.6 Autoencoder, AE](3-DeepLearning/3.6%20Autoencoder%2C%20AE.md)
   * [3.7 自监督学习](3-DeepLearning/3.7%20%E8%87%AA%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.md)
   * [3.8 强化学习](3-DeepLearning/3.8%20%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0.md)
+  * [3.N 模型训练高阶方法](3-DeepLearning/3.N%20%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E9%AB%98%E9%98%B6%E6%96%B9%E6%B3%95.md)
   * [3.x 模型优化](3-DeepLearning/3.x%20%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96.md)
 * 4-深度学习InAction
   * [Keras高阶用法](4-DeepLearningInAction/Keras%E9%AB%98%E9%98%B6%E7%94%A8%E6%B3%95.md)
+  * [PyTorch-01-入门](4-DeepLearningInAction/PyTorch-01-%E5%85%A5%E9%97%A8.md)
+  * [PyTorch-02-DNN](4-DeepLearningInAction/PyTorch-02-DNN.md)
   * [Tensorflow 和 Keras 入门实战](4-DeepLearningInAction/Tensorflow%20%E5%92%8C%20Keras%20%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98.md)
 * 5-ComputerVision
   * [图像增强](5-ComputerVision/%E5%9B%BE%E5%83%8F%E5%A2%9E%E5%BC%BA.md)

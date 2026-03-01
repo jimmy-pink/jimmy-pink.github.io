@@ -55,7 +55,7 @@ Algorithms:
 
 ### ML Techniques
 
-![[ml-4-techniques.png]]
+![ml-4-techniques.png](../images/ml-4-techniques.png)
 
 - **classification**： predicts class or category of a case.
 - **regression**:  predicts *continuous* values
@@ -66,11 +66,11 @@ Algorithms:
 - **dimension reduction**: reduces size of data
 - **recommendation systems** : associate people's preferences.
 
-![[classsification-regression-clustering.png]]
+![classsification-regression-clustering.png](../images/classsification-regression-clustering.png)
 
 ### Applications of ML
 
-![[ml-applications.png]]
+![ml-applications.png](../images/ml-applications.png)
 
 #### Image Recognition with ML
 
@@ -78,11 +78,11 @@ Algorithms:
 > **Traditional Programming**: create rules to detect the animals
 > **ML**: build a model to infer the animal type
 
-![[mlp-samples-cats-dogs.png]]
+![mlp-samples-cats-dogs.png](../images/mlp-samples-cats-dogs.png)
 
 #### Pairing ML with human intelligence
 
-![[ml-with-human-intelligence.png]]
+![ml-with-human-intelligence.png](../images/ml-with-human-intelligence.png)
 
 - chatbot
 - face recognition
@@ -104,13 +104,13 @@ Algorithms:
 	- **collaborative filtering**: recommend -->
 		- **similar users** target item
 		- **similar items** to users who buy target item
-		- 查看详细内容： [[推荐系统]] 
+		- 查看详细内容： [推荐系统](../9-RecommendSystem/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.md) 
 - ✅ **Model Evaluation**
 - **🚀 Model Deployment**
 
 ### Tools for ML
 
-![[tools-for-ml.png]]
+![tools-for-ml.png](../images/tools-for-ml.png)
 
 #### Data
 
@@ -177,7 +177,7 @@ used to draw insights, inform decisions, and fuel advanced technologies.
 - Enables easy implementation of ML models
 
 #### Machine Learning pipeline tasks
-![[hyperparameter-tuning-with-crossentropy.png]]
+![hyperparameter-tuning-with-crossentropy.png](../images/hyperparameter-tuning-with-crossentropy.png)
 
 #### Sk Learn Demo
 
@@ -245,12 +245,12 @@ y_pred = model.predict(np.array([[6], [7]])  )
 > - linear regression
 > - logistic regression
 
-[[2.5 回归和分类]]
+[2.5 回归和分类](2.5%20%E5%9B%9E%E5%BD%92%E5%92%8C%E5%88%86%E7%B1%BB)
 
 Regression is a statistical method used to model the **relationship** between a continuous input **variable**  and explanatory **features**.
 
 a type of supervised learning model
-![[data-sample-vehicle-configuration.png]]
+![data-sample-vehicle-configuration.png](../images/data-sample-vehicle-configuration.png)
 ### Regression algorithms
 
 - Linear and polynomial 
@@ -286,7 +286,7 @@ a type of supervised learning model
 
 #### Simple Linear Regression
 <font style="background:#F6E1AC;color:#664900">🌰 DEMO </font>[ ✍️ SimpleLinearRegression](https://github.com/jimmy-pink/colab-playground/blob/main/1traditional-ml/IBM-1-2-1-SimpleLinearRegression.ipynb)
-![[regression-line-and-plane.png]]
+![regression-line-and-plane.png](../images/regression-line-and-plane.png)
 predict a continuous value
 - the Best Fit
 find the <font style="background-color:tomato; color:black">regression line</font> or hyperplane that best describe the relationship between X and Y.  
@@ -328,7 +328,7 @@ Fitting a <font style="background-color:tomato; color:black">hyperplane</font>
 is usually the best solution for standard linear regression.
 
 #### Nonlinear Regression
-![[regression-nonlinear.png]]
+![regression-nonlinear.png](../images/regression-nonlinear.png)
 Features：
 - Represented by a nonlinear equation
 	- polynomial
@@ -346,7 +346,7 @@ Features：
 - log-loss
 - threshold probability
 
-![[sigmoid-function.png]]
+![sigmoid-function.png](../images/sigmoid-function.png)
 
 
 ### Module 2 Summary
@@ -400,7 +400,7 @@ Features：
 
 ### Basics
 #### Classification
-![[classification-illustration.png]]
+![classification-illustration.png](../images/classification-illustration.png)
 
 
 #### Application of Classification
@@ -436,10 +436,10 @@ Features：
 - Regression Tree
 
 #### Support Vector Machine SVM
-![[ml-svm.png]]
+![ml-svm.png](../images/ml-svm.png)
 
 ### K-Nearest Neighbors
-![[KNN.webp]]
+<img src="../images/KNN.webp" alt="KNN.webp">
 
 ### Ensemble Models
 ####  Random Forest
