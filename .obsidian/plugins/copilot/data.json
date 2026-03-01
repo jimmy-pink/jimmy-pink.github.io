@@ -198,7 +198,7 @@
       ]
     },
     {
-      "name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+      "name": " deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
       "provider": "openai",
       "enabled": true,
       "isBuiltIn": false,
@@ -222,19 +222,7 @@
       "displayName": "THUDM/GLM-Z1-9B-0414"
     },
     {
-      "name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-      "provider": "3rd party (openai-format)",
-      "enabled": true,
-      "isBuiltIn": false,
-      "baseUrl": "https://api.siliconflow.cn/v1",
-      "apiKey": "sk-cuhraazmgsewukjcectrbziixkiljwhnsdnlwbahalxjgvxw",
-      "isEmbeddingModel": false,
-      "capabilities": [],
-      "stream": true,
-      "displayName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
-    },
-    {
-      "name": "Qwen/Qwen2-1.5B-Instruct",
+      "name": "Qwen/Qwen2.5-7B-Instruct",
       "provider": "3rd party (openai-format)",
       "enabled": true,
       "isBuiltIn": false,

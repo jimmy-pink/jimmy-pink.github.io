@@ -1,3 +1,6 @@
+
+<h1 style=" text-align: center; font-size: 3em; font-family: 'Georgia', serif; color: #2c3e50; margin: 0.5em 0; padding: 10px 0; border-top: 4px solid #3498db; border-bottom: 4px solid #3498db; text-transform: uppercase; letter-spacing: 3px;">DL with Keras and Tensorflow</h1>
+
 ![[technical-deep-learning-ai-engineer-skills.png]]
 ## M1 Advanced Keras Functionalities
 ### Summary

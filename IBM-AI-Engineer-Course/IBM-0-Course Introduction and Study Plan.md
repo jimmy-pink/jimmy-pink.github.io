@@ -1,3 +1,6 @@
+
+<h1 style=" text-align: center; font-size: 3em; font-family: 'Georgia', serif; color: #2c3e50; margin: 0.5em 0; padding: 10px 0; border-top: 4px solid #3498db; border-bottom: 4px solid #3498db; text-transform: uppercase; letter-spacing: 3px;">IBM AI Course Introduction</h1>
+
 ## 课程列表
 
 IBM AI工程师专业证书课程列表：
@@ -50,6 +53,11 @@ IBM AI工程师专业证书课程列表：
 		- Deep Q-Network
 4. [Neural Network and PyTorch](https://www.coursera.org/learn/deep-neural-networks-with-pytorch/)
 	- 课程笔记：[[IBM-4-Neural Network and PyTorch]]
+	- 内容总结：
+		- PyTorch张量操作
+		- 训练回归模型
+		- 应用逻辑回归解决分类问题
+		- 梯度下降
 5. [Deep Learning with PyTorch](https://www.coursera.org/learn/advanced-deep-learning-with-pytorch?specialization=ai-engineer)
 6. [AI Capstone Project with Deep Learning](https://www.coursera.org/learn/ai-deep-learning-capstone?specialization=ai-engineerr)
 7. [Generative AI and LLMs: Architecture and Data Preparation](https://www.coursera.org/learn/generative-ai-llm-architecture-data-preparation?specialization=ai-engineer)

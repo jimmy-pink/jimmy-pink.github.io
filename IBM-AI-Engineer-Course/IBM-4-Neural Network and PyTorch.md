@@ -1,6 +1,7 @@
 
+<h1 style=" text-align: center; font-size: 3em; font-family: 'Georgia', serif; color: #2c3e50; margin: 0.5em 0; padding: 10px 0; border-top: 4px solid #3498db; border-bottom: 4px solid #3498db; text-transform: uppercase; letter-spacing: 3px;">Neural Network and PyTorch</h1>
 
-##  🌟 Course Introduction 🌟
+#  🌟 Course Introduction 🌟
 
 ### Six Core Modules
 
@@ -34,12 +35,20 @@
 6. 🎓 Final Project
     - Logistical regression model aimed at predicting the outcomes of League of Legends matches
 
-### 📚 Pre-requisites
-
-- Basic knowledge of Python programming
-- Familiar with PyTorch
 
 
+
+# Course Modules
+
+## M1: Tensor and Data Set
+
+## M2: Linear Regression
+
+## M3: Linear Regression in PyTorch way
+
+## M4: Multiple Input Output Linear Regression
+
+## M5: Logistic Regression for Classification
 
 
 

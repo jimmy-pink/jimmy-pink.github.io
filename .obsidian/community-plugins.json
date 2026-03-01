@@ -1,6 +1,8 @@
 [
-  "copilot",
   "obsidian-jupyter",
   "obsidian-template-inserter",
-  "obsidian-plantuml"
+  "obsidian-plantuml",
+  "obsidian-minimal-settings",
+  "folder-note-plugin",
+  "copilot"
 ]
