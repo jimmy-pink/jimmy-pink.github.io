@@ -1,4 +1,6 @@
 
+<h1 style=" text-align: center; font-size: 3em; font-family: 'Georgia', serif; color: #2c3e50; margin: 0.5em 0; padding: 10px 0; border-top: 4px solid #3498db; border-bottom: 4px solid #3498db; text-transform: uppercase; letter-spacing: 3px;">Machine Learning with Python</h1>
+
 ## 🌟Course Introduction 🌟
 
 
@@ -53,7 +55,7 @@ Algorithms:
 
 ### ML Techniques
 
-![ml-4-techniques.png](../images/ml-4-techniques.png)
+![[ml-4-techniques.png]]
 
 - **classification**： predicts class or category of a case.
 - **regression**:  predicts *continuous* values
@@ -64,11 +66,11 @@ Algorithms:
 - **dimension reduction**: reduces size of data
 - **recommendation systems** : associate people's preferences.
 
-![classsification-regression-clustering.png](../images/classsification-regression-clustering.png)
+![[classsification-regression-clustering.png]]
 
 ### Applications of ML
 
-![ml-applications.png](../images/ml-applications.png)
+![[ml-applications.png]]
 
 #### Image Recognition with ML
 
@@ -76,11 +78,11 @@ Algorithms:
 > **Traditional Programming**: create rules to detect the animals
 > **ML**: build a model to infer the animal type
 
-![mlp-samples-cats-dogs.png](../images/mlp-samples-cats-dogs.png)
+![[mlp-samples-cats-dogs.png]]
 
 #### Pairing ML with human intelligence
 
-![ml-with-human-intelligence.png](../images/ml-with-human-intelligence.png)
+![[ml-with-human-intelligence.png]]
 
 - chatbot
 - face recognition
@@ -102,13 +104,13 @@ Algorithms:
 	- **collaborative filtering**: recommend -->
 		- **similar users** target item
 		- **similar items** to users who buy target item
-		- 查看详细内容： [推荐系统](../9-RecommendSystem/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.md) 
+		- 查看详细内容： [[推荐系统]] 
 - ✅ **Model Evaluation**
 - **🚀 Model Deployment**
 
 ### Tools for ML
 
-![tools-for-ml.png](../images/tools-for-ml.png)
+![[tools-for-ml.png]]
 
 #### Data
 
@@ -175,7 +177,7 @@ used to draw insights, inform decisions, and fuel advanced technologies.
 - Enables easy implementation of ML models
 
 #### Machine Learning pipeline tasks
-![hyperparameter-tuning-with-crossentropy.png](../images/hyperparameter-tuning-with-crossentropy.png)
+![[hyperparameter-tuning-with-crossentropy.png]]
 
 #### Sk Learn Demo
 
@@ -243,12 +245,12 @@ y_pred = model.predict(np.array([[6], [7]])  )
 > - linear regression
 > - logistic regression
 
-[2.5 回归和分类](2.5%20%E5%9B%9E%E5%BD%92%E5%92%8C%E5%88%86%E7%B1%BB)
+[[2.5 回归和分类]]
 
 Regression is a statistical method used to model the **relationship** between a continuous input **variable**  and explanatory **features**.
 
 a type of supervised learning model
-![data-sample-vehicle-configuration.png](../images/data-sample-vehicle-configuration.png)
+![[data-sample-vehicle-configuration.png]]
 ### Regression algorithms
 
 - Linear and polynomial 
@@ -284,7 +286,7 @@ a type of supervised learning model
 
 #### Simple Linear Regression
 <font style="background:#F6E1AC;color:#664900">🌰 DEMO </font>[ ✍️ SimpleLinearRegression](https://github.com/jimmy-pink/colab-playground/blob/main/1traditional-ml/IBM-1-2-1-SimpleLinearRegression.ipynb)
-![regression-line-and-plane.png](../images/regression-line-and-plane.png)
+![[regression-line-and-plane.png]]
 predict a continuous value
 - the Best Fit
 find the <font style="background-color:tomato; color:black">regression line</font> or hyperplane that best describe the relationship between X and Y.  
@@ -326,7 +328,7 @@ Fitting a <font style="background-color:tomato; color:black">hyperplane</font>
 is usually the best solution for standard linear regression.
 
 #### Nonlinear Regression
-![regression-nonlinear.png](../images/regression-nonlinear.png)
+![[regression-nonlinear.png]]
 Features：
 - Represented by a nonlinear equation
 	- polynomial
@@ -344,7 +346,7 @@ Features：
 - log-loss
 - threshold probability
 
-![sigmoid-function.png](../images/sigmoid-function.png)
+![[sigmoid-function.png]]
 
 
 ### Module 2 Summary
@@ -398,7 +400,7 @@ Features：
 
 ### Basics
 #### Classification
-![classification-illustration.png](../images/classification-illustration.png)
+![[classification-illustration.png]]
 
 
 #### Application of Classification
@@ -434,10 +436,10 @@ Features：
 - Regression Tree
 
 #### Support Vector Machine SVM
-![ml-svm.png](../images/ml-svm.png)
+![[ml-svm.png]]
 
 ### K-Nearest Neighbors
-<img src="../images/KNN.webp" alt="KNN.webp">
+![[KNN.webp]]
 
 ### Ensemble Models
 ####  Random Forest
@@ -599,7 +601,3 @@ Features：
 | **Silhouette method**        | Determines the optimal number of clusters by evaluating Silhouette Scores for different **k** values.  <br>**Advantage:** Considers both cohesion and separation.  <br>**Limitation:** High computation for large datasets.                                | 1. `# Range of k values to test`<br>2. `k_values = range(2, 11)`<br><br>4. `# Store performance metrics`<br>5. `silhouette_scores = []`<br>6. `for k in k_values:`<br>7.     `kmeans = KMeans(n_clusters=k, random_state=42)`<br>8.     `y_kmeans = kmeans.fit_predict(X)`<br>9.     `silhouette_scores.append(silhouette_score(X, y_kmeans))`<br><br>11. `# Plot the Silhouette Scores`<br>12. `plt.figure(figsize=(18, 6))`<br>13. `plt.subplot(1, 3, 2)`<br>14. `plt.plot(k_values, silhouette_scores, marker='o')`<br>15. `plt.title('Silhouette Score vs. k')`<br>16. `plt.xlabel('Number of Clusters (k)')`<br>17. `plt.ylabel('Silhouette Score')`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Davies-Bouldin Index**     | Evaluates clustering performance by calculating DBI for different **k** values.  <br>**Advantage:** Quantifies compactness and separation.  <br>**Limitation:** Sensitive to cluster shapes and density.                                                   | 1. `# Range of k values to test`<br>2. `k_values = range(2, 11)`<br><br>4. `# Store performance metrics`<br>5. `davies_bouldin_indices = []`<br>6. `for k in k_values:`<br>7.     `kmeans = KMeans(n_clusters=k, random_state=42)`<br>8.     `y_kmeans = kmeans.fit_predict(X)`<br>9.     `davies_bouldin_indices.append(davies_bouldin_score(X, y_kmeans))`<br><br>11. `# Plot the Davies-Bouldin Index`<br>12. `plt.figure(figsize=(18, 6))`<br>13. `plt.subplot(1, 3, 3)`<br>14. `plt.plot(k_values, davies_bouldin_indices, marker='o')`<br>15. `plt.title('Davies-Bouldin Index vs. k')`<br>16. `plt.xlabel('Number of Clusters (k)')`<br>17. `plt.ylabel('Davies-Bouldin Index')`                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
-
-## M6: Final Exam and Project
-
-[IBM-1-6-2-Final-Rainfall-Classifier.ipynb](../../IBM-AI-Engineer-Course/jupyter-demo/IBM-1-6-2-Final-Rainfall-Classifier.ipynb)

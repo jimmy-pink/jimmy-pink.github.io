@@ -11,9 +11,9 @@
   * [1.5 信息论基础 (信息熵、KL散度)](1-EssentialBasics/1.5%20%E4%BF%A1%E6%81%AF%E8%AE%BA%E5%9F%BA%E7%A1%80%20%28%E4%BF%A1%E6%81%AF%E7%86%B5%E3%80%81KL%E6%95%A3%E5%BA%A6%29.md)
   * [机器学习工具最常用命令合集](1-EssentialBasics/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%B7%A5%E5%85%B7%E6%9C%80%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%90%88%E9%9B%86.md)
 * 2-传统机器学习
-  * [2.1 机器学习概述](2-MachineLearning/2.1%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%BF%B0.md)
+  * [2.1 机器学习概述](2.1%20机器学习概述.md)
   * [2.2 机器学习的分类](2-MachineLearning/2.2%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%88%86%E7%B1%BB.md)
-  * [2.3 特征和特征工程](2-MachineLearning/2.3%20%E7%89%B9%E5%BE%81%E5%92%8C%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B.md)
+  * [2.3 数据理解和特征工程](2.3%20数据理解和特征工程.md)
   * [2.4 梯度下降和损失函数](2-MachineLearning/2.4%20%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%92%8C%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0.md)
   * [2.5 回归和分类](2-MachineLearning/2.5%20%E5%9B%9E%E5%BD%92%E5%92%8C%E5%88%86%E7%B1%BB.md)
   * [2.6 聚类和降维](2-MachineLearning/2.6%20%E8%81%9A%E7%B1%BB%E5%92%8C%E9%99%8D%E7%BB%B4.md)
