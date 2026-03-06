@@ -1,6 +1,5 @@
 .idea
 .idea/**
-
 /test/**
 /jupyter-notes/data/**
 
@@ -9,3 +8,4 @@
 .jupyter
 
 .obsidian/plugins/copilot/data.json
+/test.md

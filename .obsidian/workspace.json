@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7a9794f4c924ea03",
+        "id": "fbdaea5cfc6669d5",
         "type": "tabs",
         "children": [
           {
-            "id": "45eb04e5fa2afc2b",
+            "id": "31ae5af3152f24ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-MachineLearning/2.7 关联规则和时序.md",
-                "mode": "preview",
+                "file": "3-DeepLearning/00_深度神经网络/01_激活函数是深度学习的灵魂.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.7 关联规则和时序"
+              "title": "01_激活函数是深度学习的灵魂"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-MachineLearning/2.7 关联规则和时序.md",
+                "file": "3-DeepLearning/00_深度神经网络/01_激活函数是深度学习的灵魂.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2.7 关联规则和时序 的大纲"
+              "title": "01_激活函数是深度学习的灵魂 的大纲"
             }
           }
         ],
@@ -161,7 +161,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "copilot:Open Copilot Chat": false,
       "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -171,38 +170,41 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "45eb04e5fa2afc2b",
+  "active": "40e04f8cbdb1f2f7",
   "lastOpenFiles": [
+    "images/chains_rule.jpg",
+    "resources/chains_rule.jpg",
+    "3-DeepLearning/3.1 神经元和神经网络.md",
+    "3-DeepLearning/00_深度神经网络/01_激活函数是深度学习的灵魂.md",
+    "3-DeepLearning/00_深度神经网络",
+    "2-MachineLearning/2.4 梯度下降和损失函数.md",
+    "2-MachineLearning/01_梯度下降和反向传播/10_正向传播与反向传播.md",
+    "2-MachineLearning/01_梯度下降和反向传播/12_梯度问题及缓解.md",
+    "2-MachineLearning/01_梯度下降和反向传播/11_梯度下降的种类.md",
+    "2-MachineLearning/00_机器学习生命周期/00_机器学习生命周期.md",
+    "2-MachineLearning/2.1 机器学习概述.md",
+    "2-MachineLearning/2.2 机器学习的分类.md",
+    "1-EssentialBasics/1.3 概率论与数理统计.md",
+    "1-EssentialBasics/1.2 线性代数.md",
+    "1-EssentialBasics/1.1 高等数学.md",
+    "1-EssentialBasics/1.0 基础数学.md",
+    "2-MachineLearning/2.5 回归和分类.md",
+    "2-MachineLearning/01_梯度下降和反向传播",
+    "IBM-AI-Engineer-Course/IBM-0-Course Introduction and Study Plan.md",
+    "test.md",
+    "0-Preface/序3 - How to use AI Smoothly?.md",
+    "2-MachineLearning/00_机器学习生命周期/03_数据准备.md",
+    "2-MachineLearning/00_机器学习生命周期/02_EDA阶段的数据处理.md",
+    "README.md",
+    "2-MachineLearning/2.7 关联规则和时序.md",
     "2-MachineLearning/2.3 数据理解和特征工程.md",
     "2-MachineLearning/00_机器学习生命周期/05_建模与评估.md",
-    "2-MachineLearning/00_机器学习生命周期/02_EDA阶段的数据处理.md",
-    "2-MachineLearning/2.1 机器学习概述.md",
     "2-MachineLearning/00_机器学习生命周期/04_特征工程.md",
-    "2-MachineLearning/00_机器学习生命周期/03_数据准备.md",
     "2-MachineLearning/00_机器学习生命周期/01_业务理解.md",
-    "2-MachineLearning/00_机器学习生命周期/00_机器学习生命周期.md",
-    "2-MachineLearning/2.2 机器学习的分类.md",
     "images/Pasted image 20260220194045.png",
-    "2-MachineLearning/2.7 关联规则和时序.md",
-    "2-MachineLearning/2.6 聚类和降维.md",
     "未命名 2.base",
-    "2-MachineLearning/2.x 模型评估与调优.md",
-    "2-MachineLearning/2.5 回归和分类.md",
-    "2-MachineLearning/2.4 梯度下降和损失函数.md",
-    "3-DeepLearning/3.1 神经元和神经网络.md",
-    "1-EssentialBasics/1.4 机器学习工具.md",
-    "1-EssentialBasics/1.5 信息论基础 (信息熵、KL散度).md",
-    "1-EssentialBasics/机器学习工具最常用命令合集.md",
     "2-MachineLearning/00_机器学习生命周期",
     "2-MachineLearning/机器学习图谱.canvas",
-    "2-MachineLearning/2-MachineLearning.md",
-    "3-DeepLearning/3.N 模型训练高阶方法.md",
-    "3-DeepLearning/3.x 模型优化.md",
-    "3-DeepLearning/3.3 卷积神经网络 CNN.md",
-    "3-DeepLearning/3.5 Transformer 架构.md",
-    "3-DeepLearning/3.6 Autoencoder, AE.md",
-    "3-DeepLearning/3.4 循环神经网络 RNN.md",
-    "6-NLP/6.1 NLP 入门.md",
     "未命名 1.base",
     "Pasted image 20260220193952.png",
     "images/Pasted image 20260220193857.png",
@@ -216,11 +218,8 @@
     "images/Pasted image 20260201155313.png",
     "3-DeepLearning/深度学习模型分类.canvas",
     "images/nn and tensor.png",
-    "Pasted image 20250603162903.png",
     "4-DeepLearningInAction",
     "resources/pumpkin_book.pdf",
-    "PyTorch-入门-张量.ipynb",
-    "resources",
     "9-RecommendSystem/谷歌搜索流程图.canvas",
     "9-推荐系统/谷歌搜索流程图.canvas"
   ]
