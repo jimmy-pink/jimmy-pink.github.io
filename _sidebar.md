@@ -2,6 +2,7 @@
 * 0-前言
   * [序1 - 为什么要学AI？](0-Preface/%E5%BA%8F1%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6AI%EF%BC%9F.md)
   * [序2 - 学习路线图](0-Preface/%E5%BA%8F2%20-%20%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE.md)
+  * [序3 - How to use AI Smoothly?](0-Preface/%E5%BA%8F3%20-%20How%20to%20use%20AI%20Smoothly%3F.md)
 * 1-必备基础
   * [1.0 基础数学](1-EssentialBasics/1.0%20%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6.md)
   * [1.1 高等数学](1-EssentialBasics/1.1%20%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6.md)
@@ -26,6 +27,10 @@
     * [03_数据准备](2-MachineLearning/00_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/03_%E6%95%B0%E6%8D%AE%E5%87%86%E5%A4%87.md)
     * [04_特征工程](2-MachineLearning/00_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/04_%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B.md)
     * [05_建模与评估](2-MachineLearning/00_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/05_%E5%BB%BA%E6%A8%A1%E4%B8%8E%E8%AF%84%E4%BC%B0.md)
+  * 01_梯度下降和反向传播
+    * [10_正向传播与反向传播](2-MachineLearning/01_%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%92%8C%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD/10_%E6%AD%A3%E5%90%91%E4%BC%A0%E6%92%AD%E4%B8%8E%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD.md)
+    * [11_梯度下降的种类](2-MachineLearning/01_%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%92%8C%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD/11_%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E7%9A%84%E7%A7%8D%E7%B1%BB.md)
+    * [12_梯度问题及缓解](2-MachineLearning/01_%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%92%8C%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD/12_%E6%A2%AF%E5%BA%A6%E9%97%AE%E9%A2%98%E5%8F%8A%E7%BC%93%E8%A7%A3.md)
 * 3-深度学习
   * [3.1 神经元和神经网络](3-DeepLearning/3.1%20%E7%A5%9E%E7%BB%8F%E5%85%83%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md)
   * [3.2 深度学习概述](3-DeepLearning/3.2%20%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%BF%B0.md)
@@ -37,6 +42,8 @@
   * [3.8 强化学习](3-DeepLearning/3.8%20%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0.md)
   * [3.N 模型训练高阶方法](3-DeepLearning/3.N%20%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E9%AB%98%E9%98%B6%E6%96%B9%E6%B3%95.md)
   * [3.x 模型优化](3-DeepLearning/3.x%20%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96.md)
+  * 00_深度神经网络
+    * [01_激活函数是深度学习的灵魂](3-DeepLearning/00_%E6%B7%B1%E5%BA%A6%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/01_%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0%E6%98%AF%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%81%B5%E9%AD%82.md)
 * 4-深度学习InAction
   * [Keras高阶用法](4-DeepLearningInAction/Keras%E9%AB%98%E9%98%B6%E7%94%A8%E6%B3%95.md)
   * [PyTorch-01-入门](4-DeepLearningInAction/PyTorch-01-%E5%85%A5%E9%97%A8.md)
