@@ -12,6 +12,7 @@
   * [6-NLP](6-NLP/6.1%20NLP%20%E5%85%A5%E9%97%A8.md)
   * [7-RAG搜索增强](7-RAG/%E7%8E%B0%E4%BB%A3%E6%90%9C%E7%B4%A2%E6%8A%80%E6%9C%AF.md)
   * [9-推荐系统](9-RecommendSystem/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.md)
+  * [10-AIAgents](10-AIAgents/AI%20%E6%99%BA%E8%83%BD%E4%BD%93%E7%BC%96%E6%8E%92%EF%BC%88Agentic%20Workflow%EF%BC%89.md)
   * [11-上手项目](11-Side-Project/%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97%20AI%20side%20project%EF%BC%9F.md)
   * [IBM全套AI工程师课程(Coursera)](IBM-AI-Engineer-Course/IBM-0-Course%20Introduction%20and%20Study%20Plan.md)
 * [GitHub](https://github.com/jimmy-pink/jimmy-pink.github.io)

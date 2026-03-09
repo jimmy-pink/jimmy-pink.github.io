@@ -44,6 +44,7 @@
   * [3.x 模型优化](3-DeepLearning/3.x%20%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96.md)
   * 00_深度神经网络
     * [01_激活函数是深度学习的灵魂](3-DeepLearning/00_%E6%B7%B1%E5%BA%A6%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/01_%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0%E6%98%AF%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%81%B5%E9%AD%82.md)
+    * [02_Deep Learning Techniques](3-DeepLearning/00_%E6%B7%B1%E5%BA%A6%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/02_Deep%20Learning%20Techniques.md)
 * 4-深度学习InAction
   * [Keras高阶用法](4-DeepLearningInAction/Keras%E9%AB%98%E9%98%B6%E7%94%A8%E6%B3%95.md)
   * [PyTorch-01-入门](4-DeepLearningInAction/PyTorch-01-%E5%85%A5%E9%97%A8.md)
@@ -57,6 +58,8 @@
   * [现代搜索技术](7-RAG/%E7%8E%B0%E4%BB%A3%E6%90%9C%E7%B4%A2%E6%8A%80%E6%9C%AF.md)
 * 9-推荐系统
   * [推荐系统](9-RecommendSystem/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.md)
+* 10-AIAgents
+  * [AI 智能体编排（Agentic Workflow）](10-AIAgents/AI%20%E6%99%BA%E8%83%BD%E4%BD%93%E7%BC%96%E6%8E%92%EF%BC%88Agentic%20Workflow%EF%BC%89.md)
 * 11-上手项目
   * [如何获得 AI side project？](11-Side-Project/%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97%20AI%20side%20project%EF%BC%9F.md)
   * [🛞轮子1：CineTransAI 视频翻译](11-Side-Project/%F0%9F%9B%9E%E8%BD%AE%E5%AD%901%EF%BC%9ACineTransAI%20%E8%A7%86%E9%A2%91%E7%BF%BB%E8%AF%91.md)

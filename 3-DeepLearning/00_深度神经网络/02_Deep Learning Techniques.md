@@ -6,7 +6,7 @@
 
 ## 一、Dropout 正则化
 
-![[Pasted image 20260309101225.png]]
+![Pasted image 20260309101225.png](../images/Pasted%20image%2020260309101225.png)
 
 ### 1.1 定义与动机
 
@@ -112,8 +112,8 @@ Dropout 通过两种机制有效防止过拟合：
 - **Sigmoid/Tanh 激活函数** → Xavier 初始化
 - **ReLU 激活函数** → He 初始化
 - **不确定场景** → 默认方法（PyTorch 自动选择）
-![[Pasted image 20260309125414.png]]
-![[Pasted image 20260309125439.png]]
+![Pasted image 20260309125414.png](../images/Pasted%20image%2020260309125414.png)
+![Pasted image 20260309125439.png](../images/Pasted%20image%2020260309125439.png)
 
 ---
 
@@ -144,7 +144,7 @@ Dropout 通过两种机制有效防止过拟合：
 
 > **一句话总结**：Momentum 让优化过程像"滚雪球"一样，越滚越快，越滚越稳，而不是像"走迷宫"一样小心翼翼。
 
-![[Pasted image 20260309131258.png]]
+![Pasted image 20260309131258.png](../images/Pasted%20image%2020260309131258.png)
 ### 3.1 物理类比：小球下山
 
 深度学习优化过程可类比为小球在山坡上滚动：
@@ -204,7 +204,7 @@ $$w_{k+1} = w_k - \eta v_{k+1}$$
 - 通过交叉验证（Cross-validation）选择最优 $\rho$
 - 常用初始值：$\rho = 0.9$
 - 配合学习率调度策略使用
-![[Pasted image 20260309131414.png]]
+![Pasted image 20260309131414.png](../images/Pasted%20image%2020260309131414.png)
 
 
 ---
@@ -220,7 +220,7 @@ BN存在于模型的层与层之间，之所以能够实时更新，因为它具
 	- **$\gamma$ (Scale) 和 $\beta$ (Shift)** 在反向传播时会被更新
 	- 如果归一化（均值 0，方差 1）把数据拉到了激活函数的线性区，导致模型失去了非线性表达能力，模型会通过梯度下降自动调大 $\gamma$ 或 改变 $\beta$，让数据重新回到激活函数的“活跃区”。
 
-==**BN 的参数更新与模型权重 $W$ 的更新在数学上是深度耦合**（Coupled）的==
+<font style="background-color:yellow; color:black">**BN 的参数更新与模型权重 $W$ 的更新在数学上是深度耦合**（Coupled）的</font>
 
 |**误区**|**事实 (Truth)**|
 |---|---|
